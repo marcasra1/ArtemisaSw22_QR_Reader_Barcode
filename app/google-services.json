@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "200659847749",
+    "project_id": "artemisasw22-qr-reader",
+    "storage_bucket": "artemisasw22-qr-reader.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200659847749:android:b8e34eae7a1e6ab0e0312c",
+        "android_client_info": {
+          "package_name": "com.artemisaswtt.qrscanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "200659847749-socp1iu57m4e4dkh68niab8eubsbtldh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHbjgyktiRJzfig0DIpcrjsExp2V_08is"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "200659847749-socp1iu57m4e4dkh68niab8eubsbtldh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
