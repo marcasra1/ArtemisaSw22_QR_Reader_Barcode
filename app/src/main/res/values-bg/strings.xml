@@ -1,0 +1,404 @@
+<resources>
+    <string name="app_name">QR скенер и баркод</string>
+
+    <!--Shortcuts-->
+    <string name="shortcut_scan_from_camera">Сканиране</string>
+    <string name="shortcut_scan_from_file">Сканиране на изображение</string>
+    <string name="shortcut_create_barcode">Създайте баркод</string>
+    <string name="shortcut_history">История</string>
+
+    <!--Intent filters-->
+    <string name="intent_filter_create_qr_code_text">Създайте QR код</string>
+    <string name="intent_filter_scan_image">Сканиране на изображение</string>
+
+    <!--Error dialog-->
+    <string name="error_dialog_title">Грешка</string>
+    <string name="error_dialog_default_message">Нещо се обърка</string>
+    <string name="error_dialog_positive_button_text">Добре</string>
+
+    <!--Delete dialog-->
+    <string name="dialog_delete_positive_button">Изтрий</string>
+    <string name="dialog_delete_negative_button">Отмяна</string>
+    <string name="dialog_delete_clear_history_message">Изтриване на историята?</string>
+    <string name="dialog_delete_barcode_message">Изтрий?</string>
+
+    <!--Confirm barcode dialog-->
+    <string name="dialog_confirm_barcode_title">Потвърдете</string>
+    <string name="dialog_confirm_barcode_positive_button">Добре</string>
+    <string name="dialog_confirm_barcode_negative_button">Отмяна</string>
+
+    <!--Edit barcode name dialog-->
+    <string name="dialog_edit_barcode_name_title">Редактиране на името</string>
+    <string name="dialog_edit_barcode_name_positive_button">Добре</string>
+    <string name="dialog_edit_barcode_name_negative_button">Отмяна</string>
+
+    <!--Bottom tabs activity-->
+    <string name="activity_bottom_tabs_scan_tab">Сканиране</string>
+    <string name="activity_bottom_tabs_create_tab">Създайте</string>
+    <string name="activity_bottom_tabs_history_tab">История</string>
+    <string name="activity_bottom_tabs_settings_tab">Настройки</string>
+
+    <!--Scan barcode from camera fragment-->
+    <string name="fragment_scan_barcode_from_camera_scan_from_file">Сканиране на изображение</string>
+    <string name="fragment_scan_barcode_from_camera_flash">Светкавица</string>
+    <string name="fragment_scan_barcode_from_camera_barcode_saved">Запазено</string>
+
+    <!--Scan barcode from file activity-->
+    <string name="activity_scan_barcode_from_file_title">Сканиране</string>
+    <string name="activity_scan_barcode_from_file_scan">Добре</string>
+    <string name="activity_scan_barcode_from_file_rotate_left">Завърти наляво</string>
+    <string name="activity_scan_barcode_from_file_rotate_right">Завъртете надясно</string>
+    <string name="activity_scan_barcode_from_file_change_image">Изберете друго изображение</string>
+
+    <!--Create barcode fragment-->
+    <string name="fragment_create_barcode_title">Създайте</string>
+    <string name="fragment_create_barcode_qr_code">QR код</string>
+    <string name="fragment_create_barcode_qr_code_clipboard">Съдържание от клипборда</string>
+    <string name="fragment_create_barcode_qr_code_text">Текст</string>
+    <string name="fragment_create_barcode_qr_code_show_all">Още QR кодове</string>
+    <string name="fragment_create_barcode">Баркод</string>
+    <string name="fragment_create_barcode_show_all">Баркодове и други 2D кодове</string>
+
+    <!--Create QR code list activity-->
+    <string name="fragment_create_qr_code_list_title">Създайте QR код</string>
+
+    <!--Create barcode list activity-->
+    <string name="fragment_create_barcode_list_title">Създайте баркод</string>
+    <string name="fragment_create_barcode_list_2d">2D баркодове</string>
+    <string name="fragment_create_barcode_list_1d">1D баркодове</string>
+
+    <!--Create barcode activity-->
+    <string name="activity_create_barcode_menu_item_title">Създайте</string>
+    <string name="activity_create_barcode_contacts_menu_item_title">Контакти</string>
+
+    <!--Base create barcode fragment -->
+    <string name="fragment_create_barcode_alternative">Алтернативно:</string>
+
+    <!--Create QR code URL fragment-->
+    <string name="fragment_create_qr_code_url_alternative">- Отворете приложението си в браузъра\n- Заредете уебсайт\n- Щракнете върху \"Споделяне\" от менюто\n- Изберете това приложение</string>
+
+    <!--Create QR code bookmark fragment-->
+    <string name="fragment_create_qr_code_bookmark_title_hint">Заглавие</string>
+
+    <!--Create QR code Wi-fi fragment-->
+    <string name="fragment_create_qr_code_wifi_encryption_hint">криптиране</string>
+    <string-array name="fragment_create_qr_code_wifi_encryption_types">
+        <item>WPA/WPA2</item>
+        <item>WEP</item>
+        <item>Нито един</item>
+    </string-array>
+    <string name="fragment_create_qr_code_wifi_network_name_hint">Име на мрежата</string>
+    <string name="fragment_create_qr_code_wifi_password_hint">парола</string>
+    <string name="fragment_create_qr_code_wifi_is_hidden_hint">Скрит</string>
+
+    <!--Create QR code email fragment-->
+    <string name="fragment_create_qr_code_email_subject_hint">Предмет</string>
+    <string name="fragment_create_qr_code_email_message_hint">Съобщение</string>
+
+    <!--Create QR code SMS fragment-->
+    <string name="fragment_create_qr_code_sms_message_hint">Съобщение</string>
+
+    <!--Create QR code MMS fragment-->
+    <string name="fragment_create_qr_code_mms_subject_hint">Предмет</string>
+    <string name="fragment_create_qr_code_mms_message_hint">Съобщение</string>
+
+    <!--Create QR code cryptocurrency fragment-->
+    <string name="fragment_create_qr_code_cryptocurrency_type_hint">Криптовалута</string>
+    <string-array name="fragment_create_qr_code_cryptocurrencies">
+        <item>Bitcoin</item>
+        <item>Bitcoin Cash</item>
+        <item>Ethereum</item>
+        <item>Litecoin</item>
+        <item>Dash</item>
+    </string-array>
+    <string name="fragment_create_qr_code_cryptocurrency_address_hint">Адрес на получателя</string>
+    <string name="fragment_create_qr_code_cryptocurrency_amount_hint">Количество</string>
+    <string name="fragment_create_qr_code_cryptocurrency_label_hint">Етикет</string>
+    <string name="fragment_create_qr_code_cryptocurrency_message_hint">Съобщение</string>
+
+    <!--Create QR code location fragment-->
+    <string name="fragment_create_qr_code_location_latitude_hint">Географска ширина</string>
+    <string name="fragment_create_qr_code_location_longitude_hint">Географска дължина</string>
+    <string name="fragment_create_qr_code_location_altitude_hint">Надморска височина (по избор)</string>
+
+    <!--Create QR code OTP fragment-->
+    <string name="fragment_create_qr_code_otp_type_hint">Тип</string>
+    <string-array name="fragment_create_qr_code_otp_types">
+        <item>HOTP</item>
+        <item>TOTP</item>
+    </string-array>
+    <string name="fragment_create_qr_code_otp_algorithm_hint">Algorithm</string>
+    <string-array name="fragment_create_qr_code_otp_algorithms">
+        <item>SHA1</item>
+        <item>SHA256</item>
+        <item>SHA512</item>
+    </string-array>
+    <string name="fragment_create_qr_code_otp_issuer_hint">Издател</string>
+    <string name="fragment_create_qr_code_otp_account_hint">Издател</string>
+    <string name="fragment_create_qr_code_otp_digits_hint">Цифри</string>
+    <string name="fragment_create_qr_code_otp_period_hint">месечен цикъл</string>
+    <string name="fragment_create_qr_code_otp_counter_hint">Брояч</string>
+    <string name="fragment_create_qr_code_otp_secret_hint">Тайна</string>
+    <string name="fragment_create_qr_code_otp_generate_random_secret">Случайна тайна</string>
+
+    <!--Create QR code event-->
+    <string name="fragment_create_qr_code_event_title_hint">Заглавие</string>
+    <string name="fragment_create_qr_code_event_organizer_hint">Органайзер</string>
+    <string name="fragment_create_qr_code_event_summary_hint">Резюме</string>
+    <string name="fragment_create_qr_code_event_start_date_hint">Начална дата</string>
+    <string name="fragment_create_qr_code_event_end_date_hint">Крайна дата</string>
+
+    <!--Create QR code contact-->
+    <string name="fragment_create_qr_code_contact_first_name_hint">Първо име</string>
+    <string name="fragment_create_qr_code_contact_last_name_hint">Фамилия</string>
+    <string name="fragment_create_qr_code_contact_organization_hint">организация</string>
+    <string name="fragment_create_qr_code_contact_job_hint">работа</string>
+    <string name="fragment_create_qr_code_contact_email_hint">електронна поща</string>
+    <string name="fragment_create_qr_code_contact_phone_hint">Телефон</string>
+    <string name="fragment_create_qr_code_contact_fax_hint">факс</string>
+    <string name="fragment_create_qr_code_contact_country_hint">Държава</string>
+    <string name="fragment_create_qr_code_contact_region_hint">Регион/щат</string>
+    <string name="fragment_create_qr_code_contact_postcode_hint">Пощенски код</string>
+    <string name="fragment_create_qr_code_contact_city_hint">град</string>
+    <string name="fragment_create_qr_code_contact_street_hint">улицата</string>
+    <string name="fragment_create_qr_code_contact_website_hint">уебсайт</string>
+    <string name="fragment_create_qr_code_contact_alternative">- Отворете приложението си за контакти\n- Отворете съществуващ контакт или създайте нов\n- Щракнете върху \"Споделяне\" от менюто\n- Изберете това приложение</string>
+
+    <!--Create barcode-->
+    <string name="fragment_create_data_matrix_hint">Текст без специални символи</string>
+    <string name="fragment_create_aztec_hint">Текст без специални символи</string>
+    <string name="fragment_create_codabar_hint">Цифри</string>
+    <string name="fragment_create_code_39_hint">Текст с главни букви без специални знаци</string>
+    <string name="fragment_create_code_93_hint">Tекст с главни букви без специални знаци</string>
+    <string name="fragment_create_code_128_hint">Текст без специални символи</string>
+    <string name="fragment_create_ean_8_hint">7 цифри</string>
+    <string name="fragment_create_ean_13_hint">12 цифри</string>
+    <string name="fragment_create_itf_14_hint">Четен брой цифри</string>
+    <string name="fragment_create_upc_a_hint">11 цифри</string>
+    <string name="fragment_create_upc_e_hint">7 цифри</string>
+
+    <!--Barcode history fragment-->
+    <string name="fragment_barcode_history_title">История</string>
+    <string-array name="fragment_barcode_history_tab_titles">
+        <item>всичко</item>
+        <!--<item>Favorites</item>-->
+    </string-array>
+    <string name="fragment_barcode_history_menu_title_export">Експортирана история</string>
+    <string name="fragment_barcode_history_menu_title_delete_all">Чиста история</string>
+
+    <!--Export history activity-->
+    <string name="activity_export_history_title">Експортирана история</string>
+    <string name="activity_export_history_as_hint">Експортиране като</string>
+    <string-array name="activity_export_history_types">
+        <item>CSV</item>
+        <item>JSON</item>
+    </string-array>
+    <string name="activity_export_history_file_name_hint">Име на файл</string>
+    <string name="activity_export_history_file_name_default" translatable="false">db</string>
+    <string name="activity_export_history_export">Експортиране</string>
+    <string name="activity_export_history_exported">Запазен в Изтегляния</string>
+
+    <!--Settings fragment-->
+    <string name="fragment_settings_title">Настройки</string>
+    <string name="fragment_settings_appearance_settings">Външен вид</string>
+    <string name="fragment_settings_theme">Тема</string>
+    <string name="fragment_settings_inverse_barcode_colors_in_dark_theme">Цветове с обратен код в тъмна тема</string>
+    <string name="fragment_settings_inverse_barcode_colors_in_dark_theme_hint">Показване на кодове с бяло съдържание на тъмен фон</string>
+    <string name="fragment_settings_scanner_settings">Скенер</string>
+    <string name="fragment_settings_open_content_automatically">Автоматично отваряне на съдържанието на сканираните кодове</string>
+    <string name="fragment_settings_open_content_automatically_hint">Може да отвори вредно съдържание</string>
+    <string name="fragment_settings_copy_to_clipboard">Копиране в клипборда</string>
+    <string name="fragment_settings_copy_to_clipboard_hint">Копирайте сканираните баркодове в клипборда</string>
+    <string name="fragment_settings_simple_auto_focus">Прост режим на автоматично фокусиране</string>
+    <string name="fragment_settings_simple_auto_focus_hint">Активирайте само ако имате проблеми с фокусирането</string>
+    <string name="fragment_settings_flash">Светкавица</string>
+    <string name="fragment_settings_flash_hint">Активирайте светкавицата при стартиране</string>
+    <string name="fragment_settings_vibrate">Вибрирайте</string>
+    <string name="fragment_settings_vibrate_hint">Вибриране при сканиране</string>
+    <string name="fragment_settings_continuous_scanning">Непрекъснато сканиране</string>
+    <string name="fragment_settings_continuous_scanning_hint">Запазване на сканирания само в историята</string>
+    <string name="fragment_settings_confirm_scans_manually">Потвърдете сканирането ръчно</string>
+    <string name="fragment_settings_confirm_scans_manually_hint">Избягвайте случайни сканирания</string>
+    <string name="fragment_settings_camera">Камера</string>
+    <string name="fragment_settings_supported_formats">Поддържани формати</string>
+    <string name="fragment_settings_history_settings">История</string>
+    <string name="fragment_settings_save_scanned_barcodes_to_history">Запазете сканираните баркодове в историята</string>
+    <string name="fragment_settings_save_created_barcodes_to_history">Запазете създадените баркодове в историята</string>
+    <string name="fragment_settings_do_not_save_duplicates">Не запазвайте дубликати</string>
+    <string name="fragment_settings_do_not_save_duplicates_hint">Избягвайте дубликати в историята</string>
+    <string name="fragment_settings_clear_history">Чиста история</string>
+    <string name="fragment_settings_advanced_settings">Разширено</string>
+    <string name="fragment_settings_choose_search_engines">Търсачки</string>
+    <string name="fragment_settings_choose_search_engines_hint">Изберете търсачка за търсене в мрежата</string>
+    <string name="fragment_settings_error_reports">Доклади за грешки</string>
+    <string name="fragment_settings_enable_error_reports">Активирайте отчетите за грешки</string>
+    <string name="fragment_settings_enable_error_reports_hint">Помогнете ни да коригираме грешки</string>
+    <string name="fragment_settings_about">относно</string>
+    <string name="fragment_settings_check_updates">Провери за обновления</string>
+    <string name="fragment_settings_permissions">Разрешения</string>
+    <string name="fragment_settings_source_code">Програмен код</string>
+    <string name="fragment_settings_app_version">Версия на приложението</string>
+
+    <string name="fragment_settings_rate_and_comment">Оценете и коментирайте</string>
+    <string name="fragment_settings_rate_and_comment_hint">Дайте ни 5 звезди и помогнете на приложението :-) Благодаря ви много.</string>
+
+    <string name="share">Дял</string>
+    <string name="share_text">Споделете приложението с всичките си приятели</string>
+
+    <!--Choose theme activity-->
+    <string name="activity_choose_theme_title">Тема</string>
+    <string name="activity_choose_theme_system">Същото като системата</string>
+    <string name="activity_choose_theme_light">Светлина</string>
+    <string name="activity_choose_theme_dark">Тъмно</string>
+
+    <!--Choose camera activity-->
+    <string name="activity_choose_camera_title">Камера</string>
+    <string name="activity_choose_camera_front">Отпред</string>
+    <string name="activity_choose_camera_back">обратно</string>
+
+    <!--Select supported formats activity-->
+    <string name="activity_supported_formats_title">Поддържани формати</string>
+
+    <!--Choose search engine activity-->
+    <string name="activity_choose_search_engine_title">Search engines</string>
+    <string name="activity_choose_search_engine_none">Нито един</string>
+    <string name="activity_choose_search_engine_ask_every_time">Питай всеки път</string>
+    <string name="activity_choose_search_engine_bing">Bing</string>
+    <string name="activity_choose_search_engine_duck_duck_go">DuckDuckGo</string>
+    <string name="activity_choose_search_engine_google">Google</string>
+    <string name="activity_choose_search_engine_qwant">Qwant</string>
+    <string name="activity_choose_search_engine_startpage" translatable="false">Startpage</string>
+    <string name="activity_choose_search_engine_yahoo">Yahoo</string>
+    <string name="activity_choose_search_engine_yandex">Yandex</string>
+
+    <!--All permissions activity-->
+    <string name="activity_all_permissions_title">Разрешения</string>
+    <string name="activity_all_permissions_normal_permissions">Нормално</string>
+    <string name="activity_all_permissions_vibrate_title">Вибрирайте</string>
+    <string name="activity_all_permissions_vibrate_hint">Използва се за вибриране при сканиране</string>
+    <string name="activity_all_permissions_wifi_title">Wi-Fi</string>
+    <string name="activity_all_permissions_wifi_hint">Използва се за свързване към Wi-Fi чрез сканиране на QR код</string>
+    <string name="activity_all_permissions_internet_title">интернет</string>
+    <string name="activity_all_permissions_internet_hint">Използва се за изпращане на доклади за грешки. Това може да бъде деактивирано в настройките.</string>
+    <string name="activity_all_permissions_runtime_permissions">Време за изпълнение</string>
+    <string name="activity_all_permissions_camera_title">Камера</string>
+    <string name="activity_all_permissions_camera_hint">Използва се за сканиране на QR кодове и баркодове от камера</string>
+    <string name="activity_all_permissions_read_contacts_title">Четете контакти</string>
+    <string name="activity_all_permissions_read_contacts_hint">Използва се за създаване на QR код, като изберете контакт от вашия списък с контакти</string>
+    <string name="activity_all_permissions_storage_title">Съхранение</string>
+    <string name="activity_all_permissions_storage_hint">Използва се за достъп до хранилището, когато искате да запишете своя QR код или баркод като текст или изображение</string>
+
+    <!--Barcode activity-->
+    <string name="activity_barcode_add_to_calendar">Добавяне към календара</string>
+    <string name="activity_barcode_add_to_contacts">Добави в контакти</string>
+    <string name="activity_barcode_call_phone">Повикване %s</string>
+    <string name="activity_barcode_send_sms">Изпратете SMS/MMS до %s</string>
+    <string name="activity_barcode_send_email">Изпратете имейл до %s</string>
+    <string name="activity_barcode_show_location">Показване на местоположението</string>
+    <string name="activity_barcode_connect_to_wifi">Свържете се с Wi-Fi</string>
+    <string name="activity_barcode_open_wifi_settings">Отворете Wi-Fi настройките</string>
+    <string name="activity_barcode_copy_network_name">Копирайте името на мрежата</string>
+    <string name="activity_barcode_copy_network_password">Копиране на мрежова парола</string>
+    <string name="activity_barcode_open_app">Отворете приложението</string>
+    <string name="activity_barcode_open_in_app_market">Отворено на пазара</string>
+    <string name="activity_barcode_open_in_youtube">Отворете в Youtube</string>
+    <string name="activity_barcode_save_bookmark">Запазване в отметки</string>
+    <string name="activity_barcode_open_link">Отвори линк</string>
+    <string name="activity_barcode_open_bitcoin_url">Отворете в друго приложение</string>
+    <string name="activity_barcode_show_otp">Покажи парола</string>
+    <string name="activity_barcode_open_otp">Отворете в друго приложение</string>
+    <string name="activity_barcode_share_as_text">Споделете като текст</string>
+    <string name="activity_barcode_copy">Копиране в клипборда</string>
+    <string name="activity_barcode_save_as_text">Запазване като текст</string>
+    <string name="activity_barcode_search">Търсете в мрежата</string>
+    <string name="activity_barcode_add_to_favorites">Добави към любими</string>
+    <string name="activity_barcode_show_barcode_image">Вижте кода</string>
+    <string name="activity_barcode_share_as_image">Споделете като изображение</string>
+    <string name="activity_barcode_save_as_image">Запазване като изображение</string>
+    <string name="activity_barcode_print">Печат</string>
+    <string name="activity_barcode_delete">Изтрий</string>
+    <string name="activity_barcode_connecting_to_wifi">Свързване...</string>
+    <string name="activity_barcode_copied">Копирано в клипборда</string>
+    <string name="activity_barcode_no_app">Няма намерено приложение за това действие</string>
+    <string name="activity_barcode_choose_search_engine_dialog_negative_button">Отмяна</string>
+
+    <!--Barcode image activity-->
+    <string name="activity_barcode_image_increase_brightness">Увеличете яркосттаs</string>
+    <string name="activity_barcode_image_decrease_brightness">Намалете яркостта</string>
+
+    <!--OTP barcode activity-->
+    <string name="activity_barcode_otp_title">OTP</string>
+    <string name="activity_barcode_otp_unable_to_generate_otp">Не може да се генерира парола</string>
+    <string name="activity_barcode_otp_counter">Брояч: %s</string>
+    <string name="activity_barcode_otp_timer">%s:%s наляво</string>
+    <string name="activity_barcode_otp_refresh_otp">Обнови</string>
+
+    <!--Save barcode as text activity-->
+    <string name="activity_save_barcode_as_text_title">Запазете</string>
+    <string name="activity_save_barcode_as_text_save_as_hint">Запази като</string>
+    <string-array name="activity_save_barcode_as_text_formats">
+        <item>CSV</item>
+        <item>JSON</item>
+    </string-array>
+    <string name="activity_save_barcode_as_text_file_name_save">Запазете</string>
+    <string name="activity_save_barcode_as_text_file_name_saved">Запазен в Изтегляния</string>
+
+    <!--Save barcode as image activity-->
+    <string name="activity_save_barcode_as_image_title">Запазете</string>
+    <string name="activity_save_barcode_as_image_save_as_hint">Запази като</string>
+    <string-array name="activity_save_barcode_as_image_formats">
+        <item>PNG</item>
+        <item>SVG</item>
+    </string-array>
+    <string name="activity_save_barcode_as_image_file_name_save">Запазете</string>
+    <string name="activity_save_barcode_as_image_file_name_saved">Запазено в галерията</string>
+    
+    <!--Barcode schemas-->
+    <string name="barcode_schema_bookmark"><Отметка></Отметка></string>
+    <string name="barcode_schema_cryptocurrency">биткойн</string>
+    <string name="barcode_schema_email">електронна поща</string>
+    <string name="barcode_schema_geo">Местоположение</string>
+    <string name="barcode_schema_google_maps">Адрес</string>
+    <string name="barcode_schema_google_play">приложение</string>
+    <string name="barcode_schema_mms">MMS</string>
+    <string name="barcode_schema_me_card">Контакт (MeCard)</string>
+    <string name="barcode_schema_phone">Телефон</string>
+    <string name="barcode_schema_otp">OTP</string>
+    <string name="barcode_schema_sms">SMS</string>
+    <string name="barcode_schema_url">URL</string>
+    <string name="barcode_schema_v_event">събитие</string>
+    <string name="barcode_schema_v_card">Контакт (VCard)</string>
+    <string name="barcode_schema_wifi">Wi-Fi</string>
+    <string name="barcode_schema_youtube">URL адрес на YouTube</string>
+    <string name="barcode_schema_boardingpass" translatable="false">Бордна карта</string>
+    <string name="barcode_schema_other">Текст</string>
+
+    <!--Barcode formats-->
+    <string name="barcode_format_qr_code">QR код</string>
+    <string name="barcode_format_aztec" translatable="false">Aztec</string>
+    <string name="barcode_format_codabar" translatable="false">Codabar</string>
+    <string name="barcode_format_code_39" translatable="false">Code 39</string>
+    <string name="barcode_format_code_93" translatable="false">Code 93</string>
+    <string name="barcode_format_code_128" translatable="false">Code 128</string>
+    <string name="barcode_format_data_matrix" translatable="false">Data Matrix</string>
+    <string name="barcode_format_ean_8"  translatable="false">EAN-8</string>
+    <string name="barcode_format_ean_13" translatable="false">EAN-13</string>
+    <string name="barcode_format_itf_14" translatable="false">ITF</string>
+    <string name="barcode_format_pdf_417" translatable="false">PDF417</string>
+    <string name="barcode_format_upc_a" translatable="false">UPC-A</string>
+    <string name="barcode_format_upc_e" translatable="false">UPC-E</string>
+
+    <!--AdMob Ids -->
+    <!--  Banner ad ids-->
+    <!--Test-->
+    <!-- <string name="admob_banner_ad_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!-- Production -->
+    <string name="admob_banner_ad_id" translatable="false">ca-app-pub-7202469439331118/3927950140</string>
+
+    <!--    Interstitial ads-->
+    <!--Test-->
+    <!--<string name="magnifier_fragment_capture_btn_ad" translatable="false">ca-app-pub-3940256099942544/1033173712</string>-->
+    <!-- Production -->
+    <!-- <string name="magnifier_fragment_capture_btn_ad" translatable="false">ca-app-pub-7202469439331118/8082021418</string> -->
+
+</resources>

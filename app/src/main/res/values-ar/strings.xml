@@ -1,0 +1,403 @@
+<resources>
+    <string name="app_name">QR الماسح الضوئي والباركود</string>
+
+    <!--Shortcuts-->
+    <string name="shortcut_scan_from_camera">مسح</string>
+    <string name="shortcut_scan_from_file">مسح الصورة</string>
+    <string name="shortcut_create_barcode">إنشاء الباركود</string>
+    <string name="shortcut_history">تاريخ</string>
+
+    <!--Intent filters-->
+    <string name="intent_filter_create_qr_code_text">إنشاء رمز الاستجابة السريعة</string>
+    <string name="intent_filter_scan_image">مسح الصورة</string>
+
+    <!--Error dialog-->
+    <string name="error_dialog_title">خطأ</string>
+    <string name="error_dialog_default_message">هناك خطأ ما</string>
+    <string name="error_dialog_positive_button_text">نعم</string>
+
+    <!--Delete dialog-->
+    <string name="dialog_delete_positive_button">حذف</string>
+    <string name="dialog_delete_negative_button">يلغي</string>
+    <string name="dialog_delete_clear_history_message">حذف التاريخ؟</string>
+    <string name="dialog_delete_barcode_message">حذف؟</string>
+
+    <!--Confirm barcode dialog-->
+    <string name="dialog_confirm_barcode_title">يتأكد</string>
+    <string name="dialog_confirm_barcode_positive_button">نعم</string>
+    <string name="dialog_confirm_barcode_negative_button">يلغي</string>
+
+    <!--Edit barcode name dialog-->
+    <string name="dialog_edit_barcode_name_title">تعديل الاسم</string>
+    <string name="dialog_edit_barcode_name_positive_button">نعم</string>
+    <string name="dialog_edit_barcode_name_negative_button">يلغي</string>
+
+    <!--Bottom tabs activity-->
+    <string name="activity_bottom_tabs_scan_tab">مسح</string>
+    <string name="activity_bottom_tabs_create_tab">خلق</string>
+    <string name="activity_bottom_tabs_history_tab">تاريخ</string>
+    <string name="activity_bottom_tabs_settings_tab">إعدادات</string>
+
+    <!--Scan barcode from camera fragment-->
+    <string name="fragment_scan_barcode_from_camera_scan_from_file">مسح الصورة</string>
+    <string name="fragment_scan_barcode_from_camera_flash">فلاش</string>
+    <string name="fragment_scan_barcode_from_camera_barcode_saved">أنقذ</string>
+
+    <!--Scan barcode from file activity-->
+    <string name="activity_scan_barcode_from_file_title">مسح</string>
+    <string name="activity_scan_barcode_from_file_scan">نعم</string>
+    <string name="activity_scan_barcode_from_file_rotate_left">استدر يسارا</string>
+    <string name="activity_scan_barcode_from_file_rotate_right">استدارة لليمين</string>
+    <string name="activity_scan_barcode_from_file_change_image">اختر صورة أخرى</string>
+
+    <!--Create barcode fragment-->
+    <string name="fragment_create_barcode_title">خلق</string>
+    <string name="fragment_create_barcode_qr_code">رمز الاستجابة السريعة</string>
+    <string name="fragment_create_barcode_qr_code_clipboard">محتوى من الحافظة</string>
+    <string name="fragment_create_barcode_qr_code_text">نص</string>
+    <string name="fragment_create_barcode_qr_code_show_all">المزيد من رموز QR</string>
+    <string name="fragment_create_barcode">الرمز الشريطي</string>
+    <string name="fragment_create_barcode_show_all">الرموز الشريطية والرموز ثنائية الأبعاد الأخرى</string>
+
+    <!--Create QR code list activity-->
+    <string name="fragment_create_qr_code_list_title">إنشاء رمز الاستجابة السريعة</string>
+
+    <!--Create barcode list activity-->
+    <string name="fragment_create_barcode_list_title">Create barcode</string>
+    <string name="fragment_create_barcode_list_2d">2D الباركود</string>
+    <string name="fragment_create_barcode_list_1d">1D الباركود</string>
+
+    <!--Create barcode activity-->
+    <string name="activity_create_barcode_menu_item_title">خلق</string>
+    <string name="activity_create_barcode_contacts_menu_item_title">جهات الاتصال</string>
+
+    <!--Base create barcode fragment -->
+    <string name="fragment_create_barcode_alternative">بدلاً عن ذلك:</string>
+
+    <!--Create QR code URL fragment-->
+    <string name="fragment_create_qr_code_url_alternative">- افتح تطبيق المستعرض الخاص بك \n- قم بتحميل موقع ويب \n- انقر فوق \ "مشاركة \" من القائمة \n- حدد هذا التطبيق</string>
+
+    <!--Create QR code bookmark fragment-->
+    <string name="fragment_create_qr_code_bookmark_title_hint">عنوان</string>
+
+    <!--Create QR code Wi-fi fragment-->
+    <string name="fragment_create_qr_code_wifi_encryption_hint">التشفير</string>
+    <string-array name="fragment_create_qr_code_wifi_encryption_types">
+        <item>WPA/WPA2</item>
+        <item>WEP</item>
+        <item>لا أحد</item>
+    </string-array>
+    <string name="fragment_create_qr_code_wifi_network_name_hint">اسم الشبكة</string>
+    <string name="fragment_create_qr_code_wifi_password_hint">كلمة المرور</string>
+    <string name="fragment_create_qr_code_wifi_is_hidden_hint">مختفي</string>
+
+    <!--Create QR code email fragment-->
+    <string name="fragment_create_qr_code_email_subject_hint">موضوعات</string>
+    <string name="fragment_create_qr_code_email_message_hint">رسالة</string>
+
+    <!--Create QR code SMS fragment-->
+    <string name="fragment_create_qr_code_sms_message_hint">رسالة</string>
+
+    <!--Create QR code MMS fragment-->
+    <string name="fragment_create_qr_code_mms_subject_hint">موضوعات</string>
+    <string name="fragment_create_qr_code_mms_message_hint">رسالة</string>
+
+    <!--Create QR code cryptocurrency fragment-->
+        <string name="fragment_create_qr_code_cryptocurrency_type_hint">عملة مشفرة</string>
+    <string-array name="fragment_create_qr_code_cryptocurrencies">
+        <item>بيتكوين</item>
+        <item>بيتكوين كاش</item>
+        <item>إيثريوم</item>
+        <item>لايتكوين</item>
+        <item>اندفاع</item>
+    </string-array>
+    <string name="fragment_create_qr_code_cryptocurrency_address_hint">عنوان المستلم</string>
+    <string name="fragment_create_qr_code_cryptocurrency_amount_hint">مقدار</string>
+    <string name="fragment_create_qr_code_cryptocurrency_label_hint">مُلصَق</string>
+    <string name="fragment_create_qr_code_cryptocurrency_message_hint">رسالة</string>
+
+    <!--Create QR code location fragment-->
+    <string name="fragment_create_qr_code_location_latitude_hint">خط العرض</string>
+    <string name="fragment_create_qr_code_location_longitude_hint">خط الطول</string>
+    <string name="fragment_create_qr_code_location_altitude_hint">الارتفاع (اختياري)</string>
+
+    <!--Create QR code OTP fragment-->
+    <string name="fragment_create_qr_code_otp_type_hint">يكتب</string>
+    <string-array name="fragment_create_qr_code_otp_types">
+        <item>HOTP</item>
+        <item>TOTP</item>
+    </string-array>
+    <string name="fragment_create_qr_code_otp_algorithm_hint">Algorithm</string>
+    <string-array name="fragment_create_qr_code_otp_algorithms">
+        <item>SHA1</item>
+        <item>SHA256</item>
+        <item>SHA512</item>
+    </string-array>
+    <string name="fragment_create_qr_code_otp_issuer_hint">المُصدر</string>
+    <string name="fragment_create_qr_code_otp_account_hint">الحساب</string>
+    <string name="fragment_create_qr_code_otp_digits_hint">أرقام</string>
+    <string name="fragment_create_qr_code_otp_period_hint">فترة</string>
+    <string name="fragment_create_qr_code_otp_counter_hint">يعداد</string>
+    <string name="fragment_create_qr_code_otp_secret_hint">سر</string>
+    <string name="fragment_create_qr_code_otp_generate_random_secret">سر عشوائي</string>
+
+    <!--Create QR code event-->
+    <string name="fragment_create_qr_code_event_title_hint">عنوان</string>
+    <string name="fragment_create_qr_code_event_organizer_hint">منظم</string>
+    <string name="fragment_create_qr_code_event_summary_hint">ملخص</string>
+    <string name="fragment_create_qr_code_event_start_date_hint">تاريخ البدء</string>
+    <string name="fragment_create_qr_code_event_end_date_hint">تاريخ الانتهاء</string>
+
+    <!--Create QR code contact-->
+    <string name="fragment_create_qr_code_contact_first_name_hint">الاسم الاول</string>
+    <string name="fragment_create_qr_code_contact_last_name_hint">الكنية</string>
+    <string name="fragment_create_qr_code_contact_organization_hint">منظمة</string>
+    <string name="fragment_create_qr_code_contact_job_hint">مهنة</string>
+    <string name="fragment_create_qr_code_contact_email_hint">البريد الإلكتروني</string>
+    <string name="fragment_create_qr_code_contact_phone_hint">هاتف</string>
+    <string name="fragment_create_qr_code_contact_fax_hint">فاكس</string>
+    <string name="fragment_create_qr_code_contact_country_hint">دولة</string>
+    <string name="fragment_create_qr_code_contact_region_hint">المنطقة / الولاية</string>
+    <string name="fragment_create_qr_code_contact_postcode_hint">الرمز البريدي</string>
+    <string name="fragment_create_qr_code_contact_city_hint">مدينة</string>
+    <string name="fragment_create_qr_code_contact_street_hint">شارع</string>
+    <string name="fragment_create_qr_code_contact_website_hint">موقع الكتروني</string>
+    <string name="fragment_create_qr_code_contact_alternative">- افتح تطبيق جهات الاتصال \n- افتح جهة اتصال موجودة أو أنشئ جهة اتصال جديدة \n- انقر على \"مشاركة \" من القائمة \n- حدد هذا التطبيق</string>
+
+    <!--Create barcode-->
+    <string name="fragment_create_data_matrix_hint">نص بدون أحرف خاصة</string>
+    <string name="fragment_create_aztec_hint">نص بدون أحرف خاصة</string>
+    <string name="fragment_create_codabar_hint">أرقام</string>
+    <string name="fragment_create_code_39_hint">نص بأحرف كبيرة بدون أحرف خاصة</string>
+    <string name="fragment_create_code_93_hint">نص بأحرف كبيرة بدون أحرف خاصة</string>
+    <string name="fragment_create_code_128_hint">نص بدون أحرف خاصة</string>
+    <string name="fragment_create_ean_8_hint">7 أرقام</string>
+    <string name="fragment_create_ean_13_hint">12 رقمًا</string>
+    <string name="fragment_create_itf_14_hint">عدد الأرقام الزوجية</string>
+    <string name="fragment_create_upc_a_hint">11 رقما</string>
+    <string name="fragment_create_upc_e_hint">7 أرقام</string>
+
+    <!--Barcode history fragment-->
+    <string name="fragment_barcode_history_title">تاريخ</string>
+    <string-array name="fragment_barcode_history_tab_titles">
+        <item>الجميع</item>
+        <!--<item>Favorites</item>-->
+    </string-array>
+    <string name="fragment_barcode_history_menu_title_export">تاريخ التصدير</string>
+    <string name="fragment_barcode_history_menu_title_delete_all">تاريخ واضح</string>
+
+    <!--Export history activity-->
+    <string name="activity_export_history_title">تاريخ التصدير</string>
+    <string name="activity_export_history_as_hint">تصدير بتنسيق</string>
+    <string-array name="activity_export_history_types">
+        <item>CSV</item>
+        <item>JSON</item>
+    </string-array>
+    <string name="activity_export_history_file_name_hint">اسم الملف</string>
+    <string name="activity_export_history_export">يصدّر</string>
+    <string name="activity_export_history_exported">تم الحفظ في التنزيلات</string>
+
+    <!--Settings fragment-->
+    <string name="fragment_settings_title">إعدادات</string>
+    <string name="fragment_settings_appearance_settings">مظهر</string>
+    <string name="fragment_settings_theme">سمة</string>
+    <string name="fragment_settings_inverse_barcode_colors_in_dark_theme">ألوان رمز معكوس في موضوع داكن</string>
+    <string name="fragment_settings_inverse_barcode_colors_in_dark_theme_hint">إظهار الرموز ذات المحتوى الأبيض على خلفية داكنة</string>
+    <string name="fragment_settings_scanner_settings">الماسح الضوئي</string>
+    <string name="fragment_settings_open_content_automatically">افتح محتوى الرموز الممسوحة ضوئيًا تلقائيًا</string>
+    <string name="fragment_settings_open_content_automatically_hint">قد يفتح محتوى ضار</string>
+    <string name="fragment_settings_copy_to_clipboard">نسخ إلى الحافظة</string>
+    <string name="fragment_settings_copy_to_clipboard_hint">نسخ الرموز الشريطية الممسوحة ضوئيًا إلى الحافظة</string>
+    <string name="fragment_settings_simple_auto_focus">وضع التركيز التلقائي البسيط</string>
+    <string name="fragment_settings_simple_auto_focus_hint">قم بتمكينه فقط إذا كان لديك مشاكل في التركيز</string>
+    <string name="fragment_settings_flash">فلاش</string>
+    <string name="fragment_settings_flash_hint">تفعيل الفلاش عند البدء</string>
+    <string name="fragment_settings_vibrate">تذبذب</string>
+    <string name="fragment_settings_vibrate_hint">الاهتزاز عند الفحص</string>
+    <string name="fragment_settings_continuous_scanning">المسح المستمر</string>
+    <string name="fragment_settings_continuous_scanning_hint">حفظ عمليات المسح في التاريخ فقط</string>
+    <string name="fragment_settings_confirm_scans_manually">قم بتأكيد عمليات المسح يدويًا</string>
+    <string name="fragment_settings_confirm_scans_manually_hint">تجنب عمليات المسح العرضية</string>
+    <string name="fragment_settings_camera">آلة تصوير</string>
+    <string name="fragment_settings_supported_formats">التنسيقات المدعومة</string>
+    <string name="fragment_settings_history_settings">تاريخ</string>
+    <string name="fragment_settings_save_scanned_barcodes_to_history">حفظ الرموز الشريطية الممسوحة ضوئيا في التاريخ</string>
+    <string name="fragment_settings_save_created_barcodes_to_history">حفظ الرموز الشريطية التي تم إنشاؤها في التاريخ</string>
+    <string name="fragment_settings_do_not_save_duplicates">لا تحفظ التكرارات</string>
+    <string name="fragment_settings_do_not_save_duplicates_hint">تجنب التكرارات في التاريخ</string>
+    <string name="fragment_settings_clear_history">تاريخ واضح</string>
+    <string name="fragment_settings_advanced_settings">متقدم</string>
+    <string name="fragment_settings_choose_search_engines">محركات البحث</string>
+    <string name="fragment_settings_choose_search_engines_hint">اختر محرك بحث لبحث الويب</string>
+    <string name="fragment_settings_error_reports">تقارير الخطأ</string>
+    <string name="fragment_settings_enable_error_reports">تمكين تقارير الخطأ</string>
+    <string name="fragment_settings_enable_error_reports_hint">ساعدنا في إصلاح الخلل</string>
+    <string name="fragment_settings_about">حول</string>
+    <string name="fragment_settings_check_updates">تحقق من وجود تحديثات</string>
+    <string name="fragment_settings_permissions">أذونات</string>
+    <string name="fragment_settings_source_code">مصدر الرمز</string>
+    <string name="fragment_settings_app_version">نسخة التطبيق</string>
+
+    <string name="fragment_settings_rate_and_comment">معدل والتعليق</string>
+    <string name="fragment_settings_rate_and_comment_hint">اعطنا 5 نجوم وساعد التطبيق :-) شكرا جزيلا لك.</string>
+
+    <string name="share">يشارك</string>
+    <string name="share_text">شارك التطبيق مع جميع أصدقائك</string>
+
+    <!--Choose theme activity-->
+    <string name="activity_choose_theme_title">سمة</string>
+    <string name="activity_choose_theme_system">مثل النظام</string>
+    <string name="activity_choose_theme_light">خفيفة</string>
+    <string name="activity_choose_theme_dark">مظلم</string>
+
+    <!--Choose camera activity-->
+    <string name="activity_choose_camera_title">آلة تصوير</string>
+    <string name="activity_choose_camera_front">أمامي</string>
+    <string name="activity_choose_camera_back">خلف</string>
+
+    <!--Select supported formats activity-->
+    <string name="activity_supported_formats_title">التنسيقات المدعومة</string>
+
+    <!--Choose search engine activity-->
+    <string name="activity_choose_search_engine_title">محركات البحث</string>
+    <string name="activity_choose_search_engine_none">لا أحد</string>
+    <string name="activity_choose_search_engine_ask_every_time">اسأل كل مرة</string>
+    <string name="activity_choose_search_engine_bing">Bing</string>
+    <string name="activity_choose_search_engine_duck_duck_go">DuckDuckGo</string>
+    <string name="activity_choose_search_engine_google">Google</string>
+    <string name="activity_choose_search_engine_qwant">Qwant</string>
+    <string name="activity_choose_search_engine_startpage" translatable="false">Startpage</string>
+    <string name="activity_choose_search_engine_yahoo">Yahoo</string>
+    <string name="activity_choose_search_engine_yandex">Yandex</string>
+
+    <!--All permissions activity-->
+    <string name="activity_all_permissions_title">أذونات</string>
+    <string name="activity_all_permissions_normal_permissions">طبيعي</string>
+    <string name="activity_all_permissions_vibrate_title">تذبذب</string>
+    <string name="activity_all_permissions_vibrate_hint">يستخدم ليهتز عند المسح</string>
+    <string name="activity_all_permissions_wifi_title">واي فاي</string>
+    <string name="activity_all_permissions_wifi_hint">يُستخدم للاتصال بشبكة Wi-Fi عن طريق مسح رمز الاستجابة السريعة ضوئيًا</string>
+    <string name="activity_all_permissions_internet_title">إنترنت</string>
+    <string name="activity_all_permissions_internet_hint">تستخدم لإرسال تقارير الخطأ. يمكن تعطيل هذا في الإعدادات.</string>
+    <string name="activity_all_permissions_runtime_permissions">مدة العرض</string>
+    <string name="activity_all_permissions_camera_title">آلة تصوير</string>
+    <string name="activity_all_permissions_camera_hint">تستخدم لمسح رموز QR والرموز الشريطية من الكاميرا</string>
+    <string name="activity_all_permissions_read_contacts_title">قراءة جهات الاتصال</string>
+    <string name="activity_all_permissions_read_contacts_hint">يُستخدم لإنشاء رمز QR عن طريق تحديد جهة اتصال من قائمة جهات الاتصال الخاصة بك</string>
+    <string name="activity_all_permissions_storage_title">تخزين</string>
+    <string name="activity_all_permissions_storage_hint">تستخدم للوصول إلى التخزين عندما تريد حفظ رمز الاستجابة السريعة أو الرمز الشريطي كنص أو صورة</string>
+
+    <!--Barcode activity-->
+    <string name="activity_barcode_add_to_calendar">إضافة إلى التقويم</string>
+    <string name="activity_barcode_add_to_contacts">أضف إلى جهات الاتصال</string>
+    <string name="activity_barcode_call_phone">%s مكالمة</string>
+    <string name="activity_barcode_send_sms">S%s إرسال SMS / MMS إلى</string>
+    <string name="activity_barcode_send_email">%s إرسال بالبريد الإلكتروني إلى</string>
+    <string name="activity_barcode_show_location">إظهار الموقع</string>
+    <string name="activity_barcode_connect_to_wifi">اتصل بشبكة Wi-Fi</string>
+    <string name="activity_barcode_open_wifi_settings">افتح إعدادات Wi-Fi</string>
+    <string name="activity_barcode_copy_network_name">انسخ اسم الشبكة</string>
+    <string name="activity_barcode_copy_network_password">انسخ كلمة مرور الشبكة</string>
+    <string name="activity_barcode_open_app">افتح التطبيق</string>
+    <string name="activity_barcode_open_in_app_market">فتح في السوق</string>
+    <string name="activity_barcode_open_in_youtube">افتح في يوتيوب</string>
+    <string name="activity_barcode_save_bookmark">حفظ في الإشارات</string>
+    <string name="activity_barcode_open_link">افتح الرابط</string>
+    <string name="activity_barcode_open_bitcoin_url">افتح في تطبيق آخر</string>
+    <string name="activity_barcode_show_otp">عرض كلمة المرور</string>
+    <string name="activity_barcode_open_otp">افتح في تطبيق آخر</string>
+    <string name="activity_barcode_share_as_text">شارك كنص</string>
+    <string name="activity_barcode_copy">نسخ إلى الحافظة</string>
+    <string name="activity_barcode_save_as_text">حفظ كنص</string>
+    <string name="activity_barcode_search">ابحث على الويب</string>
+    <string name="activity_barcode_add_to_favorites">اضافة الى المفضلة</string>
+    <string name="activity_barcode_show_barcode_image">عرض الكود</string>
+    <string name="activity_barcode_share_as_image">شارك كصورة</string>
+    <string name="activity_barcode_save_as_image">حفظ كصورة</string>
+    <string name="activity_barcode_print">مطبعة</string>
+    <string name="activity_barcode_delete">حذف</string>
+    <string name="activity_barcode_connecting_to_wifi">توصيل…</string>
+    <string name="activity_barcode_copied">نسخ إلى الحافظة</string>
+    <string name="activity_barcode_no_app">لم يتم العثور على تطبيق لهذا الإجراء</string>
+    <string name="activity_barcode_choose_search_engine_dialog_negative_button">يلغي</string>
+
+    <!--Barcode image activity-->
+    <string name="activity_barcode_image_increase_brightness">زيادة السطوع</string>
+    <string name="activity_barcode_image_decrease_brightness">تقليل السطوع</string>
+
+    <!--OTP barcode activity-->
+    <string name="activity_barcode_otp_title">OTP</string>
+    <string name="activity_barcode_otp_unable_to_generate_otp">تعذر إنشاء كلمة المرور</string>
+    <string name="activity_barcode_otp_counter">يعداد: %s</string>
+    <string name="activity_barcode_otp_timer">%s:%s اليسار</string>
+    <string name="activity_barcode_otp_refresh_otp">ينعش</string>
+
+    <!--Save barcode as text activity-->
+    <string name="activity_save_barcode_as_text_title">يحفظ</string>
+    <string name="activity_save_barcode_as_text_save_as_hint">حفظ باسم</string>
+    <string-array name="activity_save_barcode_as_text_formats">
+        <item>CSV</item>
+        <item>JSON</item>
+    </string-array>
+    <string name="activity_save_barcode_as_text_file_name_save">يحفظ</string>
+    <string name="activity_save_barcode_as_text_file_name_saved">تم الحفظ في التنزيلات</string>
+
+    <!--Save barcode as image activity-->
+    <string name="activity_save_barcode_as_image_title">يحفظ</string>
+    <string name="activity_save_barcode_as_image_save_as_hint">حفظ باسم</string>
+    <string-array name="activity_save_barcode_as_image_formats">
+        <item>PNG</item>
+        <item>SVG</item>
+    </string-array>
+    <string name="activity_save_barcode_as_image_file_name_save">يحفظ</string>
+    <string name="activity_save_barcode_as_image_file_name_saved">تم الحفظ في المعرض</string>
+    
+    <!--Barcode schemas-->
+    <string name="barcode_schema_bookmark">المرجعية</string>
+    <string name="barcode_schema_cryptocurrency">بيتكوين</string>
+    <string name="barcode_schema_email">البريد الإلكتروني</string>
+    <string name="barcode_schema_geo">الموقع</string>
+    <string name="barcode_schema_google_maps">تبوك</string>
+    <string name="barcode_schema_google_play">تطبيق</string>
+    <string name="barcode_schema_mms">رسائل الوسائط المتعددة</string>
+    <string name="barcode_schema_me_card">جهة الاتصال (MeCard)</string>
+    <string name="barcode_schema_phone">هاتف</string>
+    <string name="barcode_schema_otp">OTP</string>
+    <string name="barcode_schema_sms">رسالة قصيرة</string>
+    <string name="barcode_schema_url">URL</string>
+    <string name="barcode_schema_v_event">حدث</string>
+    <string name="barcode_schema_v_card">جهة الاتصال (VCard)</string>
+    <string name="barcode_schema_wifi">واي فاي</string>
+    <string name="barcode_schema_youtube">يوتيوب URL</string>
+    <string name="barcode_schema_boardingpass" translatable="false">Boarding Pass</string>
+    <string name="barcode_schema_other">نص</string>
+
+    <!--Barcode formats-->
+    <string name="barcode_format_qr_code">رمز الاستجابة السريعة</string>
+    <string name="barcode_format_aztec" translatable="false">Aztec</string>
+    <string name="barcode_format_codabar" translatable="false">Codabar</string>
+    <string name="barcode_format_code_39" translatable="false">Code 39</string>
+    <string name="barcode_format_code_93" translatable="false">Code 93</string>
+    <string name="barcode_format_code_128" translatable="false">Code 128</string>
+    <string name="barcode_format_data_matrix" translatable="false">Data Matrix</string>
+    <string name="barcode_format_ean_8"  translatable="false">EAN-8</string>
+    <string name="barcode_format_ean_13" translatable="false">EAN-13</string>
+    <string name="barcode_format_itf_14" translatable="false">ITF</string>
+    <string name="barcode_format_pdf_417" translatable="false">PDF417</string>
+    <string name="barcode_format_upc_a" translatable="false">UPC-A</string>
+    <string name="barcode_format_upc_e" translatable="false">UPC-E</string>
+
+    <!--AdMob Ids -->
+    <!--  Banner ad ids-->
+    <!--Test-->
+    <!-- <string name="admob_banner_ad_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!-- Production -->
+    <string name="admob_banner_ad_id" translatable="false">ca-app-pub-7202469439331118/3927950140</string>
+
+    <!--    Interstitial ads-->
+    <!--Test-->
+    <!--<string name="magnifier_fragment_capture_btn_ad" translatable="false">ca-app-pub-3940256099942544/1033173712</string>-->
+    <!-- Production -->
+    <!-- <string name="magnifier_fragment_capture_btn_ad" translatable="false">ca-app-pub-7202469439331118/8082021418</string> -->
+
+</resources>

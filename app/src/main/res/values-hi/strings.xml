@@ -1,0 +1,393 @@
+<resources>
+    <string name="app_name">क्यूआर स्कैनर और बारकोड</string>
+
+    <!--Shortcuts-->
+    <string name="shortcut_scan_from_camera">स्कैन</string>
+    <string name="shortcut_scan_from_file">स्कैन छवि</string>
+    <string name="shortcut_create_barcode">बारकोड बनाएं</string>
+    <string name="shortcut_history">इतिहास</string>
+
+    <!--Intent filters-->
+    <string name="intent_filter_create_qr_code_text">क्यूआर कोड बनाएं</string>
+    <string name="intent_filter_scan_image">स्कैन छवि</string>
+
+    <!--Error dialog-->
+    <string name="error_dialog_title">गलती</string>
+    <string name="error_dialog_default_message">कुछ गलत हो गया</string>
+    <string name="error_dialog_positive_button_text">ठीक है</string>
+
+    <!--Delete dialog-->
+    <string name="dialog_delete_positive_button">मिटाना</string>
+    <string name="dialog_delete_negative_button">रद्द करना</string>
+    <string name="dialog_delete_clear_history_message">हिस्ट्री हटाएं?</string>
+    <string name="dialog_delete_barcode_message">मिटाना?</string>
+
+    <!--Confirm barcode dialog-->
+    <string name="dialog_confirm_barcode_title">पुष्टि करें</string>
+    <string name="dialog_confirm_barcode_positive_button">ठीक है</string>
+    <string name="dialog_confirm_barcode_negative_button">रद्द करना</string>
+
+    <!--Edit barcode name dialog-->
+    <string name="dialog_edit_barcode_name_title">नाम संपादित करें</string>
+    <string name="dialog_edit_barcode_name_positive_button">ठीक है</string>
+    <string name="dialog_edit_barcode_name_negative_button">रद्द करना</string>
+
+    <!--Bottom tabs activity-->
+    <string name="activity_bottom_tabs_scan_tab">स्कैन</string>
+    <string name="activity_bottom_tabs_create_tab">सृजन करना</string>
+    <string name="activity_bottom_tabs_history_tab">इतिहास</string>
+    <string name="activity_bottom_tabs_settings_tab">समायोजन</string>
+
+    <!--Scan barcode from camera fragment-->
+    <string name="fragment_scan_barcode_from_camera_scan_from_file">स्कैन छवि</string>
+    <string name="fragment_scan_barcode_from_camera_flash">चमक</string>
+    <string name="fragment_scan_barcode_from_camera_barcode_saved">बचाया</string>
+
+    <!--Scan barcode from file activity-->
+    <string name="activity_scan_barcode_from_file_title">स्कैन</string>
+    <string name="activity_scan_barcode_from_file_scan">ठीक है</string>
+    <string name="activity_scan_barcode_from_file_rotate_left">बायीं तरफ</string>
+    <string name="activity_scan_barcode_from_file_rotate_right">दाएं घुमाएं</string>
+    <string name="activity_scan_barcode_from_file_change_image">दूसरी छवि चुनें</string>
+
+    <!--Create barcode fragment-->
+    <string name="fragment_create_barcode_title">सृजन करना</string>
+    <string name="fragment_create_barcode_qr_code">क्यू आर संहिता</string>
+    <string name="fragment_create_barcode_qr_code_clipboard">क्लिपबोर्ड से सामग्री</string>
+    <string name="fragment_create_barcode_qr_code_text">मूलपाठ</string>
+    <string name="fragment_create_barcode_qr_code_show_all">अधिक क्यूआर कोड</string>
+    <string name="fragment_create_barcode">बारकोड</string>
+    <string name="fragment_create_barcode_show_all">बारकोड और अन्य 2डी कोड</string>
+
+    <!--Create QR code list activity-->
+    <string name="fragment_create_qr_code_list_title">क्यूआर कोड बनाएं</string>
+
+    <!--Create barcode list activity-->
+    <string name="fragment_create_barcode_list_title">बारकोड बनाएं</string>
+    <string name="fragment_create_barcode_list_2d">2डी बारकोड</string>
+    <string name="fragment_create_barcode_list_1d">1डी बारकोड</string>
+
+    <!--Create barcode activity-->
+    <string name="activity_create_barcode_menu_item_title">सृजन करना</string>
+    <string name="activity_create_barcode_contacts_menu_item_title">संपर्क</string>
+
+    <!--Base create barcode fragment -->
+    <string name="fragment_create_barcode_alternative">वैकल्पिक रूप से:</string>
+
+    <!--Create QR code URL fragment-->
+    <string name="fragment_create_qr_code_url_alternative">- अपना ब्राउज़र ऐप खोलें\n- एक वेबसाइट लोड करें\n- मेनू से \"साझा करें\" क्लिक करें\n- इस ऐप को चुनें</string>
+
+    <!--Create QR code bookmark fragment-->
+    <string name="fragment_create_qr_code_bookmark_title_hint">शीर्षक</string>
+
+    <!--Create QR code Wi-fi fragment-->
+    <string name="fragment_create_qr_code_wifi_encryption_hint">कूटलेखन</string>
+    <string-array name="fragment_create_qr_code_wifi_encryption_types">
+        <item>WPA/WPA2</item>
+        <item>WEP</item>
+        <item>कोई भी नहीं</item>
+    </string-array>
+    <string name="fragment_create_qr_code_wifi_network_name_hint">नेटवर्क का नाम</string>
+    <string name="fragment_create_qr_code_wifi_password_hint">पासवर्ड</string>
+    <string name="fragment_create_qr_code_wifi_is_hidden_hint">छुपे हुए</string>
+
+    <!--Create QR code email fragment-->
+    <string name="fragment_create_qr_code_email_subject_hint">विषय</string>
+    <string name="fragment_create_qr_code_email_message_hint">संदेश</string>
+
+    <!--Create QR code SMS fragment-->
+    <string name="fragment_create_qr_code_sms_message_hint">संदेश</string>
+
+    <!--Create QR code MMS fragment-->
+    <string name="fragment_create_qr_code_mms_subject_hint">विषय</string>
+    <string name="fragment_create_qr_code_mms_message_hint">संदेश</string>
+
+    <!--Create QR code cryptocurrency fragment-->
+    <string name="fragment_create_qr_code_cryptocurrency_type_hint">क्रिप्टोक्यूरेंसी</string>
+    <string-array name="fragment_create_qr_code_cryptocurrencies">
+        <item>Bitcoin</item>
+        <item>Bitcoin Cash</item>
+        <item>Ethereum</item>
+        <item>Litecoin</item>
+        <item>Dash</item>
+    </string-array>
+    <string name="fragment_create_qr_code_cryptocurrency_address_hint">रिसीवर का पता</string>
+    <string name="fragment_create_qr_code_cryptocurrency_amount_hint">राशि</string>
+    <string name="fragment_create_qr_code_cryptocurrency_label_hint">लेबल</string>
+    <string name="fragment_create_qr_code_cryptocurrency_message_hint">संदेश</string>
+
+    <!--Create QR code location fragment-->
+    <string name="fragment_create_qr_code_location_latitude_hint">अक्षांश</string>
+    <string name="fragment_create_qr_code_location_longitude_hint">देशान्तर</string>
+    <string name="fragment_create_qr_code_location_altitude_hint">ऊंचाई (वैकल्पिक)</string>
+
+    <!--Create QR code OTP fragment-->
+    <string name="fragment_create_qr_code_otp_type_hint">टाइप</string>
+    <string-array name="fragment_create_qr_code_otp_types">
+        <item>HOTP</item>
+        <item>TOTP</item>
+    </string-array>
+    <string name="fragment_create_qr_code_otp_algorithm_hint">कलन विधि</string>
+    <string-array name="fragment_create_qr_code_otp_algorithms">
+        <item>SHA1</item>
+        <item>SHA256</item>
+        <item>SHA512</item>
+    </string-array>
+    <string name="fragment_create_qr_code_otp_issuer_hint">जारीकर्ता</string>
+    <string name="fragment_create_qr_code_otp_account_hint">खाता</string>
+    <string name="fragment_create_qr_code_otp_digits_hint">अंक</string>
+    <string name="fragment_create_qr_code_otp_period_hint">अवधि</string>
+    <string name="fragment_create_qr_code_otp_counter_hint">विरोध करना</string>
+    <string name="fragment_create_qr_code_otp_secret_hint">गुप्त</string>
+    <string name="fragment_create_qr_code_otp_generate_random_secret">रैंडम सीक्रेट</string>
+
+    <!--Create QR code event-->
+    <string name="fragment_create_qr_code_event_title_hint">शीर्षक</string>
+    <string name="fragment_create_qr_code_event_organizer_hint">व्यवस्था करनेवाला</string>
+    <string name="fragment_create_qr_code_event_summary_hint">सारांश</string>
+    <string name="fragment_create_qr_code_event_start_date_hint">आरंभ करने की तिथि</string>
+    <string name="fragment_create_qr_code_event_end_date_hint">अंतिम तिथि</string>
+
+    <!--Create QR code contact-->
+    <string name="fragment_create_qr_code_contact_first_name_hint">पहला नाम</string>
+    <string name="fragment_create_qr_code_contact_last_name_hint">उपनाम</string>
+    <string name="fragment_create_qr_code_contact_organization_hint">संगठन</string>
+    <string name="fragment_create_qr_code_contact_job_hint">काम</string>
+    <string name="fragment_create_qr_code_contact_email_hint">ईमेल</string>
+    <string name="fragment_create_qr_code_contact_phone_hint">फ़ोन</string>
+    <string name="fragment_create_qr_code_contact_fax_hint">फैक्स</string>
+    <string name="fragment_create_qr_code_contact_country_hint">देश</string>
+    <string name="fragment_create_qr_code_contact_region_hint">क्षेत्र/राज्य</string>
+    <string name="fragment_create_qr_code_contact_postcode_hint">पोस्टकोड</string>
+    <string name="fragment_create_qr_code_contact_city_hint">शहर</string>
+    <string name="fragment_create_qr_code_contact_street_hint">सड़क</string>
+    <string name="fragment_create_qr_code_contact_website_hint">वेबसाइट</string>
+    <string name="fragment_create_qr_code_contact_alternative">- अपना संपर्क ऐप खोलें\n- कोई मौजूदा संपर्क खोलें या एक नया बनाएं\n- मेनू से \"साझा करें\" क्लिक करें\n- इस ऐप को चुनें</string>
+
+    <!--Create barcode-->
+    <string name="fragment_create_data_matrix_hint">विशेष वर्णों के बिना पाठ</string>
+    <string name="fragment_create_aztec_hint">विशेष वर्णों के बिना पाठ</string>
+    <string name="fragment_create_codabar_hint">अंक</string>
+    <string name="fragment_create_code_39_hint">विशेष वर्णों के बिना अपर केस में टेक्स्ट</string>
+    <string name="fragment_create_code_93_hint">विशेष वर्णों के बिना अपर केस में टेक्स्ट</string>
+    <string name="fragment_create_code_128_hint">विशेष वर्णों के बिना पाठ</string>
+    <string name="fragment_create_ean_8_hint">7 अंक</string>
+    <string name="fragment_create_ean_13_hint">12 अंक</string>
+    <string name="fragment_create_itf_14_hint">अंकों की सम संख्या</string>
+    <string name="fragment_create_upc_a_hint">11 अंक</string>
+    <string name="fragment_create_upc_e_hint">7 अंक</string>
+
+    <!--Barcode history fragment-->
+    <string name="fragment_barcode_history_title">इतिहास</string>
+    <string-array name="fragment_barcode_history_tab_titles">
+        <item>सभी</item>
+        <!--<item>Favorites</item>-->
+    </string-array>
+    <string name="fragment_barcode_history_menu_title_export">निर्यात इतिहास</string>
+    <string name="fragment_barcode_history_menu_title_delete_all">इतिहास मिटा दें</string>
+
+    <!--Export history activity-->
+    <string name="activity_export_history_title">निर्यात इतिहास</string>
+    <string name="activity_export_history_as_hint">निर्यात के रूप में</string>
+    <string-array name="activity_export_history_types">
+        <item>CSV</item>
+        <item>JSON</item>
+    </string-array>
+    <string name="activity_export_history_file_name_hint">फ़ाइल का नाम</string>
+    <string name="activity_export_history_file_name_default" translatable="false">db</string>
+    <string name="activity_export_history_export">निर्यात करना</string>
+    <string name="activity_export_history_exported">डाउनलोड में सहेजा गया</string>
+
+    <!--Settings fragment-->
+    <string name="fragment_settings_title">समायोजन</string>
+    <string name="fragment_settings_appearance_settings">दिखावट</string>
+    <string name="fragment_settings_theme">थीम</string>
+    <string name="fragment_settings_inverse_barcode_colors_in_dark_theme">डार्क थीम में उलटा कोड रंग</string>
+    <string name="fragment_settings_inverse_barcode_colors_in_dark_theme_hint">गहरे रंग की पृष्ठभूमि पर सफेद सामग्री वाले कोड दिखाएं</string>
+    <string name="fragment_settings_scanner_settings">चित्रान्वीक्षक</string>
+    <string name="fragment_settings_open_content_automatically">स्कैन किए गए कोड की सामग्री को स्वचालित रूप से खोलें</string>
+    <string name="fragment_settings_open_content_automatically_hint">हानिकारक सामग्री खोल सकता है</string>
+    <string name="fragment_settings_copy_to_clipboard">क्लिपबोर्ड पर कॉपी करें</string>
+    <string name="fragment_settings_copy_to_clipboard_hint">स्कैन किए गए बारकोड को क्लिपबोर्ड पर कॉपी करें</string>
+    <string name="fragment_settings_simple_auto_focus">सरल ऑटो फोकस मोड</string>
+    <string name="fragment_settings_simple_auto_focus_hint">केवल तभी सक्षम करें जब आपको ध्यान केंद्रित करने में समस्या हो</string>
+    <string name="fragment_settings_flash">चमक</string>
+    <string name="fragment_settings_flash_hint">प्रारंभ पर फ्लैश सक्षम करें</string>
+    <string name="fragment_settings_vibrate">कंपन</string>
+    <string name="fragment_settings_vibrate_hint">स्कैन पर कंपन</string>
+    <string name="fragment_settings_continuous_scanning">निरंतर स्कैनिंग</string>
+    <string name="fragment_settings_continuous_scanning_hint">स्कैन को केवल इतिहास में सहेजेंy</string>
+    <string name="fragment_settings_confirm_scans_manually">मैन्युअल रूप से स्कैन की पुष्टि करें</string>
+    <string name="fragment_settings_confirm_scans_manually_hint">आकस्मिक स्कैन से बचें</string>
+    <string name="fragment_settings_camera">कैमरा</string>
+    <string name="fragment_settings_supported_formats">समर्थित प्रारूप</string>
+    <string name="fragment_settings_history_settings">इतिहास</string>
+    <string name="fragment_settings_save_scanned_barcodes_to_history">स्कैन किए गए बारकोड को इतिहास में सहेजें</string>
+    <string name="fragment_settings_save_created_barcodes_to_history">बनाए गए बारकोड को इतिहास में सहेजें</string>
+    <string name="fragment_settings_do_not_save_duplicates">डुप्लिकेट न सहेजें</string>
+    <string name="fragment_settings_do_not_save_duplicates_hint">इतिहास में डुप्लिकेट से बचें</string>
+    <string name="fragment_settings_clear_history">इतिहास मिटा दें</string>
+    <string name="fragment_settings_advanced_settings">विकसित</string>
+    <string name="fragment_settings_choose_search_engines">खोज यन्त्र</string>
+    <string name="fragment_settings_choose_search_engines_hint">वेब खोजों के लिए एक खोज इंजन चुनें</string>
+    <string name="fragment_settings_error_reports">त्रुटि रिपोर्ट</string>
+    <string name="fragment_settings_enable_error_reports">त्रुटि रिपोर्ट सक्षम करें</string>
+    <string name="fragment_settings_enable_error_reports_hint">बग्स को ठीक करने में हमारी मदद करें</string>
+    <string name="fragment_settings_about">के बारे में</string>
+    <string name="fragment_settings_check_updates">अद्यतन के लिए जाँच</string>
+    <string name="fragment_settings_permissions">अनुमतियां</string>
+    <string name="fragment_settings_source_code">सोर्स कोड</string>
+    <string name="fragment_settings_app_version">एप्लिकेशन वेरीज़न</string>
+
+    <string name="fragment_settings_rate_and_comment">दर और टिप्पणी</string>
+    <string name="fragment_settings_rate_and_comment_hint">हमें 5 स्टार दें और ऐप की मदद करें :-) बहुत-बहुत धन्यवाद</string>
+
+    <string name="share">शेयर करना</string>
+    <string name="share_text">अपने सभी दोस्तों के साथ ऐप साझा करें</string>
+
+    <!--Choose theme activity-->
+    <string name="activity_choose_theme_title">थीम</string>
+    <string name="activity_choose_theme_system">सिस्टम के समान</string>
+    <string name="activity_choose_theme_light">रोशनी</string>
+    <string name="activity_choose_theme_dark">अँधेरा</string>
+
+    <!--Choose camera activity-->
+    <string name="activity_choose_camera_title">कैमरा</string>
+    <string name="activity_choose_camera_front">सामने</string>
+    <string name="activity_choose_camera_back">पीछे</string>
+
+    <!--Select supported formats activity-->
+    <string name="activity_supported_formats_title">समर्थित प्रारूप</string>
+
+    <!--Choose search engine activity-->
+    <string name="activity_choose_search_engine_title">खोज यन्त्र</string>
+    <string name="activity_choose_search_engine_none">कोई भी नहीं</string>
+    <string name="activity_choose_search_engine_ask_every_time">हर बार पूछिए</string>
+    <string name="activity_choose_search_engine_bing">Bing</string>
+    <string name="activity_choose_search_engine_duck_duck_go">DuckDuckGo</string>
+    <string name="activity_choose_search_engine_google">Google</string>
+    <string name="activity_choose_search_engine_qwant">Qwant</string>
+    <string name="activity_choose_search_engine_startpage" translatable="false">Startpage</string>
+    <string name="activity_choose_search_engine_yahoo">Yahoo</string>
+    <string name="activity_choose_search_engine_yandex">Yandex</string>
+
+    <!--All permissions activity-->
+    <string name="activity_all_permissions_title">अनुमतियां</string>
+    <string name="activity_all_permissions_normal_permissions">सामान्य</string>
+    <string name="activity_all_permissions_vibrate_title">कंपन</string>
+    <string name="activity_all_permissions_vibrate_hint">स्कैन पर कंपन करने के लिए प्रयुक्त</string>
+    <string name="activity_all_permissions_wifi_title">वाई - फाई</string>
+    <string name="activity_all_permissions_wifi_hint">क्यूआर कोड को स्कैन करके वाई-फ़ाई से कनेक्ट करने के लिए इस्तेमाल किया जाता है</string>
+    <string name="activity_all_permissions_internet_title">इंटरनेट</string>
+    <string name="activity_all_permissions_internet_hint">त्रुटि रिपोर्ट भेजने के लिए उपयोग किया जाता है। इसे सेटिंग में अक्षम किया जा सकता है</string>
+    <string name="activity_all_permissions_runtime_permissions">क्रम</string>
+    <string name="activity_all_permissions_camera_title">कैमरा</string>
+    <string name="activity_all_permissions_camera_hint">कैमरे से क्यूआर कोड और बारकोड को स्कैन करने के लिए उपयोग किया जाता है</string>
+    <string name="activity_all_permissions_read_contacts_title">संपर्क पढ़ें</string>
+    <string name="activity_all_permissions_read_contacts_hint">आपकी संपर्क सूची से किसी संपर्क का चयन करके एक क्यूआर कोड बनाने के लिए उपयोग किया जाता है</string>
+    <string name="activity_all_permissions_storage_title">भंडारण</string>
+    <string name="activity_all_permissions_storage_hint">जब आप अपने क्यूआर कोड या बारकोड को टेक्स्ट या इमेज के रूप में सहेजना चाहते हैं तो स्टोरेज एक्सेस करने के लिए उपयोग किया जाता है</string>
+
+    <!--Barcode activity-->
+    <string name="activity_barcode_add_to_calendar">कैलेंडर में जोड़ें</string>
+    <string name="activity_barcode_add_to_contacts">संपर्क के खाते में जोड़ दे</string>
+    <string name="activity_barcode_call_phone">बुलाना %s</string>
+    <string name="activity_barcode_send_sms">एसएमएस/एमएमएस भेजें %s</string>
+    <string name="activity_barcode_send_email">ईमेल को %s</string>
+    <string name="activity_barcode_show_location">स्थान दिखाएं</string>
+    <string name="activity_barcode_connect_to_wifi">वाई-फ़ाई से कनेक्ट करें</string>
+    <string name="activity_barcode_open_wifi_settings">वाई-फ़ाई सेटिंग खोलें</string>
+    <string name="activity_barcode_copy_network_name">नेटवर्क का नाम कॉपी करें</string>
+    <string name="activity_barcode_copy_network_password">नेटवर्क पासवर्ड कॉपी करें</string>
+    <string name="activity_barcode_open_app">ऐप खोलो</string>
+    <string name="activity_barcode_open_in_app_market">बाजार में खुला</string>
+    <string name="activity_barcode_open_in_youtube">यूट्यूब में खोलें</string>
+    <string name="activity_barcode_save_bookmark">बुकमार्क में सहेजें</string>
+    <string name="activity_barcode_open_link">खुली लिंक</string>
+    <string name="activity_barcode_open_bitcoin_url">अन्य ऐप में खोलें</string>
+    <string name="activity_barcode_show_otp">पासवर्ड दिखाए</string>
+    <string name="activity_barcode_open_otp">अन्य ऐप में खोलें</string>
+    <string name="activity_barcode_share_as_text">पाठ के रूप में साझा करें</string>
+    <string name="activity_barcode_copy">क्लिपबोर्ड पर कॉपी करें</string>
+    <string name="activity_barcode_save_as_text">पाठ के रूप में सहेजें</string>
+    <string name="activity_barcode_search">वेब पर खोजें</string>
+    <string name="activity_barcode_add_to_favorites">पसंदीदा में जोड़े</string>
+    <string name="activity_barcode_show_barcode_image">कोड देखें</string>
+    <string name="activity_barcode_share_as_image">छवि के रूप में साझा करें</string>
+    <string name="activity_barcode_save_as_image">छवि के रूप में सहेजें</string>
+    <string name="activity_barcode_print">छाप</string>
+    <string name="activity_barcode_delete">मिटाना</string>
+    <string name="activity_barcode_connecting_to_wifi">कनेक्ट हो रहा है…</string>
+    <string name="activity_barcode_copied">क्लिपबोर्ड पर नकल</string>
+    <string name="activity_barcode_no_app">इस कार्रवाई के लिए कोई ऐप नहीं मिला</string>
+    <string name="activity_barcode_choose_search_engine_dialog_negative_button">रद्द करना</string>
+
+    <!--Barcode image activity-->
+    <string name="activity_barcode_image_increase_brightness">चमक बढ़ाएं</string>
+    <string name="activity_barcode_image_decrease_brightness">चमक कम करें</string>
+
+    <!--OTP barcode activity-->
+    <string name="activity_barcode_otp_title">OTP</string>
+    <string name="activity_barcode_otp_unable_to_generate_otp">पासवर्ड जनरेट करने में असमर्थ</string>
+    <string name="activity_barcode_otp_counter">विरोध करना: %s</string>
+    <string name="activity_barcode_otp_timer">%s:%s बाएं</string>
+    <string name="activity_barcode_otp_refresh_otp">ताज़ा करना</string>
+
+    <!--Save barcode as text activity-->
+    <string name="activity_save_barcode_as_text_title">बचाना</string>
+    <string name="activity_save_barcode_as_text_save_as_hint">के रूप रक्षित करें</string>
+    <string-array name="activity_save_barcode_as_text_formats">
+        <item>CSV</item>
+        <item>JSON</item>
+    </string-array>
+    <string name="activity_save_barcode_as_text_file_name_save">बचाना</string>
+    <string name="activity_save_barcode_as_text_file_name_saved">डाउनलोड में सहेजा गया</string>
+
+    <!--Save barcode as image activity-->
+    <string name="activity_save_barcode_as_image_title">बचाना</string>
+    <string name="activity_save_barcode_as_image_save_as_hint">के रूप रक्षित करें</string>
+    <string-array name="activity_save_barcode_as_image_formats">
+        <item>PNG</item>
+        <item>SVG</item>
+    </string-array>
+    <string name="activity_save_barcode_as_image_file_name_save">बचाना</string>
+    <string name="activity_save_barcode_as_image_file_name_saved">गैलरी में सहेजा गया</string>
+    
+    <!--Barcode schemas-->
+    <string name="barcode_schema_bookmark">बुकमार्क</string>
+    <string name="barcode_schema_cryptocurrency">Bitcoin</string>
+    <string name="barcode_schema_email">ईमेल</string>
+    <string name="barcode_schema_geo">स्थान</string>
+    <string name="barcode_schema_google_maps">पता</string>
+    <string name="barcode_schema_google_play">अनुप्रयोग</string>
+    <string name="barcode_schema_mms">एमएमएस</string>
+    <string name="barcode_schema_me_card">संपर्क (मेकार्ड)</string>
+    <string name="barcode_schema_phone">फ़ोन</string>
+    <string name="barcode_schema_otp">ओटीपी</string>
+    <string name="barcode_schema_sms">एसएमएस</string>
+    <string name="barcode_schema_url">यूआरएल</string>
+    <string name="barcode_schema_v_event">आयोजन</string>
+    <string name="barcode_schema_v_card">संपर्क (वीकार्ड)</string>
+    <string name="barcode_schema_wifi">वाई - फाई</string>
+    <string name="barcode_schema_youtube">यूट्यूब यूआरएल</string>
+
+    <string name="barcode_schema_other">मूलपाठ</string>
+
+    <!--Barcode formats-->
+    <string name="barcode_format_qr_code">क्यू आर संहिता</string>
+
+
+    <!--AdMob Ids -->
+    <!--  Banner ad ids-->
+    <!--Test-->
+    <!-- <string name="admob_banner_ad_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!-- Production -->
+    <string name="admob_banner_ad_id" translatable="false">ca-app-pub-7202469439331118/3927950140</string>
+
+    <!--    Interstitial ads-->
+    <!--Test-->
+    <!--<string name="magnifier_fragment_capture_btn_ad" translatable="false">ca-app-pub-3940256099942544/1033173712</string>-->
+    <!-- Production -->
+    <!-- <string name="magnifier_fragment_capture_btn_ad" translatable="false">ca-app-pub-7202469439331118/8082021418</string> -->
+
+</resources>

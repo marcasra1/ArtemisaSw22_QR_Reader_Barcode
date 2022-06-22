@@ -1,0 +1,393 @@
+<resources>
+    <string name="app_name">QR-szkenner és vonalkód</string>
+
+    <!--Shortcuts-->
+    <string name="shortcut_scan_from_camera">Letapogatás</string>
+    <string name="shortcut_scan_from_file">Kép beolvasása</string>
+    <string name="shortcut_create_barcode">Vonalkód létrehozása</string>
+    <string name="shortcut_history">Történelem</string>
+
+    <!--Intent filters-->
+    <string name="intent_filter_create_qr_code_text">Hozzon létre QR-kódot</string>
+    <string name="intent_filter_scan_image">Kép beolvasása</string>
+
+    <!--Error dialog-->
+    <string name="error_dialog_title">Hiba</string>
+    <string name="error_dialog_default_message">Valami elromlott</string>
+    <string name="error_dialog_positive_button_text">OK</string>
+
+    <!--Delete dialog-->
+    <string name="dialog_delete_positive_button">Töröl</string>
+    <string name="dialog_delete_negative_button">Megszünteti</string>
+    <string name="dialog_delete_clear_history_message">Törli az előzményeket?</string>
+    <string name="dialog_delete_barcode_message">Töröl?</string>
+
+    <!--Confirm barcode dialog-->
+    <string name="dialog_confirm_barcode_title">megerősít</string>
+    <string name="dialog_confirm_barcode_positive_button">OK</string>
+    <string name="dialog_confirm_barcode_negative_button">Megszünteti</string>
+
+    <!--Edit barcode name dialog-->
+    <string name="dialog_edit_barcode_name_title">Név szerkesztése</string>
+    <string name="dialog_edit_barcode_name_positive_button">OK</string>
+    <string name="dialog_edit_barcode_name_negative_button">Megszünteti</string>
+
+    <!--Bottom tabs activity-->
+    <string name="activity_bottom_tabs_scan_tab">Letapogatás</string>
+    <string name="activity_bottom_tabs_create_tab">Teremt</string>
+    <string name="activity_bottom_tabs_history_tab">Történelem</string>
+    <string name="activity_bottom_tabs_settings_tab">Beállítások</string>
+
+    <!--Scan barcode from camera fragment-->
+    <string name="fragment_scan_barcode_from_camera_scan_from_file">Kép beolvasása</string>
+    <string name="fragment_scan_barcode_from_camera_flash">Vaku</string>
+    <string name="fragment_scan_barcode_from_camera_barcode_saved">Mentett</string>
+
+    <!--Scan barcode from file activity-->
+    <string name="activity_scan_barcode_from_file_title">Letapogatás</string>
+    <string name="activity_scan_barcode_from_file_scan">OK</string>
+    <string name="activity_scan_barcode_from_file_rotate_left">Forgasd balra</string>
+    <string name="activity_scan_barcode_from_file_rotate_right">Forgasd jobbra</string>
+    <string name="activity_scan_barcode_from_file_change_image">Válasszon másik képet</string>
+
+    <!--Create barcode fragment-->
+    <string name="fragment_create_barcode_title">Teremt</string>
+    <string name="fragment_create_barcode_qr_code">QR-kód</string>
+    <string name="fragment_create_barcode_qr_code_clipboard">Tartalom a vágólapról</string>
+    <string name="fragment_create_barcode_qr_code_text">Szöveg</string>
+    <string name="fragment_create_barcode_qr_code_show_all">További QR kódok</string>
+    <string name="fragment_create_barcode">Vonalkód</string>
+    <string name="fragment_create_barcode_show_all">Vonalkódok és egyéb 2D kódok</string>
+
+    <!--Create QR code list activity-->
+    <string name="fragment_create_qr_code_list_title">Hozzon létre QR-kódot</string>
+
+    <!--Create barcode list activity-->
+    <string name="fragment_create_barcode_list_title">Vonalkód létrehozása</string>
+    <string name="fragment_create_barcode_list_2d">2D vonalkódok</string>
+    <string name="fragment_create_barcode_list_1d">1D vonalkódok</string>
+
+    <!--Create barcode activity-->
+    <string name="activity_create_barcode_menu_item_title">Teremt</string>
+    <string name="activity_create_barcode_contacts_menu_item_title">Kapcsolatok</string>
+
+    <!--Base create barcode fragment -->
+    <string name="fragment_create_barcode_alternative">Másik lehetőség:</string>
+
+    <!--Create QR code URL fragment-->
+    <string name="fragment_create_qr_code_url_alternative">- Nyissa meg böngészőalkalmazását.\n- Webhely betöltése\n- Kattintson a \"Megosztás\" lehetőségre a menüben.\n- Válassza ki ezt az alkalmazást</string>
+
+    <!--Create QR code bookmark fragment-->
+    <string name="fragment_create_qr_code_bookmark_title_hint">Cím</string>
+
+    <!--Create QR code Wi-fi fragment-->
+    <string name="fragment_create_qr_code_wifi_encryption_hint">Titkosítás</string>
+    <string-array name="fragment_create_qr_code_wifi_encryption_types">
+        <item>WPA/WPA2</item>
+        <item>WEP</item>
+        <item>Egyik sem</item>
+    </string-array>
+    <string name="fragment_create_qr_code_wifi_network_name_hint">Hálózat neve</string>
+    <string name="fragment_create_qr_code_wifi_password_hint">Jelszó</string>
+    <string name="fragment_create_qr_code_wifi_is_hidden_hint">Rejtett</string>
+
+    <!--Create QR code email fragment-->
+    <string name="fragment_create_qr_code_email_subject_hint">Tantárgy</string>
+    <string name="fragment_create_qr_code_email_message_hint">Üzenet</string>
+
+    <!--Create QR code SMS fragment-->
+    <string name="fragment_create_qr_code_sms_message_hint">Üzenet</string>
+
+    <!--Create QR code MMS fragment-->
+    <string name="fragment_create_qr_code_mms_subject_hint">Tantárgy</string>
+    <string name="fragment_create_qr_code_mms_message_hint">Üzenet</string>
+
+    <!--Create QR code cryptocurrency fragment-->
+    <string name="fragment_create_qr_code_cryptocurrency_type_hint">Kriptovaluta</string>
+    <string-array name="fragment_create_qr_code_cryptocurrencies">
+        <item>Bitcoin</item>
+        <item>Bitcoin Cash</item>
+        <item>Ethereum</item>
+        <item>Litecoin</item>
+        <item>Dash</item>
+    </string-array>
+    <string name="fragment_create_qr_code_cryptocurrency_address_hint">A vevő címe</string>
+    <string name="fragment_create_qr_code_cryptocurrency_amount_hint">Összeg</string>
+    <string name="fragment_create_qr_code_cryptocurrency_label_hint">Címke</string>
+    <string name="fragment_create_qr_code_cryptocurrency_message_hint">Üzenet</string>
+
+    <!--Create QR code location fragment-->
+    <string name="fragment_create_qr_code_location_latitude_hint">Szélességi kör</string>
+    <string name="fragment_create_qr_code_location_longitude_hint">Hosszúság</string>
+    <string name="fragment_create_qr_code_location_altitude_hint">Magasság (opcionális)</string>
+
+    <!--Create QR code OTP fragment-->
+    <string name="fragment_create_qr_code_otp_type_hint">típus</string>
+    <string-array name="fragment_create_qr_code_otp_types">
+        <item>HOTP</item>
+        <item>TOTP</item>
+    </string-array>
+    <string name="fragment_create_qr_code_otp_algorithm_hint">Algoritmus</string>
+    <string-array name="fragment_create_qr_code_otp_algorithms">
+        <item>SHA1</item>
+        <item>SHA256</item>
+        <item>SHA512</item>
+    </string-array>
+    <string name="fragment_create_qr_code_otp_issuer_hint">Kibocsátó</string>
+    <string name="fragment_create_qr_code_otp_account_hint">Fiók</string>
+    <string name="fragment_create_qr_code_otp_digits_hint">Számjegyek</string>
+    <string name="fragment_create_qr_code_otp_period_hint">Időszak</string>
+    <string name="fragment_create_qr_code_otp_counter_hint">Számláló</string>
+    <string name="fragment_create_qr_code_otp_secret_hint">Titok</string>
+    <string name="fragment_create_qr_code_otp_generate_random_secret">Véletlen titok</string>
+
+    <!--Create QR code event-->
+    <string name="fragment_create_qr_code_event_title_hint">Cím</string>
+    <string name="fragment_create_qr_code_event_organizer_hint">Szervező</string>
+    <string name="fragment_create_qr_code_event_summary_hint">Összegzés</string>
+    <string name="fragment_create_qr_code_event_start_date_hint">Kezdő dátum</string>
+    <string name="fragment_create_qr_code_event_end_date_hint">Befejezés dátuma</string>
+
+    <!--Create QR code contact-->
+    <string name="fragment_create_qr_code_contact_first_name_hint">Keresztnév</string>
+    <string name="fragment_create_qr_code_contact_last_name_hint">Vezetéknév</string>
+    <string name="fragment_create_qr_code_contact_organization_hint">Szervezet</string>
+    <string name="fragment_create_qr_code_contact_job_hint">Munka</string>
+    <string name="fragment_create_qr_code_contact_email_hint">Email</string>
+    <string name="fragment_create_qr_code_contact_phone_hint">Telefon</string>
+    <string name="fragment_create_qr_code_contact_fax_hint">Fax</string>
+    <string name="fragment_create_qr_code_contact_country_hint">Ország</string>
+    <string name="fragment_create_qr_code_contact_region_hint">Régió/Állam</string>
+    <string name="fragment_create_qr_code_contact_postcode_hint">Irányítószám</string>
+    <string name="fragment_create_qr_code_contact_city_hint">Város</string>
+    <string name="fragment_create_qr_code_contact_street_hint">Utca</string>
+    <string name="fragment_create_qr_code_contact_website_hint">Weboldal</string>
+    <string name="fragment_create_qr_code_contact_alternative">- Nyissa meg a névjegyek alkalmazást.\n- Nyisson meg egy meglévő névjegyet, vagy hozzon létre egy újat.\n- Kattintson a \"Megosztás\" lehetőségre a menüben.\n- Válassza ki ezt az alkalmazást</string>
+
+    <!--Create barcode-->
+    <string name="fragment_create_data_matrix_hint">Szöveg speciális karakterek nélkül</string>
+    <string name="fragment_create_aztec_hint">Szöveg speciális karakterek nélkül</string>
+    <string name="fragment_create_codabar_hint">Számjegyek</string>
+    <string name="fragment_create_code_39_hint">Szöveg nagybetűvel, speciális karakterek nélkül</string>
+    <string name="fragment_create_code_93_hint">Szöveg nagybetűvel, speciális karakterek nélkül</string>
+    <string name="fragment_create_code_128_hint">Szöveg speciális karakterek nélkül</string>
+    <string name="fragment_create_ean_8_hint">7 számjegy</string>
+    <string name="fragment_create_ean_13_hint">12 számjegy</string>
+    <string name="fragment_create_itf_14_hint">Páros számú számjegy</string>
+    <string name="fragment_create_upc_a_hint">11 számjegy</string>
+    <string name="fragment_create_upc_e_hint">7 számjegy</string>
+
+    <!--Barcode history fragment-->
+    <string name="fragment_barcode_history_title">Történelem</string>
+    <string-array name="fragment_barcode_history_tab_titles">
+        <item>Összes</item>
+        <!--<item>Favorites</item>-->
+    </string-array>
+    <string name="fragment_barcode_history_menu_title_export">Előzmények exportálása</string>
+    <string name="fragment_barcode_history_menu_title_delete_all">Előzmények törlése</string>
+
+    <!--Export history activity-->
+    <string name="activity_export_history_title">Előzmények exportálása</string>
+    <string name="activity_export_history_as_hint">Exportálás másként</string>
+    <string-array name="activity_export_history_types">
+        <item>CSV</item>
+        <item>JSON</item>
+    </string-array>
+    <string name="activity_export_history_file_name_hint">Fájl név</string>
+    <string name="activity_export_history_file_name_default" translatable="false">db</string>
+    <string name="activity_export_history_export">Exportál</string>
+    <string name="activity_export_history_exported">Mentve a Letöltések közé(</string>
+
+    <!--Settings fragment-->
+    <string name="fragment_settings_title">Beállítások</string>
+    <string name="fragment_settings_appearance_settings">Megjelenés</string>
+    <string name="fragment_settings_theme">Téma</string>
+    <string name="fragment_settings_inverse_barcode_colors_in_dark_theme">Inverz kódszínek sötét témában</string>
+    <string name="fragment_settings_inverse_barcode_colors_in_dark_theme_hint">Fehér tartalmú kódok megjelenítése sötét háttéren</string>
+    <string name="fragment_settings_scanner_settings">Szkenner</string>
+    <string name="fragment_settings_open_content_automatically">A beolvasott kódok tartalmának automatikus megnyitása</string>
+    <string name="fragment_settings_open_content_automatically_hint">Káros tartalmat nyithat meg</string>
+    <string name="fragment_settings_copy_to_clipboard">Másolja a vágólapra</string>
+    <string name="fragment_settings_copy_to_clipboard_hint">A beolvasott vonalkódok másolása a vágólapra</string>
+    <string name="fragment_settings_simple_auto_focus">Egyszerű autofókusz mód</string>
+    <string name="fragment_settings_simple_auto_focus_hint">Csak akkor engedélyezze, ha problémái vannak a fókuszálással</string>
+    <string name="fragment_settings_flash">Flash</string>
+    <string name="fragment_settings_flash_hint">Flash engedélyezése indításkor</string>
+    <string name="fragment_settings_vibrate">Rezeg</string>
+    <string name="fragment_settings_vibrate_hint">Vibrál beolvasáskor</string>
+    <string name="fragment_settings_continuous_scanning">Folyamatos szkennelés</string>
+    <string name="fragment_settings_continuous_scanning_hint">A beolvasásokat csak az előzményekbe mentheti</string>
+    <string name="fragment_settings_confirm_scans_manually">Erősítse meg manuálisan a beolvasást</string>
+    <string name="fragment_settings_confirm_scans_manually_hint">Kerülje el a véletlen beolvasást</string>
+    <string name="fragment_settings_camera">Kamera</string>
+    <string name="fragment_settings_supported_formats">Támogatott formátumok</string>
+    <string name="fragment_settings_history_settings">Történelem</string>
+    <string name="fragment_settings_save_scanned_barcodes_to_history">A beolvasott vonalkódok mentése az előzményekbe</string>
+    <string name="fragment_settings_save_created_barcodes_to_history">A létrehozott vonalkódok mentése az előzményekbe</string>
+    <string name="fragment_settings_do_not_save_duplicates">Ne mentse el a másolatokat</string>
+    <string name="fragment_settings_do_not_save_duplicates_hint">Kerülje el az ismétlődéseket a történelemben</string>
+    <string name="fragment_settings_clear_history">Előzmények törlése</string>
+    <string name="fragment_settings_advanced_settings">Fejlett</string>
+    <string name="fragment_settings_choose_search_engines">Kereső motorok</string>
+    <string name="fragment_settings_choose_search_engines_hint">Válasszon keresőt az internetes keresésekhez</string>
+    <string name="fragment_settings_error_reports">Hibajelentések</string>
+    <string name="fragment_settings_enable_error_reports">Hibajelentések engedélyezése</string>
+    <string name="fragment_settings_enable_error_reports_hint">Segítsen nekünk a hibák kijavításában</string>
+    <string name="fragment_settings_about">Ról ről</string>
+    <string name="fragment_settings_check_updates">Frissítések keresése</string>
+    <string name="fragment_settings_permissions">Engedélyek</string>
+    <string name="fragment_settings_source_code">Forráskód</string>
+    <string name="fragment_settings_app_version">Az alkalmazás verziója</string>
+
+    <string name="fragment_settings_rate_and_comment">Értékelés és megjegyzés</string>
+    <string name="fragment_settings_rate_and_comment_hint">Adjon nekünk 5 csillagot, és segítse az alkalmazást :-) Köszönjük szépen</string>
+
+    <string name="share">Részvény</string>
+    <string name="share_text">Ossza meg az alkalmazást minden barátjával</string>
+
+    <!--Choose theme activity-->
+    <string name="activity_choose_theme_title">Téma</string>
+    <string name="activity_choose_theme_system">Ugyanaz, mint a rendszer</string>
+    <string name="activity_choose_theme_light">Könnyű</string>
+    <string name="activity_choose_theme_dark">Sötét</string>
+
+    <!--Choose camera activity-->
+    <string name="activity_choose_camera_title">Kamera</string>
+    <string name="activity_choose_camera_front">Elülső</string>
+    <string name="activity_choose_camera_back">Vissza</string>
+
+    <!--Select supported formats activity-->
+    <string name="activity_supported_formats_title">Támogatott formátumok</string>
+
+    <!--Choose search engine activity-->
+    <string name="activity_choose_search_engine_title">Kereső motorok</string>
+    <string name="activity_choose_search_engine_none">Egyik sem</string>
+    <string name="activity_choose_search_engine_ask_every_time">Kérdezd meg minden alkalommal</string>
+    <string name="activity_choose_search_engine_bing">Bing</string>
+    <string name="activity_choose_search_engine_duck_duck_go">DuckDuckGo</string>
+    <string name="activity_choose_search_engine_google">Google</string>
+    <string name="activity_choose_search_engine_qwant">Qwant</string>
+    <string name="activity_choose_search_engine_startpage" translatable="false">Startpage</string>
+    <string name="activity_choose_search_engine_yahoo">Yahoo</string>
+    <string name="activity_choose_search_engine_yandex">Yandex</string>
+
+    <!--All permissions activity-->
+    <string name="activity_all_permissions_title">Engedélyek</string>
+    <string name="activity_all_permissions_normal_permissions">Normál</string>
+    <string name="activity_all_permissions_vibrate_title">Rezeg</string>
+    <string name="activity_all_permissions_vibrate_hint">Beolvasáskor rezgésre szolgál</string>
+    <string name="activity_all_permissions_wifi_title">Wi-Fi</string>
+    <string name="activity_all_permissions_wifi_hint">Wi-Fi-hez való csatlakozásra szolgál QR-kód beolvasásával</string>
+    <string name="activity_all_permissions_internet_title">Internet</string>
+    <string name="activity_all_permissions_internet_hint">Hibajelentések küldésére szolgál. Ezt a beállításokban lehet letiltani</string>
+    <string name="activity_all_permissions_runtime_permissions">Futásidő</string>
+    <string name="activity_all_permissions_camera_title">Kamera</string>
+    <string name="activity_all_permissions_camera_hint">QR-kódok és vonalkódok kamerából történő beolvasására szolgál</string>
+    <string name="activity_all_permissions_read_contacts_title">Névjegyek olvasása</string>
+    <string name="activity_all_permissions_read_contacts_hint">QR-kód létrehozására szolgál egy névjegy kiválasztásával a névjegyzékből</string>
+    <string name="activity_all_permissions_storage_title">Tárolás</string>
+    <string name="activity_all_permissions_storage_hint">A tárhely eléréséhez használható, ha QR-kódját vagy vonalkódját szövegként vagy képként szeretné menteni</string>
+
+    <!--Barcode activity-->
+    <string name="activity_barcode_add_to_calendar">Hozzáadás a naptárhoz</string>
+    <string name="activity_barcode_add_to_contacts">Hozzáadás a kapcsolatokhoz</string>
+    <string name="activity_barcode_call_phone">Hívás %s</string>
+    <string name="activity_barcode_send_sms">SMS/MMS küldése a címre %s</string>
+    <string name="activity_barcode_send_email">E-mail címre %s</string>
+    <string name="activity_barcode_show_location">Hely megjelenítése</string>
+    <string name="activity_barcode_connect_to_wifi">Csatlakozzon Wi-Fi-hez</string>
+    <string name="activity_barcode_open_wifi_settings">Nyissa meg a Wi-Fi beállításokat</string>
+    <string name="activity_barcode_copy_network_name">Másolja a hálózat nevét</string>
+    <string name="activity_barcode_copy_network_password">Hálózati jelszó másolása</string>
+    <string name="activity_barcode_open_app">Nyissa meg az alkalmazást</string>
+    <string name="activity_barcode_open_in_app_market">Nyitva a piacon</string>
+    <string name="activity_barcode_open_in_youtube">Megnyitás a Youtube-on</string>
+    <string name="activity_barcode_save_bookmark">Mentés a könyvjelzők közé</string>
+    <string name="activity_barcode_open_link">Link megnyitása</string>
+    <string name="activity_barcode_open_bitcoin_url">Nyissa meg egy másik alkalmazásban</string>
+    <string name="activity_barcode_show_otp">Mutasd a jelszót</string>
+    <string name="activity_barcode_open_otp">Nyissa meg egy másik alkalmazásban</string>
+    <string name="activity_barcode_share_as_text">Megosztás szövegként</string>
+    <string name="activity_barcode_copy">Másolja a vágólapra</string>
+    <string name="activity_barcode_save_as_text">Mentés szövegként</string>
+    <string name="activity_barcode_search">Keresés a weben</string>
+    <string name="activity_barcode_add_to_favorites">Add hozzá a kedvencekhez</string>
+    <string name="activity_barcode_show_barcode_image">Kód megtekintése</string>
+    <string name="activity_barcode_share_as_image">Megosztás képként</string>
+    <string name="activity_barcode_save_as_image">Mentés képként</string>
+    <string name="activity_barcode_print">Nyomtatás</string>
+    <string name="activity_barcode_delete">Töröl</string>
+    <string name="activity_barcode_connecting_to_wifi">Csatlakozás…q</string>
+    <string name="activity_barcode_copied">Vágólapra másolva</string>
+    <string name="activity_barcode_no_app">Nem található alkalmazás ehhez a művelethez</string>
+    <string name="activity_barcode_choose_search_engine_dialog_negative_button">Megszünteti</string>
+
+    <!--Barcode image activity-->
+    <string name="activity_barcode_image_increase_brightness">Fényerő növelése</string>
+    <string name="activity_barcode_image_decrease_brightness">Csökkentse a fényerőt</string>
+
+    <!--OTP barcode activity-->
+    <string name="activity_barcode_otp_title">OTP</string>
+    <string name="activity_barcode_otp_unable_to_generate_otp">Nem lehet jelszót generálni</string>
+    <string name="activity_barcode_otp_counter">Számláló: %s</string>
+    <string name="activity_barcode_otp_timer">%s:%s bal</string>
+    <string name="activity_barcode_otp_refresh_otp">Frissítés</string>
+
+    <!--Save barcode as text activity-->
+    <string name="activity_save_barcode_as_text_title">Megment</string>
+    <string name="activity_save_barcode_as_text_save_as_hint">Mentés másként</string>
+    <string-array name="activity_save_barcode_as_text_formats">
+        <item>CSV</item>
+        <item>JSON</item>
+    </string-array>
+    <string name="activity_save_barcode_as_text_file_name_save">Megment</string>
+    <string name="activity_save_barcode_as_text_file_name_saved">Mentve a Letöltések közé</string>
+
+    <!--Save barcode as image activity-->
+    <string name="activity_save_barcode_as_image_title">Megment</string>
+    <string name="activity_save_barcode_as_image_save_as_hint">Mentés másként</string>
+    <string-array name="activity_save_barcode_as_image_formats">
+        <item>PNG</item>
+        <item>SVG</item>
+    </string-array>
+    <string name="activity_save_barcode_as_image_file_name_save">Megment</string>
+    <string name="activity_save_barcode_as_image_file_name_saved">Mentve a Galériába</string>
+    
+    <!--Barcode schemas-->
+    <string name="barcode_schema_bookmark">Könyvjelző</string>
+    <string name="barcode_schema_cryptocurrency">Bitcoin</string>
+    <string name="barcode_schema_email">Email</string>
+    <string name="barcode_schema_geo">Elhelyezkedés</string>
+    <string name="barcode_schema_google_maps">Cím</string>
+    <string name="barcode_schema_google_play">App</string>
+    <string name="barcode_schema_mms">MMS</string>
+    <string name="barcode_schema_me_card">Kapcsolatfelvétel (MeCard)</string>
+    <string name="barcode_schema_phone">Telefon</string>
+    <string name="barcode_schema_otp">OTP</string>
+    <string name="barcode_schema_sms">SMS</string>
+    <string name="barcode_schema_url">URL</string>
+    <string name="barcode_schema_v_event">Esemény</string>
+    <string name="barcode_schema_v_card">Kapcsolatfelvétel (VCard)</string>
+    <string name="barcode_schema_wifi">Wi-Fi</string>
+    <string name="barcode_schema_youtube">Youtube URL</string>
+    <string name="barcode_schema_boardingpass" translatable="false">Beszállókártya</string>
+    <string name="barcode_schema_other">Szöveg</string>
+
+    <!--Barcode formats-->
+    <string name="barcode_format_qr_code">QR-kód</string>
+
+
+    <!--AdMob Ids -->
+    <!--  Banner ad ids-->
+    <!--Test-->
+    <!-- <string name="admob_banner_ad_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!-- Production -->
+    <string name="admob_banner_ad_id" translatable="false">ca-app-pub-7202469439331118/3927950140</string>
+
+    <!--    Interstitial ads-->
+    <!--Test-->
+    <!--<string name="magnifier_fragment_capture_btn_ad" translatable="false">ca-app-pub-3940256099942544/1033173712</string>-->
+    <!-- Production -->
+    <!-- <string name="magnifier_fragment_capture_btn_ad" translatable="false">ca-app-pub-7202469439331118/8082021418</string> -->
+
+</resources>

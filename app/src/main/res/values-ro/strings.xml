@@ -1,0 +1,393 @@
+<resources>
+    <string name="app_name">QR &amp; Cod de Bare Scanner</string>
+
+    <!--Shortcuts-->
+    <string name="shortcut_scan_from_camera">Scanează</string>
+    <string name="shortcut_scan_from_file">Scanați imaginea</string>
+    <string name="shortcut_create_barcode">Creați cod de bare</string>
+    <string name="shortcut_history">Istorie</string>
+
+    <!--Intent filters-->
+    <string name="intent_filter_create_qr_code_text">Creați codul QR</string>
+    <string name="intent_filter_scan_image">Scanați imaginea</string>
+
+    <!--Error dialog-->
+    <string name="error_dialog_title">Eroare</string>
+    <string name="error_dialog_default_message">Ceva n-a mers bine</string>
+    <string name="error_dialog_positive_button_text">OK</string>
+
+    <!--Delete dialog-->
+    <string name="dialog_delete_positive_button">Șterge</string>
+    <string name="dialog_delete_negative_button">Anulare</string>
+    <string name="dialog_delete_clear_history_message">Ștergeți istoricul?</string>
+    <string name="dialog_delete_barcode_message">Șterge?</string>
+
+    <!--Confirm barcode dialog-->
+    <string name="dialog_confirm_barcode_title">A confirma</string>
+    <string name="dialog_confirm_barcode_positive_button">OK</string>
+    <string name="dialog_confirm_barcode_negative_button">Anulare</string>
+
+    <!--Edit barcode name dialog-->
+    <string name="dialog_edit_barcode_name_title">Editeaza numele</string>
+    <string name="dialog_edit_barcode_name_positive_button">OK</string>
+    <string name="dialog_edit_barcode_name_negative_button">Anulare</string>
+
+    <!--Bottom tabs activity-->
+    <string name="activity_bottom_tabs_scan_tab">Scanează</string>
+    <string name="activity_bottom_tabs_create_tab">Crea</string>
+    <string name="activity_bottom_tabs_history_tab">Istorie</string>
+    <string name="activity_bottom_tabs_settings_tab">Setări</string>
+
+    <!--Scan barcode from camera fragment-->
+    <string name="fragment_scan_barcode_from_camera_scan_from_file">Scanați imaginea</string>
+    <string name="fragment_scan_barcode_from_camera_flash">Flash</string>
+    <string name="fragment_scan_barcode_from_camera_barcode_saved">Salvat</string>
+
+    <!--Scan barcode from file activity-->
+    <string name="activity_scan_barcode_from_file_title">Scanează</string>
+    <string name="activity_scan_barcode_from_file_scan">OK</string>
+    <string name="activity_scan_barcode_from_file_rotate_left">Rotiti la stanga</string>
+    <string name="activity_scan_barcode_from_file_rotate_right">Invarte spre dreapta</string>
+    <string name="activity_scan_barcode_from_file_change_image">Alege o altă imagine</string>
+
+    <!--Create barcode fragment-->
+    <string name="fragment_create_barcode_title">Crea</string>
+    <string name="fragment_create_barcode_qr_code">Cod QR</string>
+    <string name="fragment_create_barcode_qr_code_clipboard">Conținut din clipboard</string>
+    <string name="fragment_create_barcode_qr_code_text">Text</string>
+    <string name="fragment_create_barcode_qr_code_show_all">Mai multe coduri QR</string>
+    <string name="fragment_create_barcode">Cod de bare</string>
+    <string name="fragment_create_barcode_show_all">Coduri de bare și alte coduri 2D</string>
+
+    <!--Create QR code list activity-->
+    <string name="fragment_create_qr_code_list_title">Creați codul QR</string>
+
+    <!--Create barcode list activity-->
+    <string name="fragment_create_barcode_list_title">Creați cod de bare</string>
+    <string name="fragment_create_barcode_list_2d">Coduri de bare 2D</string>
+    <string name="fragment_create_barcode_list_1d">Coduri de bare 1D</string>
+
+    <!--Create barcode activity-->
+    <string name="activity_create_barcode_menu_item_title">Crea</string>
+    <string name="activity_create_barcode_contacts_menu_item_title">Contacte</string>
+
+    <!--Base create barcode fragment -->
+    <string name="fragment_create_barcode_alternative">Alternativ:</string>
+
+    <!--Create QR code URL fragment-->
+    <string name="fragment_create_qr_code_url_alternative">- Deschideți aplicația de browser\n- Încărcați un site web\n- Faceți clic pe \"Partajați\" din meniu\n- Selectați această aplicație</string>
+
+    <!--Create QR code bookmark fragment-->
+    <string name="fragment_create_qr_code_bookmark_title_hint">Titlu</string>
+
+    <!--Create QR code Wi-fi fragment-->
+    <string name="fragment_create_qr_code_wifi_encryption_hint">Criptare</string>
+    <string-array name="fragment_create_qr_code_wifi_encryption_types">
+        <item>WPA/WPA2</item>
+        <item>WEP</item>
+        <item>Nici unul</item>
+    </string-array>
+    <string name="fragment_create_qr_code_wifi_network_name_hint">Numele retelei</string>
+    <string name="fragment_create_qr_code_wifi_password_hint">Parola</string>
+    <string name="fragment_create_qr_code_wifi_is_hidden_hint">Ascuns</string>
+
+    <!--Create QR code email fragment-->
+    <string name="fragment_create_qr_code_email_subject_hint">Subiect</string>
+    <string name="fragment_create_qr_code_email_message_hint">Mesaj</string>
+
+    <!--Create QR code SMS fragment-->
+    <string name="fragment_create_qr_code_sms_message_hint">Mesaj</string>
+
+    <!--Create QR code MMS fragment-->
+    <string name="fragment_create_qr_code_mms_subject_hint">Subiect</string>
+    <string name="fragment_create_qr_code_mms_message_hint">Mesaj</string>
+
+    <!--Create QR code cryptocurrency fragment-->
+    <string name="fragment_create_qr_code_cryptocurrency_type_hint">Criptomonedă</string>
+    <string-array name="fragment_create_qr_code_cryptocurrencies">
+        <item>Bitcoin</item>
+        <item>Bitcoin Cash</item>
+        <item>Ethereum</item>
+        <item>Litecoin</item>
+        <item>Dash</item>
+    </string-array>
+    <string name="fragment_create_qr_code_cryptocurrency_address_hint">Adresa destinatarului</string>
+    <string name="fragment_create_qr_code_cryptocurrency_amount_hint">Cantitate</string>
+    <string name="fragment_create_qr_code_cryptocurrency_label_hint">Eticheta</string>
+    <string name="fragment_create_qr_code_cryptocurrency_message_hint">Mesaj</string>
+
+    <!--Create QR code location fragment-->
+    <string name="fragment_create_qr_code_location_latitude_hint">Latitudine</string>
+    <string name="fragment_create_qr_code_location_longitude_hint">Longitudine</string>
+    <string name="fragment_create_qr_code_location_altitude_hint">Altitudine (opțional)</string>
+
+    <!--Create QR code OTP fragment-->
+    <string name="fragment_create_qr_code_otp_type_hint">Tip</string>
+    <string-array name="fragment_create_qr_code_otp_types">
+        <item>HOTP</item>
+        <item>TOTP</item>
+    </string-array>
+    <string name="fragment_create_qr_code_otp_algorithm_hint">Algoritm</string>
+    <string-array name="fragment_create_qr_code_otp_algorithms">
+        <item>SHA1</item>
+        <item>SHA256</item>
+        <item>SHA512</item>
+    </string-array>
+    <string name="fragment_create_qr_code_otp_issuer_hint">Emitentul</string>
+    <string name="fragment_create_qr_code_otp_account_hint">Cont</string>
+    <string name="fragment_create_qr_code_otp_digits_hint">Cifre</string>
+    <string name="fragment_create_qr_code_otp_period_hint">Perioadă</string>
+    <string name="fragment_create_qr_code_otp_counter_hint">Tejghea</string>
+    <string name="fragment_create_qr_code_otp_secret_hint">Secret</string>
+    <string name="fragment_create_qr_code_otp_generate_random_secret">Secret aleatoriu</string>
+
+    <!--Create QR code event-->
+    <string name="fragment_create_qr_code_event_title_hint">Titlu</string>
+    <string name="fragment_create_qr_code_event_organizer_hint">Organizator</string>
+    <string name="fragment_create_qr_code_event_summary_hint">Rezumat</string>
+    <string name="fragment_create_qr_code_event_start_date_hint">Data de început</string>
+    <string name="fragment_create_qr_code_event_end_date_hint">Data de încheiere</string>
+
+    <!--Create QR code contact-->
+    <string name="fragment_create_qr_code_contact_first_name_hint">Nume</string>
+    <string name="fragment_create_qr_code_contact_last_name_hint">Numele de familie</string>
+    <string name="fragment_create_qr_code_contact_organization_hint">Organizare</string>
+    <string name="fragment_create_qr_code_contact_job_hint">Loc de munca</string>
+    <string name="fragment_create_qr_code_contact_email_hint">Email</string>
+    <string name="fragment_create_qr_code_contact_phone_hint">Telefon</string>
+    <string name="fragment_create_qr_code_contact_fax_hint">Fax</string>
+    <string name="fragment_create_qr_code_contact_country_hint">Țară</string>
+    <string name="fragment_create_qr_code_contact_region_hint">Regiune/Stat</string>
+    <string name="fragment_create_qr_code_contact_postcode_hint">Cod poștal</string>
+    <string name="fragment_create_qr_code_contact_city_hint">Oraș</string>
+    <string name="fragment_create_qr_code_contact_street_hint">Stradă</string>
+    <string name="fragment_create_qr_code_contact_website_hint">Site-ul web</string>
+    <string name="fragment_create_qr_code_contact_alternative">- Deschideți aplicația Agendă\n- Deschideți o persoană de contact existentă sau creați una nouă\n- Faceți clic pe \"Partajați\" din meniu\n- Selectați această aplicație</string>
+
+    <!--Create barcode-->
+    <string name="fragment_create_data_matrix_hint">Text fără caractere speciale</string>
+    <string name="fragment_create_aztec_hint">Text fără caractere speciale</string>
+    <string name="fragment_create_codabar_hint">Cifre</string>
+    <string name="fragment_create_code_39_hint">Text cu majuscule, fără caractere speciale</string>
+    <string name="fragment_create_code_93_hint">Text cu majuscule, fără caractere speciale</string>
+    <string name="fragment_create_code_128_hint">Text fără caractere speciale</string>
+    <string name="fragment_create_ean_8_hint">7 cifre</string>
+    <string name="fragment_create_ean_13_hint">12 cifre</string>
+    <string name="fragment_create_itf_14_hint">Număr par de cifre</string>
+    <string name="fragment_create_upc_a_hint">11 cifre</string>
+    <string name="fragment_create_upc_e_hint">7 cifre</string>
+
+    <!--Barcode history fragment-->
+    <string name="fragment_barcode_history_title">Istorie</string>
+    <string-array name="fragment_barcode_history_tab_titles">
+        <item>Toate</item>
+        <!--<item>Favorites</item>-->
+    </string-array>
+    <string name="fragment_barcode_history_menu_title_export">Istoricul exporturilor</string>
+    <string name="fragment_barcode_history_menu_title_delete_all">Sterge istoricul</string>
+
+    <!--Export history activity-->
+    <string name="activity_export_history_title">Istoricul exporturilor</string>
+    <string name="activity_export_history_as_hint">Exportați ca</string>
+    <string-array name="activity_export_history_types">
+        <item>CSV</item>
+        <item>JSON</item>
+    </string-array>
+    <string name="activity_export_history_file_name_hint">Nume de fișier</string>
+    <string name="activity_export_history_file_name_default" translatable="false">db</string>
+    <string name="activity_export_history_export">Exporta</string>
+    <string name="activity_export_history_exported">Salvat în Descărcări</string>
+
+    <!--Settings fragment-->
+    <string name="fragment_settings_title">Setări</string>
+    <string name="fragment_settings_appearance_settings">Aspect</string>
+    <string name="fragment_settings_theme">Temă</string>
+    <string name="fragment_settings_inverse_barcode_colors_in_dark_theme">Culori de cod invers în temă întunecată</string>
+    <string name="fragment_settings_inverse_barcode_colors_in_dark_theme_hint">Afișați coduri cu conținut alb pe fundal întunecat</string>
+    <string name="fragment_settings_scanner_settings">Scanner</string>
+    <string name="fragment_settings_open_content_automatically">Deschideți automat conținutul codurilor scanate</string>
+    <string name="fragment_settings_open_content_automatically_hint">Poate deschide conținut dăunător</string>
+    <string name="fragment_settings_copy_to_clipboard">Copiați în clipboard</string>
+    <string name="fragment_settings_copy_to_clipboard_hint">Copiați codurile de bare scanate în clipboard</string>
+    <string name="fragment_settings_simple_auto_focus">Mod simplu de focalizare automată</string>
+    <string name="fragment_settings_simple_auto_focus_hint">Activați numai dacă aveți probleme la focalizare</string>
+    <string name="fragment_settings_flash">Flash</string>
+    <string name="fragment_settings_flash_hint">Activați blițul la pornire</string>
+    <string name="fragment_settings_vibrate">Vibrați</string>
+    <string name="fragment_settings_vibrate_hint">Vibrați la scanare</string>
+    <string name="fragment_settings_continuous_scanning">Scanare continuă</string>
+    <string name="fragment_settings_continuous_scanning_hint">Salvați scanările numai în istoric</string>
+    <string name="fragment_settings_confirm_scans_manually">Confirmați manual scanările</string>
+    <string name="fragment_settings_confirm_scans_manually_hint">Evitați scanările accidentale</string>
+    <string name="fragment_settings_camera">Aparat foto</string>
+    <string name="fragment_settings_supported_formats">Formate acceptate</string>
+    <string name="fragment_settings_history_settings">Istorie</string>
+    <string name="fragment_settings_save_scanned_barcodes_to_history">Salvați codurile de bare scanate în istoric</string>
+    <string name="fragment_settings_save_created_barcodes_to_history">Salvați codurile de bare create în istoric</string>
+    <string name="fragment_settings_do_not_save_duplicates">Nu salvați duplicatele</string>
+    <string name="fragment_settings_do_not_save_duplicates_hint">Evitați duplicarea în istorie</string>
+    <string name="fragment_settings_clear_history">Sterge istoricul</string>
+    <string name="fragment_settings_advanced_settings">Avansat</string>
+    <string name="fragment_settings_choose_search_engines">Motoare de căutare</string>
+    <string name="fragment_settings_choose_search_engines_hint">Alegeți un motor de căutare pentru căutări web</string>
+    <string name="fragment_settings_error_reports">Rapoarte de eroare</string>
+    <string name="fragment_settings_enable_error_reports">Activați rapoartele de eroare</string>
+    <string name="fragment_settings_enable_error_reports_hint">Ajutați-ne să remediam erorile</string>
+    <string name="fragment_settings_about">About</string>
+    <string name="fragment_settings_check_updates">Verifică pentru actualizări</string>
+    <string name="fragment_settings_permissions">Permisiuni</string>
+    <string name="fragment_settings_source_code">Cod sursa</string>
+    <string name="fragment_settings_app_version">Versiunea aplicației</string>
+
+    <string name="fragment_settings_rate_and_comment">Evaluează și Comentează</string>
+    <string name="fragment_settings_rate_and_comment_hint">Dă-ne 5 stele și ajută aplicația :-) Mulțumesc mult</string>
+
+    <string name="share">Acțiune</string>
+    <string name="share_text">Partajați aplicația cu toți prietenii dvs</string>
+
+    <!--Choose theme activity-->
+    <string name="activity_choose_theme_title">Temă</string>
+    <string name="activity_choose_theme_system">La fel ca sistemul</string>
+    <string name="activity_choose_theme_light">Ușoară</string>
+    <string name="activity_choose_theme_dark">Întuneric</string>
+
+    <!--Choose camera activity-->
+    <string name="activity_choose_camera_title">Aparat foto</string>
+    <string name="activity_choose_camera_front">Față</string>
+    <string name="activity_choose_camera_back">Înapoi</string>
+
+    <!--Select supported formats activity-->
+    <string name="activity_supported_formats_title">Formate acceptate</string>
+
+    <!--Choose search engine activity-->
+    <string name="activity_choose_search_engine_title">Motoare de căutare</string>
+    <string name="activity_choose_search_engine_none">Nici unul</string>
+    <string name="activity_choose_search_engine_ask_every_time">Întreabă de fiecare dată</string>
+    <string name="activity_choose_search_engine_bing">Bing</string>
+    <string name="activity_choose_search_engine_duck_duck_go">DuckDuckGo</string>
+    <string name="activity_choose_search_engine_google">Google</string>
+    <string name="activity_choose_search_engine_qwant">Qwant</string>
+    <string name="activity_choose_search_engine_startpage" translatable="false">Startpage</string>
+    <string name="activity_choose_search_engine_yahoo">Yahoo</string>
+    <string name="activity_choose_search_engine_yandex">Yandex</string>
+
+    <!--All permissions activity-->
+    <string name="activity_all_permissions_title">Permisiuni</string>
+    <string name="activity_all_permissions_normal_permissions">Normal</string>
+    <string name="activity_all_permissions_vibrate_title">Vibrați</string>
+    <string name="activity_all_permissions_vibrate_hint">Folosit pentru a vibra la scanare</string>
+    <string name="activity_all_permissions_wifi_title">Wi-Fi</string>
+    <string name="activity_all_permissions_wifi_hint">Folosit pentru a vă conecta la Wi-Fi prin scanarea unui cod QR</string>
+    <string name="activity_all_permissions_internet_title">Internet</string>
+    <string name="activity_all_permissions_internet_hint">Folosit pentru a trimite rapoarte de eroare. Acest lucru poate fi dezactivat în setări</string>
+    <string name="activity_all_permissions_runtime_permissions">Timp de rulare</string>
+    <string name="activity_all_permissions_camera_title">Aparat foto</string>
+    <string name="activity_all_permissions_camera_hint">Folosit pentru a scana coduri QR și coduri de bare de pe cameră</string>
+    <string name="activity_all_permissions_read_contacts_title">Citiți contacte</string>
+    <string name="activity_all_permissions_read_contacts_hint">Folosit pentru a crea un cod QR selectând un contact din lista de contacte</string>
+    <string name="activity_all_permissions_storage_title">Depozitare</string>
+    <string name="activity_all_permissions_storage_hint">Folosit pentru a accesa spațiul de stocare atunci când doriți să salvați codul QR sau codul de bare ca text sau imagine</string>
+
+    <!--Barcode activity-->
+    <string name="activity_barcode_add_to_calendar">Adăugați în calendar</string>
+    <string name="activity_barcode_add_to_contacts">Adaugă la contacte</string>
+    <string name="activity_barcode_call_phone">Apel %s</string>
+    <string name="activity_barcode_send_sms">Trimite SMS/MMS către %s</string>
+    <string name="activity_barcode_send_email">E-mail către %s</string>
+    <string name="activity_barcode_show_location">Afișează locația</string>
+    <string name="activity_barcode_connect_to_wifi">Conectați-vă la Wi-Fi</string>
+    <string name="activity_barcode_open_wifi_settings">Deschideți setările Wi-Fi</string>
+    <string name="activity_barcode_copy_network_name">Copiați numele rețelei</string>
+    <string name="activity_barcode_copy_network_password">Copiați parola rețelei</string>
+    <string name="activity_barcode_open_app">Deschide aplicatia</string>
+    <string name="activity_barcode_open_in_app_market">Deschis pe piata</string>
+    <string name="activity_barcode_open_in_youtube">Deschide pe Youtube</string>
+    <string name="activity_barcode_save_bookmark">Salvați în marcaje</string>
+    <string name="activity_barcode_open_link">Deschide link-ul</string>
+    <string name="activity_barcode_open_bitcoin_url">Deschideți în altă aplicație</string>
+    <string name="activity_barcode_show_otp">Arata parola</string>
+    <string name="activity_barcode_open_otp">Deschideți în altă aplicație</string>
+    <string name="activity_barcode_share_as_text">Distribuie ca text</string>
+    <string name="activity_barcode_copy">Copiați în clipboard</string>
+    <string name="activity_barcode_save_as_text">Salvați ca text</string>
+    <string name="activity_barcode_search">Căutați pe web</string>
+    <string name="activity_barcode_add_to_favorites">Adauga la favorite</string>
+    <string name="activity_barcode_show_barcode_image">Vizualizați codul</string>
+    <string name="activity_barcode_share_as_image">Distribuie ca imagine</string>
+    <string name="activity_barcode_save_as_image">Salvați ca imagine</string>
+    <string name="activity_barcode_print">Imprimare</string>
+    <string name="activity_barcode_delete">Șterge</string>
+    <string name="activity_barcode_connecting_to_wifi">Se conectează...</string>
+    <string name="activity_barcode_copied">Copiat în clipboard</string>
+    <string name="activity_barcode_no_app">Nu a fost găsită nicio aplicație pentru această acțiune</string>
+    <string name="activity_barcode_choose_search_engine_dialog_negative_button">Anulare</string>
+
+    <!--Barcode image activity-->
+    <string name="activity_barcode_image_increase_brightness">Creșteți luminozitatea</string>
+    <string name="activity_barcode_image_decrease_brightness">Reduceți luminozitatea</string>
+
+    <!--OTP barcode activity-->
+    <string name="activity_barcode_otp_title">OTP</string>
+    <string name="activity_barcode_otp_unable_to_generate_otp">Nu se poate genera parola</string>
+    <string name="activity_barcode_otp_counter">Tejghea: %s</string>
+    <string name="activity_barcode_otp_timer">%s:%s stânga</string>
+    <string name="activity_barcode_otp_refresh_otp">Reîmprospăta</string>
+
+    <!--Save barcode as text activity-->
+    <string name="activity_save_barcode_as_text_title">Salvați</string>
+    <string name="activity_save_barcode_as_text_save_as_hint">Salvează ca</string>
+    <string-array name="activity_save_barcode_as_text_formats">
+        <item>CSV</item>
+        <item>JSON</item>
+    </string-array>
+    <string name="activity_save_barcode_as_text_file_name_save">Salvați</string>
+    <string name="activity_save_barcode_as_text_file_name_saved">Salvat în Descărcări</string>
+
+    <!--Save barcode as image activity-->
+    <string name="activity_save_barcode_as_image_title">Salvați</string>
+    <string name="activity_save_barcode_as_image_save_as_hint">Salvează ca</string>
+    <string-array name="activity_save_barcode_as_image_formats">
+        <item>PNG</item>
+        <item>SVG</item>
+    </string-array>
+    <string name="activity_save_barcode_as_image_file_name_save">Salvați</string>
+    <string name="activity_save_barcode_as_image_file_name_saved">Salvat în Galerie</string>
+    
+    <!--Barcode schemas-->
+    <string name="barcode_schema_bookmark">Marcaj</string>
+    <string name="barcode_schema_cryptocurrency">Bitcoin</string>
+    <string name="barcode_schema_email">Email</string>
+    <string name="barcode_schema_geo">Locație</string>
+    <string name="barcode_schema_google_maps">Abordare</string>
+    <string name="barcode_schema_google_play">App</string>
+    <string name="barcode_schema_mms">MMS</string>
+    <string name="barcode_schema_me_card">Contact (MeCard)</string>
+    <string name="barcode_schema_phone">Telefon</string>
+    <string name="barcode_schema_otp">OTP</string>
+    <string name="barcode_schema_sms">SMS</string>
+    <string name="barcode_schema_url">URL</string>
+    <string name="barcode_schema_v_event">Eveniment</string>
+    <string name="barcode_schema_v_card">Contact (VCard)</string>
+    <string name="barcode_schema_wifi">Wi-Fi</string>
+    <string name="barcode_schema_youtube">Youtube URL</string>
+    <string name="barcode_schema_boardingpass" translatable="false">Bilet de imbarcare</string>
+    <string name="barcode_schema_other">Text</string>
+
+    <!--Barcode formats-->
+    <string name="barcode_format_qr_code">Cod QR</string>
+
+
+    <!--AdMob Ids -->
+    <!--  Banner ad ids-->
+    <!--Test-->
+    <!-- <string name="admob_banner_ad_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!-- Production -->
+    <string name="admob_banner_ad_id" translatable="false">ca-app-pub-7202469439331118/3927950140</string>
+
+    <!--    Interstitial ads-->
+    <!--Test-->
+    <!--<string name="magnifier_fragment_capture_btn_ad" translatable="false">ca-app-pub-3940256099942544/1033173712</string>-->
+    <!-- Production -->
+    <!-- <string name="magnifier_fragment_capture_btn_ad" translatable="false">ca-app-pub-7202469439331118/8082021418</string> -->
+
+</resources>

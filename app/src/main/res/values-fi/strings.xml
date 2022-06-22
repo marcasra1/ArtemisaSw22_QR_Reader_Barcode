@@ -1,0 +1,392 @@
+<resources>
+    <string name="app_name">QR-skanneri ja viivakoodi</string>
+
+    <!--Shortcuts-->
+    <string name="shortcut_scan_from_camera">Skannata</string>
+    <string name="shortcut_scan_from_file">Skannaa kuva</string>
+    <string name="shortcut_create_barcode">Luo viivakoodi</string>
+    <string name="shortcut_history">Historia</string>
+
+    <!--Intent filters-->
+    <string name="intent_filter_create_qr_code_text">Luo QR-koodi</string>
+    <string name="intent_filter_scan_image">Skannaa kuva</string>
+
+    <!--Error dialog-->
+    <string name="error_dialog_title">Virhe</string>
+    <string name="error_dialog_default_message">Jotain meni pieleen</string>
+    <string name="error_dialog_positive_button_text">OK</string>
+
+    <!--Delete dialog-->
+    <string name="dialog_delete_positive_button">Poistaa</string>
+    <string name="dialog_delete_negative_button">Peruuttaa</string>
+    <string name="dialog_delete_clear_history_message">Poistetaanko historia?</string>
+    <string name="dialog_delete_barcode_message">Poistaa?</string>
+
+    <!--Confirm barcode dialog-->
+    <string name="dialog_confirm_barcode_title">Vahvistaa</string>
+    <string name="dialog_confirm_barcode_positive_button">OK</string>
+    <string name="dialog_confirm_barcode_negative_button">Peruuttaa</string>
+
+    <!--Edit barcode name dialog-->
+    <string name="dialog_edit_barcode_name_title">Muokkaa nimeä</string>
+    <string name="dialog_edit_barcode_name_positive_button">OK</string>
+    <string name="dialog_edit_barcode_name_negative_button">Peruuttaa</string>
+
+    <!--Bottom tabs activity-->
+    <string name="activity_bottom_tabs_scan_tab">Skannata</string>
+    <string name="activity_bottom_tabs_create_tab">Luoda</string>
+    <string name="activity_bottom_tabs_history_tab">Historia</string>
+    <string name="activity_bottom_tabs_settings_tab">Asetukset</string>
+
+    <!--Scan barcode from camera fragment-->
+    <string name="fragment_scan_barcode_from_camera_scan_from_file">Skannaa kuva</string>
+    <string name="fragment_scan_barcode_from_camera_flash">Flash</string>
+    <string name="fragment_scan_barcode_from_camera_barcode_saved">Tallennettu</string>
+
+    <!--Scan barcode from file activity-->
+    <string name="activity_scan_barcode_from_file_title">Skannata</string>
+    <string name="activity_scan_barcode_from_file_scan">OK</string>
+    <string name="activity_scan_barcode_from_file_rotate_left">Käänny vasemmalle</string>
+    <string name="activity_scan_barcode_from_file_rotate_right">Kierrä oikealle</string>
+    <string name="activity_scan_barcode_from_file_change_image">Valitse toinen kuva</string>
+
+    <!--Create barcode fragment-->
+    <string name="fragment_create_barcode_title">Luoda</string>
+    <string name="fragment_create_barcode_qr_code">QR koodi</string>
+    <string name="fragment_create_barcode_qr_code_clipboard">Sisältö leikepöydältä</string>
+    <string name="fragment_create_barcode_qr_code_text">Teksti</string>
+    <string name="fragment_create_barcode_qr_code_show_all">Lisää QR-koodeja</string>
+    <string name="fragment_create_barcode">Viivakoodi</string>
+    <string name="fragment_create_barcode_show_all">Viivakoodit ja muut 2D-koodit</string>
+
+    <!--Create QR code list activity-->
+    <string name="fragment_create_qr_code_list_title">Luo QR-koodi</string>
+
+    <!--Create barcode list activity-->
+    <string name="fragment_create_barcode_list_title">Luo viivakoodi</string>
+    <string name="fragment_create_barcode_list_2d">2D viivakoodit</string>
+    <string name="fragment_create_barcode_list_1d">1D viivakoodit</string>
+
+    <!--Create barcode activity-->
+    <string name="activity_create_barcode_menu_item_title">Luoda</string>
+    <string name="activity_create_barcode_contacts_menu_item_title">Yhteystiedot</string>
+
+    <!--Base create barcode fragment -->
+    <string name="fragment_create_barcode_alternative">Vaihtoehtoisesti:</string>
+
+    <!--Create QR code URL fragment-->
+    <string name="fragment_create_qr_code_url_alternative">- Avaa selainsovellus\n- Lataa verkkosivusto\n- Napsauta valikosta \"Jaa\"\n- Valitse tämä sovellus</string>
+
+    <!--Create QR code bookmark fragment-->
+    <string name="fragment_create_qr_code_bookmark_title_hint">Otsikko</string>
+
+    <!--Create QR code Wi-fi fragment-->
+    <string name="fragment_create_qr_code_wifi_encryption_hint">Salaus</string>
+    <string-array name="fragment_create_qr_code_wifi_encryption_types">
+        <item>WPA/WPA2</item>
+        <item>WEP</item>
+        <item>Ei mitään</item>
+    </string-array>
+    <string name="fragment_create_qr_code_wifi_network_name_hint">Verkon nimi</string>
+    <string name="fragment_create_qr_code_wifi_password_hint">Salasana</string>
+    <string name="fragment_create_qr_code_wifi_is_hidden_hint">Piilotettu</string>
+
+    <!--Create QR code email fragment-->
+    <string name="fragment_create_qr_code_email_subject_hint">Aihe</string>
+    <string name="fragment_create_qr_code_email_message_hint">Viesti</string>
+
+    <!--Create QR code SMS fragment-->
+    <string name="fragment_create_qr_code_sms_message_hint">Viesti</string>
+
+    <!--Create QR code MMS fragment-->
+    <string name="fragment_create_qr_code_mms_subject_hint">Aihe</string>
+    <string name="fragment_create_qr_code_mms_message_hint">Viesti</string>
+
+    <!--Create QR code cryptocurrency fragment-->
+    <string name="fragment_create_qr_code_cryptocurrency_type_hint">Kryptovaluutta</string>
+    <string-array name="fragment_create_qr_code_cryptocurrencies">
+        <item>Bitcoin</item>
+        <item>Bitcoin Cash</item>
+        <item>Ethereum</item>
+        <item>Litecoin</item>
+        <item>Dash</item>
+    </string-array>
+    <string name="fragment_create_qr_code_cryptocurrency_address_hint">Vastaanottajan osoite</string>
+    <string name="fragment_create_qr_code_cryptocurrency_amount_hint">Määrä</string>
+    <string name="fragment_create_qr_code_cryptocurrency_label_hint">Etiketti</string>
+    <string name="fragment_create_qr_code_cryptocurrency_message_hint">Viesti</string>
+
+    <!--Create QR code location fragment-->
+    <string name="fragment_create_qr_code_location_latitude_hint">Leveysaste</string>
+    <string name="fragment_create_qr_code_location_longitude_hint">Pituusaste</string>
+    <string name="fragment_create_qr_code_location_altitude_hint">Korkeus (valinnainen)</string>
+
+    <!--Create QR code OTP fragment-->
+    <string name="fragment_create_qr_code_otp_type_hint">Tyyppi</string>
+    <string-array name="fragment_create_qr_code_otp_types">
+        <item>HOTP</item>
+        <item>TOTP</item>
+    </string-array>
+    <string name="fragment_create_qr_code_otp_algorithm_hint">Algoritmi</string>
+    <string-array name="fragment_create_qr_code_otp_algorithms">
+        <item>SHA1</item>
+        <item>SHA256</item>
+        <item>SHA512</item>
+    </string-array>
+    <string name="fragment_create_qr_code_otp_issuer_hint">Liikkeeseenlaskija</string>
+    <string name="fragment_create_qr_code_otp_account_hint">Tili</string>
+    <string name="fragment_create_qr_code_otp_digits_hint">Numerot</string>
+    <string name="fragment_create_qr_code_otp_period_hint">Kausi</string>
+    <string name="fragment_create_qr_code_otp_counter_hint">Laskuri</string>
+    <string name="fragment_create_qr_code_otp_secret_hint">Salaisuus</string>
+    <string name="fragment_create_qr_code_otp_generate_random_secret">Satunnainen salaisuus</string>
+
+    <!--Create QR code event-->
+    <string name="fragment_create_qr_code_event_title_hint">Otsikko</string>
+    <string name="fragment_create_qr_code_event_organizer_hint">Järjestäjä</string>
+    <string name="fragment_create_qr_code_event_summary_hint">Yhteenveto</string>
+    <string name="fragment_create_qr_code_event_start_date_hint">Aloituspäivämäärä</string>
+    <string name="fragment_create_qr_code_event_end_date_hint">Päättymispäivä</string>
+
+    <!--Create QR code contact-->
+    <string name="fragment_create_qr_code_contact_first_name_hint">Etunimi</string>
+    <string name="fragment_create_qr_code_contact_last_name_hint">Sukunimi</string>
+    <string name="fragment_create_qr_code_contact_organization_hint">Organisaatio</string>
+    <string name="fragment_create_qr_code_contact_job_hint">Job</string>
+    <string name="fragment_create_qr_code_contact_email_hint">Sähköposti</string>
+    <string name="fragment_create_qr_code_contact_phone_hint">PhonPuheline</string>
+    <string name="fragment_create_qr_code_contact_fax_hint">Faksi</string>
+    <string name="fragment_create_qr_code_contact_country_hint">Maa</string>
+    <string name="fragment_create_qr_code_contact_region_hint">Alue/osavaltio</string>
+    <string name="fragment_create_qr_code_contact_postcode_hint">Postinumero</string>
+    <string name="fragment_create_qr_code_contact_city_hint">Kaupunki</string>
+    <string name="fragment_create_qr_code_contact_street_hint">Katu</string>
+    <string name="fragment_create_qr_code_contact_website_hint">Verkkosivusto</string>
+    <string name="fragment_create_qr_code_contact_alternative">- Avaa yhteystietosovellus\n- Avaa olemassa oleva yhteystieto tai luo uusi\n- Napsauta valikosta \"Jaa\"\n- Valitse tämä sovellus</string>
+
+    <!--Create barcode-->
+    <string name="fragment_create_data_matrix_hint">Teksti ilman erikoismerkkejä</string>
+    <string name="fragment_create_aztec_hint">Teksti ilman erikoismerkkejä</string>
+    <string name="fragment_create_codabar_hint">Numerot</string>
+    <string name="fragment_create_code_39_hint">Teksti isoilla kirjaimilla ilman erikoismerkkejä</string>
+    <string name="fragment_create_code_93_hint">Teksti isoilla kirjaimilla ilman erikoismerkkejä</string>
+    <string name="fragment_create_code_128_hint">Teksti ilman erikoismerkkejä</string>
+    <string name="fragment_create_ean_8_hint">7 numeroa</string>
+    <string name="fragment_create_ean_13_hint">12 numeroa</string>
+    <string name="fragment_create_itf_14_hint">Parillinen määrä numeroita</string>
+    <string name="fragment_create_upc_a_hint">11 numeroa</string>
+    <string name="fragment_create_upc_e_hint">7 numeroa</string>
+
+    <!--Barcode history fragment-->
+    <string name="fragment_barcode_history_title">Historia</string>
+    <string-array name="fragment_barcode_history_tab_titles">
+        <item>Kaikki</item>
+        <!--<item>Favorites</item>-->
+    </string-array>
+    <string name="fragment_barcode_history_menu_title_export">Vie historiaa</string>
+    <string name="fragment_barcode_history_menu_title_delete_all">Tyhjennä historia</string>
+
+    <!--Export history activity-->
+    <string name="activity_export_history_title">Vie historiaa</string>
+    <string name="activity_export_history_as_hint">Vie nimellä</string>
+    <string-array name="activity_export_history_types">
+        <item>CSV</item>
+        <item>JSON</item>
+    </string-array>
+    <string name="activity_export_history_file_name_hint">Tiedoston nimi</string>
+    <string name="activity_export_history_file_name_default" translatable="false">db</string>
+    <string name="activity_export_history_export">Viedä</string>
+    <string name="activity_export_history_exported">Tallennettu latauksiin</string>
+
+    <!--Settings fragment-->
+    <string name="fragment_settings_title">Asetukset</string>
+    <string name="fragment_settings_appearance_settings">Ulkomuoto</string>
+    <string name="fragment_settings_theme">Teema</string>
+    <string name="fragment_settings_inverse_barcode_colors_in_dark_theme">Käänteiset koodin värit tummassa teemassa</string>
+    <string name="fragment_settings_inverse_barcode_colors_in_dark_theme_hint">Näytä koodit valkoisella sisällöllä tummalla taustalla</string>
+    <string name="fragment_settings_scanner_settings">Skanneri</string>
+    <string name="fragment_settings_open_content_automatically">Avaa skannatun koodin sisältö automaattisesti</string>
+    <string name="fragment_settings_open_content_automatically_hint">Saattaa avata haitallista sisältöä</string>
+    <string name="fragment_settings_copy_to_clipboard">Kopioi leikepöydälle</string>
+    <string name="fragment_settings_copy_to_clipboard_hint">Kopioi skannatut viivakoodit leikepöydälle</string>
+    <string name="fragment_settings_simple_auto_focus">Yksinkertainen automaattitarkennustila</string>
+    <string name="fragment_settings_simple_auto_focus_hint">Ota käyttöön vain, jos sinulla on tarkennusongelmia</string>
+    <string name="fragment_settings_flash">Flash</string>
+    <string name="fragment_settings_flash_hint">Ota salama käyttöön käynnistyksen yhteydessä</string>
+    <string name="fragment_settings_vibrate">Värinä</string>
+    <string name="fragment_settings_vibrate_hint">Värinä skannauksen aikana</string>
+    <string name="fragment_settings_continuous_scanning">Jatkuva skannaus</string>
+    <string name="fragment_settings_continuous_scanning_hint">Tallenna skannaukset vain historiaan</string>
+    <string name="fragment_settings_confirm_scans_manually">Vahvista skannaukset manuaalisesti</string>
+    <string name="fragment_settings_confirm_scans_manually_hint">Vältä tahattomia skannauksia</string>
+    <string name="fragment_settings_camera">Kamera</string>
+    <string name="fragment_settings_supported_formats">Tuetut muodot</string>
+    <string name="fragment_settings_history_settings">Historia</string>
+    <string name="fragment_settings_save_scanned_barcodes_to_history">Tallenna skannatut viivakoodit historiaan</string>
+    <string name="fragment_settings_save_created_barcodes_to_history">Tallenna luodut viivakoodit historiaan</string>
+    <string name="fragment_settings_do_not_save_duplicates">Älä tallenna kaksoiskappaleita</string>
+    <string name="fragment_settings_do_not_save_duplicates_hint">Vältä päällekkäisyyksiä historiassa</string>
+    <string name="fragment_settings_clear_history">Tyhjennä historia</string>
+    <string name="fragment_settings_advanced_settings">Pitkälle kehittynyt</string>
+    <string name="fragment_settings_choose_search_engines">Hakukoneet</string>
+    <string name="fragment_settings_choose_search_engines_hint">Valitse hakukone verkkohakuja varten</string>
+    <string name="fragment_settings_error_reports">Virheilmoitukset</string>
+    <string name="fragment_settings_enable_error_reports">Ota virheraportit käyttöön</string>
+    <string name="fragment_settings_enable_error_reports_hint">Auta meitä korjaamaan bugeja</string>
+    <string name="fragment_settings_about">Noin</string>
+    <string name="fragment_settings_check_updates">Tarkista päivitykset</string>
+    <string name="fragment_settings_permissions">Käyttöoikeudet</string>
+    <string name="fragment_settings_source_code">Lähdekoodi</string>
+    <string name="fragment_settings_app_version">Sovelluksen versio</string>
+
+    <string name="fragment_settings_rate_and_comment">Arvioi ja Dommentoi</string>
+    <string name="fragment_settings_rate_and_comment_hint">Anna meille 5 tähteä ja auta sovellusta :-) Kiitos paljon</string>
+
+    <string name="share">Jaa</string>
+    <string name="share_text">Jaa sovellus kaikkien ystäviesi kanssa</string>
+
+    <!--Choose theme activity-->
+    <string name="activity_choose_theme_title">Teema</string>
+    <string name="activity_choose_theme_system">Sama kuin järjestelmä</string>
+    <string name="activity_choose_theme_light">Kevyt</string>
+    <string name="activity_choose_theme_dark">Tumma</string>
+
+    <!--Choose camera activity-->
+    <string name="activity_choose_camera_title">Kamera</string>
+    <string name="activity_choose_camera_front">Edessä</string>
+    <string name="activity_choose_camera_back">Takaisin</string>
+
+    <!--Select supported formats activity-->
+    <string name="activity_supported_formats_title">Tuetut muodot</string>
+
+    <!--Choose search engine activity-->
+    <string name="activity_choose_search_engine_title">Hakukoneet</string>
+    <string name="activity_choose_search_engine_none">Ei mitään</string>
+    <string name="activity_choose_search_engine_ask_every_time">Kysy joka kerta</string>
+    <string name="activity_choose_search_engine_bing">Bing</string>
+    <string name="activity_choose_search_engine_duck_duck_go">DuckDuckGo</string>
+    <string name="activity_choose_search_engine_google">Google</string>
+    <string name="activity_choose_search_engine_qwant">Qwant</string>
+    <string name="activity_choose_search_engine_startpage" translatable="false">Startpage</string>
+    <string name="activity_choose_search_engine_yahoo">Yahoo</string>
+    <string name="activity_choose_search_engine_yandex">Yandex</string>
+
+    <!--All permissions activity-->
+    <string name="activity_all_permissions_title">Käyttöoikeudet</string>
+    <string name="activity_all_permissions_normal_permissions">Normaali</string>
+    <string name="activity_all_permissions_vibrate_title">Värinä</string>
+    <string name="activity_all_permissions_vibrate_hint">Käytetään värisemään skannauksen aikana</string>
+    <string name="activity_all_permissions_wifi_title">Wi-Fi</string>
+    <string name="activity_all_permissions_wifi_hint">Käytetään yhteyden muodostamiseen Wi-Fi-verkkoon skannaamalla QR-koodi</string>
+    <string name="activity_all_permissions_internet_title">Internet</string>
+    <string name="activity_all_permissions_internet_hint">Käytetään virheraporttien lähettämiseen. Tämän voi poistaa asetuksista</string>
+    <string name="activity_all_permissions_runtime_permissions">Suoritusaika</string>
+    <string name="activity_all_permissions_camera_title">Kamera</string>
+    <string name="activity_all_permissions_camera_hint">Käytetään QR-koodien ja viivakoodien skannaamiseen kamerasta</string>
+    <string name="activity_all_permissions_read_contacts_title">Lue yhteystiedot</string>
+    <string name="activity_all_permissions_read_contacts_hint">Käytetään QR-koodin luomiseen valitsemalla yhteystieto yhteystietoluettelostasi</string>
+    <string name="activity_all_permissions_storage_title">Varastointi</string>
+    <string name="activity_all_permissions_storage_hint">Käytetään tallennustilan käyttöön, kun haluat tallentaa QR-koodisi tai viivakoodisi tekstinä tai kuvana</string>
+
+    <!--Barcode activity-->
+    <string name="activity_barcode_add_to_calendar">Lisää kalenteriin</string>
+    <string name="activity_barcode_add_to_contacts">Lisää kontakteihin</string>
+    <string name="activity_barcode_call_phone">Soittaa puhelimella %s</string>
+    <string name="activity_barcode_send_sms">Lähetä SMS/MMS osoitteeseen %s</string>
+    <string name="activity_barcode_send_email">Lähettää sähköposti jollekin %s</string>
+    <string name="activity_barcode_show_location">Näytä sijainti</string>
+    <string name="activity_barcode_connect_to_wifi">Yhdistä Wi-Fi-verkkoon</string>
+    <string name="activity_barcode_open_wifi_settings">Avaa Wi-Fi-asetukset</string>
+    <string name="activity_barcode_copy_network_name">Kopioi verkon nimi</string>
+    <string name="activity_barcode_copy_network_password">Kopioi verkon salasana</string>
+    <string name="activity_barcode_open_app">Avaa sovellus</string>
+    <string name="activity_barcode_open_in_app_market">Avoinna torilla</string>
+    <string name="activity_barcode_open_in_youtube">Avaa Youtubessa</string>
+    <string name="activity_barcode_save_bookmark">Tallenna kirjanmerkkeihin</string>
+    <string name="activity_barcode_open_link">Avaa linkki</string>
+    <string name="activity_barcode_open_bitcoin_url">Avaa toisessa sovelluksessa</string>
+    <string name="activity_barcode_show_otp">Näytä salasana</string>
+    <string name="activity_barcode_open_otp">Avaa toisessa sovelluksessa</string>
+    <string name="activity_barcode_share_as_text">Jaa tekstinä</string>
+    <string name="activity_barcode_copy">Kopioi leikepöydälle</string>
+    <string name="activity_barcode_save_as_text">Tallenna tekstinä</string>
+    <string name="activity_barcode_search">Hae verkosta</string>
+    <string name="activity_barcode_add_to_favorites">Lisää suosikkeihin</string>
+    <string name="activity_barcode_show_barcode_image">Katso koodi</string>
+    <string name="activity_barcode_share_as_image">Jaa kuvana</string>
+    <string name="activity_barcode_save_as_image">Tallenna kuvana</string>
+    <string name="activity_barcode_print">Tulosta</string>
+    <string name="activity_barcode_delete">Poistaa</string>
+    <string name="activity_barcode_connecting_to_wifi">Yhdistetään…</string>
+    <string name="activity_barcode_copied">Kopioitu leikepöydälle</string>
+    <string name="activity_barcode_no_app">Tälle toiminnolle ei löytynyt sovellusta</string>
+    <string name="activity_barcode_choose_search_engine_dialog_negative_button">Peruuttaa</string>
+
+    <!--Barcode image activity-->
+    <string name="activity_barcode_image_increase_brightness">Lisää kirkkautta</string>
+    <string name="activity_barcode_image_decrease_brightness">Vähennä kirkkautta</string>
+
+    <!--OTP barcode activity-->
+    <string name="activity_barcode_otp_title">OTP</string>
+    <string name="activity_barcode_otp_unable_to_generate_otp">Salasanaa ei voi luoda</string>
+    <string name="activity_barcode_otp_counter">Laskuri: %s</string>
+    <string name="activity_barcode_otp_timer">%s:%s vasemmalle</string>
+    <string name="activity_barcode_otp_refresh_otp">Rirkistää</string>
+
+    <!--Save barcode as text activity-->
+    <string name="activity_save_barcode_as_text_title">Tallentaa</string>
+    <string name="activity_save_barcode_as_text_save_as_hint">Tallenna nimellä</string>
+    <string-array name="activity_save_barcode_as_text_formats">
+        <item>CSV</item>
+        <item>JSON</item>
+    </string-array>
+    <string name="activity_save_barcode_as_text_file_name_save">Tallentaa</string>
+    <string name="activity_save_barcode_as_text_file_name_saved">Tallennettu latauksiin</string>
+
+    <!--Save barcode as image activity-->
+    <string name="activity_save_barcode_as_image_title">Tallentaa</string>
+    <string name="activity_save_barcode_as_image_save_as_hint">Tallenna nimellä</string>
+    <string-array name="activity_save_barcode_as_image_formats">
+        <item>PNG</item>
+        <item>SVG</item>
+    </string-array>
+    <string name="activity_save_barcode_as_image_file_name_save">Tallentaa</string>
+    <string name="activity_save_barcode_as_image_file_name_saved">Tallennettu galleriaan</string>
+    
+    <!--Barcode schemas-->
+    <string name="barcode_schema_bookmark">Kirjanmerkki</string>
+    <string name="barcode_schema_cryptocurrency">Bitcoin</string>
+    <string name="barcode_schema_email">Sähköposti</string>
+    <string name="barcode_schema_geo">Sijainti</string>
+    <string name="barcode_schema_google_maps">Osoite</string>
+    <string name="barcode_schema_google_play">Sovellus</string>
+    <string name="barcode_schema_mms">MMS</string>
+    <string name="barcode_schema_me_card">Yhteystiedo (MeCard)</string>
+    <string name="barcode_schema_phone">Puhelin</string>
+    <string name="barcode_schema_otp">OTP</string>
+    <string name="barcode_schema_sms">SMS</string>
+    <string name="barcode_schema_url">URL</string>
+    <string name="barcode_schema_v_event">Tapahtuma</string>
+    <string name="barcode_schema_v_card">Yhteystiedo (VCard)</string>
+    <string name="barcode_schema_wifi">Wi-Fi</string>
+    <string name="barcode_schema_youtube">Youtube URL</string>
+
+    <string name="barcode_schema_other">Teksti</string>
+
+    <!--Barcode formats-->
+    <string name="barcode_format_qr_code">QR koodi</string>
+
+    <!--AdMob Ids -->
+    <!--  Banner ad ids-->
+    <!--Test-->
+    <!-- <string name="admob_banner_ad_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!-- Production -->
+    <string name="admob_banner_ad_id" translatable="false">ca-app-pub-7202469439331118/3927950140</string>
+
+    <!--    Interstitial ads-->
+    <!--Test-->
+    <!--<string name="magnifier_fragment_capture_btn_ad" translatable="false">ca-app-pub-3940256099942544/1033173712</string>-->
+    <!-- Production -->
+    <!-- <string name="magnifier_fragment_capture_btn_ad" translatable="false">ca-app-pub-7202469439331118/8082021418</string> -->
+
+</resources>

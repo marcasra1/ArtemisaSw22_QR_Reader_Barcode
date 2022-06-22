@@ -1,0 +1,393 @@
+<resources>
+    <string name="app_name">QR &amp; streckkod Skanner</string>
+
+    <!--Shortcuts-->
+    <string name="shortcut_scan_from_camera">Skanna</string>
+    <string name="shortcut_scan_from_file">Skanna bild</string>
+    <string name="shortcut_create_barcode">Skapa streckkod</string>
+    <string name="shortcut_history">Historia</string>
+
+    <!--Intent filters-->
+    <string name="intent_filter_create_qr_code_text">Skapa QR-kod</string>
+    <string name="intent_filter_scan_image">Skanna bild</string>
+
+    <!--Error dialog-->
+    <string name="error_dialog_title">Fel</string>
+    <string name="error_dialog_default_message">Något gick fel</string>
+    <string name="error_dialog_positive_button_text">OK</string>
+
+    <!--Delete dialog-->
+    <string name="dialog_delete_positive_button">Radera</string>
+    <string name="dialog_delete_negative_button">Avbryt</string>
+    <string name="dialog_delete_clear_history_message">Ta bort historik?</string>
+    <string name="dialog_delete_barcode_message">Radera?</string>
+
+    <!--Confirm barcode dialog-->
+    <string name="dialog_confirm_barcode_title">Bekräfta</string>
+    <string name="dialog_confirm_barcode_positive_button">OK</string>
+    <string name="dialog_confirm_barcode_negative_button">Avbryt</string>
+
+    <!--Edit barcode name dialog-->
+    <string name="dialog_edit_barcode_name_title">Redigera namn</string>
+    <string name="dialog_edit_barcode_name_positive_button">OK</string>
+    <string name="dialog_edit_barcode_name_negative_button">Avbryt</string>
+
+    <!--Bottom tabs activity-->
+    <string name="activity_bottom_tabs_scan_tab">Skanna</string>
+    <string name="activity_bottom_tabs_create_tab">Skapa</string>
+    <string name="activity_bottom_tabs_history_tab">Historik</string>
+    <string name="activity_bottom_tabs_settings_tab">inställningar</string>
+
+    <!--Scan barcode from camera fragment-->
+    <string name="fragment_scan_barcode_from_camera_scan_from_file">Skanna bild</string>
+    <string name="fragment_scan_barcode_from_camera_flash">Blixt</string>
+    <string name="fragment_scan_barcode_from_camera_barcode_saved">Sparad</string>
+
+    <!--Scan barcode from file activity-->
+    <string name="activity_scan_barcode_from_file_title">Skanna</string>
+    <string name="activity_scan_barcode_from_file_scan">OK</string>
+    <string name="activity_scan_barcode_from_file_rotate_left">Rotera vänster</string>
+    <string name="activity_scan_barcode_from_file_rotate_right">Vrid höger</string>
+    <string name="activity_scan_barcode_from_file_change_image">Välj en annan bild</string>
+
+    <!--Create barcode fragment-->
+    <string name="fragment_create_barcode_title">Skapa</string>
+    <string name="fragment_create_barcode_qr_code">QR-kod</string>
+    <string name="fragment_create_barcode_qr_code_clipboard">Innehåll från urklipp</string>
+    <string name="fragment_create_barcode_qr_code_text">Text</string>
+    <string name="fragment_create_barcode_qr_code_show_all">Fler QR-koder</string>
+    <string name="fragment_create_barcode">Streckkod</string>
+    <string name="fragment_create_barcode_show_all">Streckkoder och andra 2D-koder</string>
+
+    <!--Create QR code list activity-->
+    <string name="fragment_create_qr_code_list_title">Skapa QR-kod</string>
+
+    <!--Create barcode list activity-->
+    <string name="fragment_create_barcode_list_title">Skapa streckkod</string>
+    <string name="fragment_create_barcode_list_2d">2D streckkoder</string>
+    <string name="fragment_create_barcode_list_1d">1D streckkoder</string>
+
+    <!--Create barcode activity-->
+    <string name="activity_create_barcode_menu_item_title">Skapa</string>
+    <string name="activity_create_barcode_contacts_menu_item_title">Kontakter</string>
+
+    <!--Base create barcode fragment -->
+    <string name="fragment_create_barcode_alternative">Alternativt:</string>
+
+    <!--Create QR code URL fragment-->
+    <string name="fragment_create_qr_code_url_alternative">- Öppna din webbläsarapp\n- Ladda en webbplats\n- Klicka på \"Dela\" från menyn\n- Välj den här appen</string>
+
+    <!--Create QR code bookmark fragment-->
+    <string name="fragment_create_qr_code_bookmark_title_hint">Titel</string>
+
+    <!--Create QR code Wi-fi fragment-->
+    <string name="fragment_create_qr_code_wifi_encryption_hint">Kryptering</string>
+    <string-array name="fragment_create_qr_code_wifi_encryption_types">
+        <item>WPA/WPA2</item>
+        <item>WEP</item>
+        <item>Ingen</item>
+    </string-array>
+    <string name="fragment_create_qr_code_wifi_network_name_hint">Nätverksnamn</string>
+    <string name="fragment_create_qr_code_wifi_password_hint">Lösenord</string>
+    <string name="fragment_create_qr_code_wifi_is_hidden_hint">Dold</string>
+
+    <!--Create QR code email fragment-->
+    <string name="fragment_create_qr_code_email_subject_hint">Ämne</string>
+    <string name="fragment_create_qr_code_email_message_hint">Meddelande</string>
+
+    <!--Create QR code SMS fragment-->
+    <string name="fragment_create_qr_code_sms_message_hint">Meddelande</string>
+
+    <!--Create QR code MMS fragment-->
+    <string name="fragment_create_qr_code_mms_subject_hint">Ämne</string>
+    <string name="fragment_create_qr_code_mms_message_hint">Meddelande</string>
+
+    <!--Create QR code cryptocurrency fragment-->
+    <string name="fragment_create_qr_code_cryptocurrency_type_hint">Kryptovaluta</string>
+    <string-array name="fragment_create_qr_code_cryptocurrencies">
+        <item>Bitcoin</item>
+        <item>Bitcoin Cash</item>
+        <item>Ethereum</item>
+        <item>Litecoin</item>
+        <item>Dash</item>
+    </string-array>
+    <string name="fragment_create_qr_code_cryptocurrency_address_hint">Mottagarens adress</string>
+    <string name="fragment_create_qr_code_cryptocurrency_amount_hint">Belopp</string>
+    <string name="fragment_create_qr_code_cryptocurrency_label_hint">Märka</string>
+    <string name="fragment_create_qr_code_cryptocurrency_message_hint">Meddelande</string>
+
+    <!--Create QR code location fragment-->
+    <string name="fragment_create_qr_code_location_latitude_hint">Latitud</string>
+    <string name="fragment_create_qr_code_location_longitude_hint">Longitud</string>
+    <string name="fragment_create_qr_code_location_altitude_hint">Höjd (valfritt)</string>
+
+    <!--Create QR code OTP fragment-->
+    <string name="fragment_create_qr_code_otp_type_hint">Typ</string>
+    <string-array name="fragment_create_qr_code_otp_types">
+        <item>HOTP</item>
+        <item>TOTP</item>
+    </string-array>
+    <string name="fragment_create_qr_code_otp_algorithm_hint">Algoritm</string>
+    <string-array name="fragment_create_qr_code_otp_algorithms">
+        <item>SHA1</item>
+        <item>SHA256</item>
+        <item>SHA512</item>
+    </string-array>
+    <string name="fragment_create_qr_code_otp_issuer_hint">Emittent</string>
+    <string name="fragment_create_qr_code_otp_account_hint">konto</string>
+    <string name="fragment_create_qr_code_otp_digits_hint">Siffror</string>
+    <string name="fragment_create_qr_code_otp_period_hint">Period</string>
+    <string name="fragment_create_qr_code_otp_counter_hint">Disken</string>
+    <string name="fragment_create_qr_code_otp_secret_hint">Hemlighet</string>
+    <string name="fragment_create_qr_code_otp_generate_random_secret">Slumpmässig hemlighet</string>
+
+    <!--Create QR code event-->
+    <string name="fragment_create_qr_code_event_title_hint">Titel</string>
+    <string name="fragment_create_qr_code_event_organizer_hint">Arrangör</string>
+    <string name="fragment_create_qr_code_event_summary_hint">Sammanfattning</string>
+    <string name="fragment_create_qr_code_event_start_date_hint">Start datum</string>
+    <string name="fragment_create_qr_code_event_end_date_hint">Slutdatum</string>
+
+    <!--Create QR code contact-->
+    <string name="fragment_create_qr_code_contact_first_name_hint">Förnamn</string>
+    <string name="fragment_create_qr_code_contact_last_name_hint">Efternamn</string>
+    <string name="fragment_create_qr_code_contact_organization_hint">Organisation</string>
+    <string name="fragment_create_qr_code_contact_job_hint">Jobb</string>
+    <string name="fragment_create_qr_code_contact_email_hint">Email</string>
+    <string name="fragment_create_qr_code_contact_phone_hint">Telefon</string>
+    <string name="fragment_create_qr_code_contact_fax_hint">Fax</string>
+    <string name="fragment_create_qr_code_contact_country_hint">Land</string>
+    <string name="fragment_create_qr_code_contact_region_hint">Region/stat</string>
+    <string name="fragment_create_qr_code_contact_postcode_hint">Postnummer</string>
+    <string name="fragment_create_qr_code_contact_city_hint">Stad</string>
+    <string name="fragment_create_qr_code_contact_street_hint">Gata</string>
+    <string name="fragment_create_qr_code_contact_website_hint">Hemsida</string>
+    <string name="fragment_create_qr_code_contact_alternative">- Öppna din kontaktapp\n- Öppna en befintlig kontakt eller skapa en ny\n- Klicka på \"Dela\" från menyn\n- Välj den här appen</string>
+
+    <!--Create barcode-->
+    <string name="fragment_create_data_matrix_hint">Text utan specialtecken</string>
+    <string name="fragment_create_aztec_hint">Text utan specialtecken</string>
+    <string name="fragment_create_codabar_hint">Siffror</string>
+    <string name="fragment_create_code_39_hint">Text med versaler utan specialtecken</string>
+    <string name="fragment_create_code_93_hint">Text med versaler utan specialtecken</string>
+    <string name="fragment_create_code_128_hint">Text utan specialtecken</string>
+    <string name="fragment_create_ean_8_hint">7 siffror</string>
+    <string name="fragment_create_ean_13_hint">12 siffror</string>
+    <string name="fragment_create_itf_14_hint">Jämnt antal siffror</string>
+    <string name="fragment_create_upc_a_hint">11 siffror</string>
+    <string name="fragment_create_upc_e_hint">7 siffror</string>
+
+    <!--Barcode history fragment-->
+    <string name="fragment_barcode_history_title">Historik</string>
+    <string-array name="fragment_barcode_history_tab_titles">
+        <item>Allt</item>
+        <!--<item>Favorites</item>-->
+    </string-array>
+    <string name="fragment_barcode_history_menu_title_export">Exporthistorik</string>
+    <string name="fragment_barcode_history_menu_title_delete_all">Rensa historik</string>
+
+    <!--Export history activity-->
+    <string name="activity_export_history_title">Exporthistorik</string>
+    <string name="activity_export_history_as_hint">Exportera som</string>
+    <string-array name="activity_export_history_types">
+        <item>CSV</item>
+        <item>JSON</item>
+    </string-array>
+    <string name="activity_export_history_file_name_hint">Filnamn</string>
+    <string name="activity_export_history_file_name_default" translatable="false">db</string>
+    <string name="activity_export_history_export">Exportera</string>
+    <string name="activity_export_history_exported">Sparad i Nedladdningar</string>
+
+    <!--Settings fragment-->
+    <string name="fragment_settings_title">inställningar</string>
+    <string name="fragment_settings_appearance_settings">Utseende</string>
+    <string name="fragment_settings_theme">Tema</string>
+    <string name="fragment_settings_inverse_barcode_colors_in_dark_theme">Omvända kodfärger i mörkt tema</string>
+    <string name="fragment_settings_inverse_barcode_colors_in_dark_theme_hint">Visa koder med vitt innehåll på mörk bakgrund</string>
+    <string name="fragment_settings_scanner_settings">Skanner</string>
+    <string name="fragment_settings_open_content_automatically">Öppna innehållet i skannade koder automatiskt</string>
+    <string name="fragment_settings_open_content_automatically_hint">Kan öppna skadligt innehåll</string>
+    <string name="fragment_settings_copy_to_clipboard">Kopiera till urklipp</string>
+    <string name="fragment_settings_copy_to_clipboard_hint">Kopiera skannade streckkoder till urklipp</string>
+    <string name="fragment_settings_simple_auto_focus">Enkelt autofokusläge</string>
+    <string name="fragment_settings_simple_auto_focus_hint">Aktivera endast om du har problem med att fokusera</string>
+    <string name="fragment_settings_flash">Blixt</string>
+    <string name="fragment_settings_flash_hint">Aktivera blixt vid start</string>
+    <string name="fragment_settings_vibrate">Vibrera</string>
+    <string name="fragment_settings_vibrate_hint">Vibrera vid skanning</string>
+    <string name="fragment_settings_continuous_scanning">Kontinuerlig skanning</string>
+    <string name="fragment_settings_continuous_scanning_hint">Spara skanningar endast i historiken</string>
+    <string name="fragment_settings_confirm_scans_manually">Bekräfta skanningar manuellt</string>
+    <string name="fragment_settings_confirm_scans_manually_hint">Undvik oavsiktliga skanningar</string>
+    <string name="fragment_settings_camera">Kamera</string>
+    <string name="fragment_settings_supported_formats">Format som stöds</string>
+    <string name="fragment_settings_history_settings">Historik</string>
+    <string name="fragment_settings_save_scanned_barcodes_to_history">Spara skannade streckkoder i historiken</string>
+    <string name="fragment_settings_save_created_barcodes_to_history">Spara skapade streckkoder i historiken</string>
+    <string name="fragment_settings_do_not_save_duplicates">Spara inte dubbletter</string>
+    <string name="fragment_settings_do_not_save_duplicates_hint">Undvik dubbletter i historien</string>
+    <string name="fragment_settings_clear_history">Rensa historik</string>
+    <string name="fragment_settings_advanced_settings">Avancerad</string>
+    <string name="fragment_settings_choose_search_engines">Sökmotorer</string>
+    <string name="fragment_settings_choose_search_engines_hint">Välj en sökmotor för webbsökningar</string>
+    <string name="fragment_settings_error_reports">Felrapporter</string>
+    <string name="fragment_settings_enable_error_reports">Aktivera felrapporter</string>
+    <string name="fragment_settings_enable_error_reports_hint">Hjälp oss att fixa buggar</string>
+    <string name="fragment_settings_about">Handla om</string>
+    <string name="fragment_settings_check_updates">Sök efter uppdateringar</string>
+    <string name="fragment_settings_permissions">Behörigheter</string>
+    <string name="fragment_settings_source_code">Källkod</string>
+    <string name="fragment_settings_app_version">Appversion</string>
+
+    <string name="fragment_settings_rate_and_comment">Betygsätt och Kommentera</string>
+    <string name="fragment_settings_rate_and_comment_hint">Ge oss 5 stjärnor och hjälp appen :-) Tack så mycket</string>
+
+    <string name="share">Dela med sig</string>
+    <string name="share_text">Dela appen med alla dina <vänner></vänner></string>
+
+    <!--Choose theme activity-->
+    <string name="activity_choose_theme_title">Tema</string>
+    <string name="activity_choose_theme_system">Samma som system</string>
+    <string name="activity_choose_theme_light">Ljus</string>
+    <string name="activity_choose_theme_dark">Mörk</string>
+
+    <!--Choose camera activity-->
+    <string name="activity_choose_camera_title">Kamera</string>
+    <string name="activity_choose_camera_front">Främre</string>
+    <string name="activity_choose_camera_back">Tillbaka</string>
+
+    <!--Select supported formats activity-->
+    <string name="activity_supported_formats_title">Format som stöds</string>
+
+    <!--Choose search engine activity-->
+    <string name="activity_choose_search_engine_title">Sökmotorer</string>
+    <string name="activity_choose_search_engine_none">Ingen</string>
+    <string name="activity_choose_search_engine_ask_every_time">Fråga varje gång</string>
+    <string name="activity_choose_search_engine_bing">Bing</string>
+    <string name="activity_choose_search_engine_duck_duck_go">DuckDuckGo</string>
+    <string name="activity_choose_search_engine_google">Google</string>
+    <string name="activity_choose_search_engine_qwant">Qwant</string>
+    <string name="activity_choose_search_engine_startpage" translatable="false">Startpage</string>
+    <string name="activity_choose_search_engine_yahoo">Yahoo</string>
+    <string name="activity_choose_search_engine_yandex">Yandex</string>
+
+    <!--All permissions activity-->
+    <string name="activity_all_permissions_title">Behörigheter</string>
+    <string name="activity_all_permissions_normal_permissions">Vanligt</string>
+    <string name="activity_all_permissions_vibrate_title">Vibrera</string>
+    <string name="activity_all_permissions_vibrate_hint">Används för att vibrera vid skanning</string>
+    <string name="activity_all_permissions_wifi_title">Wi-Fi</string>
+    <string name="activity_all_permissions_wifi_hint">Används för att ansluta till Wi-Fi genom att skanna en QR-kod</string>
+    <string name="activity_all_permissions_internet_title">Internet</string>
+    <string name="activity_all_permissions_internet_hint">Används för att skicka felrapporter. Detta kan inaktiveras i inställningarna</string>
+    <string name="activity_all_permissions_runtime_permissions">Körning</string>
+    <string name="activity_all_permissions_camera_title">Kamera</string>
+    <string name="activity_all_permissions_camera_hint">Används för att skanna QR-koder och streckkoder från kameran</string>
+    <string name="activity_all_permissions_read_contacts_title">Läs kontakter</string>
+    <string name="activity_all_permissions_read_contacts_hint">Används för att skapa en QR-kod genom att välja en kontakt från din kontaktlista</string>
+    <string name="activity_all_permissions_storage_title">Lagring</string>
+    <string name="activity_all_permissions_storage_hint">Används för att komma åt lagring när du vill spara din QR-kod eller streckkod som text eller bild</string>
+
+    <!--Barcode activity-->
+    <string name="activity_barcode_add_to_calendar">Lägg till i kalendern</string>
+    <string name="activity_barcode_add_to_contacts">Lägg till i kontakter</string>
+    <string name="activity_barcode_call_phone">Ringa upp %s</string>
+    <string name="activity_barcode_send_sms">Skicka SMS/MMS till %s</string>
+    <string name="activity_barcode_send_email">Maila till %s</string>
+    <string name="activity_barcode_show_location">Visa plats</string>
+    <string name="activity_barcode_connect_to_wifi">Anslut till Wi-Fi</string>
+    <string name="activity_barcode_open_wifi_settings">Öppna Wi-Fi-inställningar</string>
+    <string name="activity_barcode_copy_network_name">Kopiera nätverksnamn</string>
+    <string name="activity_barcode_copy_network_password">Kopiera nätverkslösenord</string>
+    <string name="activity_barcode_open_app">Öppna appen</string>
+    <string name="activity_barcode_open_in_app_market">Öppen på marknaden</string>
+    <string name="activity_barcode_open_in_youtube">Öppna i Youtube</string>
+    <string name="activity_barcode_save_bookmark">Spara till bokmärken</string>
+    <string name="activity_barcode_open_link">Öppen länk</string>
+    <string name="activity_barcode_open_bitcoin_url">Öppna i annan app</string>
+    <string name="activity_barcode_show_otp">Visa lösenord</string>
+    <string name="activity_barcode_open_otp">Öppna i annan app</string>
+    <string name="activity_barcode_share_as_text">Dela som text</string>
+    <string name="activity_barcode_copy">Kopiera till urklipp</string>
+    <string name="activity_barcode_save_as_text">Spara som text</string>
+    <string name="activity_barcode_search">Sök på webben</string>
+    <string name="activity_barcode_add_to_favorites">Lägg till i favoriter</string>
+    <string name="activity_barcode_show_barcode_image">Visa kod</string>
+    <string name="activity_barcode_share_as_image">Dela som bild</string>
+    <string name="activity_barcode_save_as_image">Spara som bild</string>
+    <string name="activity_barcode_print">Skriva ut</string>
+    <string name="activity_barcode_delete">Radera</string>
+    <string name="activity_barcode_connecting_to_wifi">Ansluter…</string>
+    <string name="activity_barcode_copied">Kopierade till urklipp</string>
+    <string name="activity_barcode_no_app">Ingen app hittades för den här åtgärden</string>
+    <string name="activity_barcode_choose_search_engine_dialog_negative_button">Avbryt</string>
+
+    <!--Barcode image activity-->
+    <string name="activity_barcode_image_increase_brightness">Öka ljusstyrkan</string>
+    <string name="activity_barcode_image_decrease_brightness">Minska ljusstyrkan</string>
+
+    <!--OTP barcode activity-->
+    <string name="activity_barcode_otp_title">OTP</string>
+    <string name="activity_barcode_otp_unable_to_generate_otp">Det går inte att skapa lösenord</string>
+    <string name="activity_barcode_otp_counter">Disken: %s</string>
+    <string name="activity_barcode_otp_timer">%s:%s vänster</string>
+    <string name="activity_barcode_otp_refresh_otp">Uppdatera</string>
+
+    <!--Save barcode as text activity-->
+    <string name="activity_save_barcode_as_text_title">Salvați</string>
+    <string name="activity_save_barcode_as_text_save_as_hint">Salvează ca</string>
+    <string-array name="activity_save_barcode_as_text_formats">
+        <item>CSV</item>
+        <item>JSON</item>
+    </string-array>
+    <string name="activity_save_barcode_as_text_file_name_save">Salvați</string>
+    <string name="activity_save_barcode_as_text_file_name_saved">Salvat în Descărcări</string>
+
+    <!--Save barcode as image activity-->
+    <string name="activity_save_barcode_as_image_title">Salvați</string>
+    <string name="activity_save_barcode_as_image_save_as_hint">Salvează ca</string>
+    <string-array name="activity_save_barcode_as_image_formats">
+        <item>PNG</item>
+        <item>SVG</item>
+    </string-array>
+    <string name="activity_save_barcode_as_image_file_name_save">Salvați</string>
+    <string name="activity_save_barcode_as_image_file_name_saved">Salvat în Galerie</string>
+    
+    <!--Barcode schemas-->
+    <string name="barcode_schema_bookmark">Marcaj</string>
+    <string name="barcode_schema_cryptocurrency">Bitcoin</string>
+    <string name="barcode_schema_email">Email</string>
+    <string name="barcode_schema_geo">Locație</string>
+    <string name="barcode_schema_google_maps">Abordare</string>
+    <string name="barcode_schema_google_play">App</string>
+    <string name="barcode_schema_mms">MMS</string>
+    <string name="barcode_schema_me_card">Contact (MeCard)</string>
+    <string name="barcode_schema_phone">Telefon</string>
+    <string name="barcode_schema_otp">OTP</string>
+    <string name="barcode_schema_sms">SMS</string>
+    <string name="barcode_schema_url">URL</string>
+    <string name="barcode_schema_v_event">Eveniment</string>
+    <string name="barcode_schema_v_card">Contact (VCard)</string>
+    <string name="barcode_schema_wifi">Wi-Fi</string>
+    <string name="barcode_schema_youtube">Youtube URL</string>
+    <string name="barcode_schema_boardingpass" translatable="false">Bilet de imbarcare</string>
+    <string name="barcode_schema_other">Text</string>
+
+    <!--Barcode formats-->
+    <string name="barcode_format_qr_code">Cod QR</string>
+
+
+    <!--AdMob Ids -->
+    <!--  Banner ad ids-->
+    <!--Test-->
+    <!-- <string name="admob_banner_ad_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!-- Production -->
+    <string name="admob_banner_ad_id" translatable="false">ca-app-pub-7202469439331118/3927950140</string>
+
+    <!--    Interstitial ads-->
+    <!--Test-->
+    <!--<string name="magnifier_fragment_capture_btn_ad" translatable="false">ca-app-pub-3940256099942544/1033173712</string>-->
+    <!-- Production -->
+    <!-- <string name="magnifier_fragment_capture_btn_ad" translatable="false">ca-app-pub-7202469439331118/8082021418</string> -->
+
+</resources>

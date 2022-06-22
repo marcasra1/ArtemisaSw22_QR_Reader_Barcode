@@ -1,0 +1,393 @@
+<resources>
+    <string name="app_name">QR-skanner ja vöötkood</string>
+
+    <!--Shortcuts-->
+    <string name="shortcut_scan_from_camera">Skaneeri</string>
+    <string name="shortcut_scan_from_file">Skanni pilt</string>
+    <string name="shortcut_create_barcode">Loo vöötkood</string>
+    <string name="shortcut_history">Loo vöötkood</string>
+
+    <!--Intent filters-->
+    <string name="intent_filter_create_qr_code_text">Loo vöötkood</string>
+    <string name="intent_filter_scan_image">Skanni pilt</string>
+
+    <!--Error dialog-->
+    <string name="error_dialog_title">Viga</string>
+    <string name="error_dialog_default_message">Midagi läks valesti</string>
+    <string name="error_dialog_positive_button_text">Okei</string>
+
+    <!--Delete dialog-->
+    <string name="dialog_delete_positive_button">Kustuta</string>
+    <string name="dialog_delete_negative_button">Tühista</string>
+    <string name="dialog_delete_clear_history_message">Kas kustutada ajalugu?</string>
+    <string name="dialog_delete_barcode_message">Kas kustutada?</string>
+
+    <!--Confirm barcode dialog-->
+    <string name="dialog_confirm_barcode_title">Kinnita</string>
+    <string name="dialog_confirm_barcode_positive_button">Okei</string>
+    <string name="dialog_confirm_barcode_negative_button">Tühista</string>
+
+    <!--Edit barcode name dialog-->
+    <string name="dialog_edit_barcode_name_title">Muuda nime</string>
+    <string name="dialog_edit_barcode_name_positive_button">Okei</string>
+    <string name="dialog_edit_barcode_name_negative_button">Tühista</string>
+
+    <!--Bottom tabs activity-->
+    <string name="activity_bottom_tabs_scan_tab">Skaneeri</string>
+    <string name="activity_bottom_tabs_create_tab">Loo</string>
+    <string name="activity_bottom_tabs_history_tab">Ajalugu</string>
+    <string name="activity_bottom_tabs_settings_tab">Seaded</string>
+
+    <!--Scan barcode from camera fragment-->
+    <string name="fragment_scan_barcode_from_camera_scan_from_file">Skanni pilt</string>
+    <string name="fragment_scan_barcode_from_camera_flash">Välklamp</string>
+    <string name="fragment_scan_barcode_from_camera_barcode_saved">Salvestatud</string>
+
+    <!--Scan barcode from file activity-->
+    <string name="activity_scan_barcode_from_file_title">Skaneeri</string>
+    <string name="activity_scan_barcode_from_file_scan">Okei</string>
+    <string name="activity_scan_barcode_from_file_rotate_left">Pööra vasakule</string>
+    <string name="activity_scan_barcode_from_file_rotate_right">Pöörake paremale</string>
+    <string name="activity_scan_barcode_from_file_change_image">Valige teine pilt</string>
+
+    <!--Create barcode fragment-->
+    <string name="fragment_create_barcode_title">Loo</string>
+    <string name="fragment_create_barcode_qr_code">QR kood</string>
+    <string name="fragment_create_barcode_qr_code_clipboard">Sisu lõikelaualt</string>
+    <string name="fragment_create_barcode_qr_code_text">Tekst</string>
+    <string name="fragment_create_barcode_qr_code_show_all">Rohkem QR-koode</string>
+    <string name="fragment_create_barcode">Vöötkood</string>
+    <string name="fragment_create_barcode_show_all">Vöötkoodid ja muud 2D-koodid</string>
+
+    <!--Create QR code list activity-->
+    <string name="fragment_create_qr_code_list_title">Loo QR-kood</string>
+
+    <!--Create barcode list activity-->
+    <string name="fragment_create_barcode_list_title">Loo vöötkood</string>
+    <string name="fragment_create_barcode_list_2d">2D vöötkoodid</string>
+    <string name="fragment_create_barcode_list_1d">1D vöötkoodid</string>
+
+    <!--Create barcode activity-->
+    <string name="activity_create_barcode_menu_item_title">Loo</string>
+    <string name="activity_create_barcode_contacts_menu_item_title">Kontaktid</string>
+
+    <!--Base create barcode fragment -->
+    <string name="fragment_create_barcode_alternative">Teise võimalusena:</string>
+
+    <!--Create QR code URL fragment-->
+    <string name="fragment_create_qr_code_url_alternative">- Avage oma brauseri rakendus\n- Laadige veebisait\n- Klõpsake menüüs \"Jaga\"\n- Valige see rakendus</string>
+
+    <!--Create QR code bookmark fragment-->
+    <string name="fragment_create_qr_code_bookmark_title_hint">Pealkiri</string>
+
+    <!--Create QR code Wi-fi fragment-->
+    <string name="fragment_create_qr_code_wifi_encryption_hint">Krüpteerimine</string>
+    <string-array name="fragment_create_qr_code_wifi_encryption_types">
+        <item>WPA/WPA2</item>
+        <item>WEP</item>
+        <item>Mitte ühtegi</item>
+    </string-array>
+    <string name="fragment_create_qr_code_wifi_network_name_hint">Võrgu nimi</string>
+    <string name="fragment_create_qr_code_wifi_password_hint">Parool</string>
+    <string name="fragment_create_qr_code_wifi_is_hidden_hint">Peidetud</string>
+
+    <!--Create QR code email fragment-->
+    <string name="fragment_create_qr_code_email_subject_hint">Teema</string>
+    <string name="fragment_create_qr_code_email_message_hint">Sõnum</string>
+
+    <!--Create QR code SMS fragment-->
+    <string name="fragment_create_qr_code_sms_message_hint">Sõnum</string>
+
+    <!--Create QR code MMS fragment-->
+    <string name="fragment_create_qr_code_mms_subject_hint">Teema</string>
+    <string name="fragment_create_qr_code_mms_message_hint">Sõnum</string>
+
+    <!--Create QR code cryptocurrency fragment-->
+    <string name="fragment_create_qr_code_cryptocurrency_type_hint">Krüptovaluuta</string>
+    <string-array name="fragment_create_qr_code_cryptocurrencies">
+        <item>Bitcoin</item>
+        <item>Bitcoin Cash</item>
+        <item>Ethereum</item>
+        <item>Litecoin</item>
+        <item>Dash</item>
+    </string-array>
+    <string name="fragment_create_qr_code_cryptocurrency_address_hint">Vastuvõtja aadress</string>
+    <string name="fragment_create_qr_code_cryptocurrency_amount_hint">Summa</string>
+    <string name="fragment_create_qr_code_cryptocurrency_label_hint">Silt</string>
+    <string name="fragment_create_qr_code_cryptocurrency_message_hint">Sõnum</string>
+
+    <!--Create QR code location fragment-->
+    <string name="fragment_create_qr_code_location_latitude_hint">Laiuskraad</string>
+    <string name="fragment_create_qr_code_location_longitude_hint">Pikkuskraad</string>
+    <string name="fragment_create_qr_code_location_altitude_hint">Kõrgus (valikuline)</string>
+
+    <!--Create QR code OTP fragment-->
+    <string name="fragment_create_qr_code_otp_type_hint">Tüüp</string>
+    <string-array name="fragment_create_qr_code_otp_types">
+        <item>HOTP</item>
+        <item>TOTP</item>
+    </string-array>
+    <string name="fragment_create_qr_code_otp_algorithm_hint">Algoritm</string>
+    <string-array name="fragment_create_qr_code_otp_algorithms">
+        <item>SHA1</item>
+        <item>SHA256</item>
+        <item>SHA512</item>
+    </string-array>
+    <string name="fragment_create_qr_code_otp_issuer_hint">Väljaandja</string>
+    <string name="fragment_create_qr_code_otp_account_hint">Konto</string>
+    <string name="fragment_create_qr_code_otp_digits_hint">Numbrid</string>
+    <string name="fragment_create_qr_code_otp_period_hint">Periood</string>
+    <string name="fragment_create_qr_code_otp_counter_hint">Loendur</string>
+    <string name="fragment_create_qr_code_otp_secret_hint">Saladus</string>
+    <string name="fragment_create_qr_code_otp_generate_random_secret">Juhuslik saladus</string>
+
+    <!--Create QR code event-->
+    <string name="fragment_create_qr_code_event_title_hint">Pealkiri</string>
+    <string name="fragment_create_qr_code_event_organizer_hint">Korraldaja</string>
+    <string name="fragment_create_qr_code_event_summary_hint">Kokkuvõte</string>
+    <string name="fragment_create_qr_code_event_start_date_hint">Algus kuupäev</string>
+    <string name="fragment_create_qr_code_event_end_date_hint">Lõppkuupäev</string>
+
+    <!--Create QR code contact-->
+    <string name="fragment_create_qr_code_contact_first_name_hint">Eesnimi</string>
+    <string name="fragment_create_qr_code_contact_last_name_hint">Perekonnanimi</string>
+    <string name="fragment_create_qr_code_contact_organization_hint">Organisatsioon</string>
+    <string name="fragment_create_qr_code_contact_job_hint">Töö</string>
+    <string name="fragment_create_qr_code_contact_email_hint">Meil</string>
+    <string name="fragment_create_qr_code_contact_phone_hint">Telefon</string>
+    <string name="fragment_create_qr_code_contact_fax_hint">Faks</string>
+    <string name="fragment_create_qr_code_contact_country_hint">Riik</string>
+    <string name="fragment_create_qr_code_contact_region_hint">Piirkond/osariik</string>
+    <string name="fragment_create_qr_code_contact_postcode_hint">Postiindeks</string>
+    <string name="fragment_create_qr_code_contact_city_hint">Linn</string>
+    <string name="fragment_create_qr_code_contact_street_hint">Tänav</string>
+    <string name="fragment_create_qr_code_contact_website_hint">Veebileht</string>
+    <string name="fragment_create_qr_code_contact_alternative">- Avage oma kontaktide rakendus\n- Avage olemasolev kontakt või looge uus.\n- Klõpsake menüüs käsul \"Jaga\"\n- Valige see rakendus</string>
+
+    <!--Create barcode-->
+    <string name="fragment_create_data_matrix_hint">Tekst ilma erimärkideta</string>
+    <string name="fragment_create_aztec_hint">Tekst ilma erimärkideta</string>
+    <string name="fragment_create_codabar_hint">Numbrid</string>
+    <string name="fragment_create_code_39_hint">Tekst suurtähtedega ilma erimärkideta</string>
+    <string name="fragment_create_code_93_hint">Tekst suurtähtedega ilma erimärkideta</string>
+    <string name="fragment_create_code_128_hint">Tekst ilma erimärkideta</string>
+    <string name="fragment_create_ean_8_hint">7 numbrit</string>
+    <string name="fragment_create_ean_13_hint">12 numbrit</string>
+    <string name="fragment_create_itf_14_hint">Paaritu arv numbreid</string>
+    <string name="fragment_create_upc_a_hint">11 numbrit</string>
+    <string name="fragment_create_upc_e_hint">7 numbrit</string>
+
+    <!--Barcode history fragment-->
+    <string name="fragment_barcode_history_title">Ajalugu</string>
+    <string-array name="fragment_barcode_history_tab_titles">
+        <item>Kõik</item>
+        <!--<item>Favorites</item>-->
+    </string-array>
+    <string name="fragment_barcode_history_menu_title_export">Ekspordi ajalugu</string>
+    <string name="fragment_barcode_history_menu_title_delete_all">Tühjenda ajalugu</string>
+
+    <!--Export history activity-->
+    <string name="activity_export_history_title">Ekspordi ajalugu</string>
+    <string name="activity_export_history_as_hint">Ekspordi kui</string>
+    <string-array name="activity_export_history_types">
+        <item>CSV</item>
+        <item>JSON</item>
+    </string-array>
+    <string name="activity_export_history_file_name_hint">Faili nimi</string>
+    <string name="activity_export_history_file_name_default" translatable="false">db</string>
+    <string name="activity_export_history_export">Ekspordi</string>
+    <string name="activity_export_history_exported">Salvestatud allalaadimiste alla</string>
+
+    <!--Settings fragment-->
+    <string name="fragment_settings_title">Seaded</string>
+    <string name="fragment_settings_appearance_settings">Välimus</string>
+    <string name="fragment_settings_theme">Teema</string>
+    <string name="fragment_settings_inverse_barcode_colors_in_dark_theme">Pöördkoodi värvid tumedas teemas</string>
+    <string name="fragment_settings_inverse_barcode_colors_in_dark_theme_hint">Kuvage valge sisuga koode tumedal taustal</string>
+    <string name="fragment_settings_scanner_settings">Skänner</string>
+    <string name="fragment_settings_open_content_automatically">Avage skannitud koodide sisu automaatselt</string>
+    <string name="fragment_settings_open_content_automatically_hint">Võib avada kahjulikku sisu</string>
+    <string name="fragment_settings_copy_to_clipboard">Kopeerida lõikelauale</string>
+    <string name="fragment_settings_copy_to_clipboard_hint">Kopeerige skannitud vöötkoodid lõikelauale</string>
+    <string name="fragment_settings_simple_auto_focus">Lihtne autofookuse režiim</string>
+    <string name="fragment_settings_simple_auto_focus_hint">Lubage ainult siis, kui teil on teravustamisel probleeme</string>
+    <string name="fragment_settings_flash">Välklamp</string>
+    <string name="fragment_settings_flash_hint">Luba käivitamisel välklamp</string>
+    <string name="fragment_settings_vibrate">Vibreerige</string>
+    <string name="fragment_settings_vibrate_hint">Vibreeri skannimisel</string>
+    <string name="fragment_settings_continuous_scanning">Pidev skaneerimine</string>
+    <string name="fragment_settings_continuous_scanning_hint">Salvestage skaneeringud ainult ajalukku</string>
+    <string name="fragment_settings_confirm_scans_manually">Kinnitage skannimine käsitsi</string>
+    <string name="fragment_settings_confirm_scans_manually_hint">Vältige juhuslikku skannimist</string>
+    <string name="fragment_settings_camera">Kaamera</string>
+    <string name="fragment_settings_supported_formats">Toetatud vormingud</string>
+    <string name="fragment_settings_history_settings">Ajalugu</string>
+    <string name="fragment_settings_save_scanned_barcodes_to_history">Salvestage skannitud vöötkoodid ajalukku</string>
+    <string name="fragment_settings_save_created_barcodes_to_history">Salvestage loodud vöötkoodid ajalukku</string>
+    <string name="fragment_settings_do_not_save_duplicates">Ärge salvestage duplikaate</string>
+    <string name="fragment_settings_do_not_save_duplicates_hint">Vältige dubleerimist ajaloos</string>
+    <string name="fragment_settings_clear_history">Tühjenda ajalugu</string>
+    <string name="fragment_settings_advanced_settings">Täpsemalt</string>
+    <string name="fragment_settings_choose_search_engines">Otsingumootorid</string>
+    <string name="fragment_settings_choose_search_engines_hint">Valige veebiotsingu jaoks otsingumootor</string>
+    <string name="fragment_settings_error_reports">Veateated</string>
+    <string name="fragment_settings_enable_error_reports">Luba veateated</string>
+    <string name="fragment_settings_enable_error_reports_hint">Aidake meil vigu parandada</string>
+    <string name="fragment_settings_about">Umbes</string>
+    <string name="fragment_settings_check_updates">Kontrolli kas uuendused on saadaval</string>
+    <string name="fragment_settings_permissions">load</string>
+    <string name="fragment_settings_source_code">Lähtekood</string>
+    <string name="fragment_settings_app_version">Rakenduse versioon</string>
+
+    <string name="fragment_settings_rate_and_comment">Hinda ja kommenteeri</string>
+    <string name="fragment_settings_rate_and_comment_hint">Andke meile 5 tärni ja aidake rakendust :-) Suur tänu</string>
+
+    <string name="share">Jaga</string>
+    <string name="share_text">Jagage rakendust kõigi oma sõpradega</string>
+
+    <!--Choose theme activity-->
+    <string name="activity_choose_theme_title">Teema</string>
+    <string name="activity_choose_theme_system">Sama mis süsteem</string>
+    <string name="activity_choose_theme_light">Valgus</string>
+    <string name="activity_choose_theme_dark">Tume</string>
+
+    <!--Choose camera activity-->
+    <string name="activity_choose_camera_title">Kaamera</string>
+    <string name="activity_choose_camera_front">Ees</string>
+    <string name="activity_choose_camera_back">tagasi</string>
+
+    <!--Select supported formats activity-->
+    <string name="activity_supported_formats_title">Toetatud vormingud</string>
+
+    <!--Choose search engine activity-->
+    <string name="activity_choose_search_engine_title">Otsingumootorid</string>
+    <string name="activity_choose_search_engine_none">Mitte ühtegi</string>
+    <string name="activity_choose_search_engine_ask_every_time">Küsi iga kord</string>
+    <string name="activity_choose_search_engine_bing">Bing</string>
+    <string name="activity_choose_search_engine_duck_duck_go">DuckDuckGo</string>
+    <string name="activity_choose_search_engine_google">Google</string>
+    <string name="activity_choose_search_engine_qwant">Qwant</string>
+    <string name="activity_choose_search_engine_startpage" translatable="false">Startpage</string>
+    <string name="activity_choose_search_engine_yahoo">Yahoo</string>
+    <string name="activity_choose_search_engine_yandex">Yandex</string>
+
+    <!--All permissions activity-->
+    <string name="activity_all_permissions_title">Load</string>
+    <string name="activity_all_permissions_normal_permissions">Tavaline</string>
+    <string name="activity_all_permissions_vibrate_title">Vibreerige</string>
+    <string name="activity_all_permissions_vibrate_hint">Kasutatakse skannimisel vibreerimiseks</string>
+    <string name="activity_all_permissions_wifi_title">Wi-Fi</string>
+    <string name="activity_all_permissions_wifi_hint">Kasutatakse WiFi-ga ühenduse loomiseks QR-koodi skannimise teel</string>
+    <string name="activity_all_permissions_internet_title">Internet</string>
+    <string name="activity_all_permissions_internet_hint">Kasutatakse veaaruannete saatmiseks. Selle saab seadetes keelata</string>
+    <string name="activity_all_permissions_runtime_permissions">Kestus</string>
+    <string name="activity_all_permissions_camera_title">Kaamera</string>
+    <string name="activity_all_permissions_camera_hint">Kasutatakse QR-koodide ja vöötkoodide skannimiseks kaamerast</string>
+    <string name="activity_all_permissions_read_contacts_title">Loe kontakte</string>
+    <string name="activity_all_permissions_read_contacts_hint">Kasutatakse QR-koodi loomiseks, valides kontaktiloendist kontakti</string>
+    <string name="activity_all_permissions_storage_title">Säilitamine</string>
+    <string name="activity_all_permissions_storage_hint">Kasutatakse salvestusruumi juurdepääsuks, kui soovite salvestada QR-koodi või vöötkoodi teksti või pildina</string>
+
+    <!--Barcode activity-->
+    <string name="activity_barcode_add_to_calendar">Lisa kalendrisse</string>
+    <string name="activity_barcode_add_to_contacts">Lisa kontaktidesse</string>
+    <string name="activity_barcode_call_phone">Helistama %s</string>
+    <string name="activity_barcode_send_sms">Saada SMS/MMS aadressile %s</string>
+    <string name="activity_barcode_send_email">Saada meil aadressile %s</string>
+    <string name="activity_barcode_show_location">Näita asukohta</string>
+    <string name="activity_barcode_connect_to_wifi">Ühendage Wi-Fi-ga</string>
+    <string name="activity_barcode_open_wifi_settings">Avage Wi-Fi seaded</string>
+    <string name="activity_barcode_copy_network_name">Kopeerige võrgu nimi</string>
+    <string name="activity_barcode_copy_network_password">Kopeerige võrgu parool</string>
+    <string name="activity_barcode_open_app">Ava rakendus</string>
+    <string name="activity_barcode_open_in_app_market">Turul avatud</string>
+    <string name="activity_barcode_open_in_youtube">Ava Youtube\'is</string>
+    <string name="activity_barcode_save_bookmark">Salvestage järjehoidjatesse</string>
+    <string name="activity_barcode_open_link">Ava link</string>
+    <string name="activity_barcode_open_bitcoin_url">Ava teises rakenduses</string>
+    <string name="activity_barcode_show_otp">Näita salasõna</string>
+    <string name="activity_barcode_open_otp">Ava teises rakenduses</string>
+    <string name="activity_barcode_share_as_text">Jaga tekstina</string>
+    <string name="activity_barcode_copy">Kopeerida lõikelauale</string>
+    <string name="activity_barcode_save_as_text">Salvesta tekstina</string>
+    <string name="activity_barcode_search">Otsige veebist</string>
+    <string name="activity_barcode_add_to_favorites">Lisa lemmikutesse</string>
+    <string name="activity_barcode_show_barcode_image">Vaata koodi</string>
+    <string name="activity_barcode_share_as_image">Jaga pildina</string>
+    <string name="activity_barcode_save_as_image">Salvesta pildina</string>
+    <string name="activity_barcode_print">Prindi</string>
+    <string name="activity_barcode_delete">Kustuta</string>
+    <string name="activity_barcode_connecting_to_wifi">Ühendamine…</string>
+    <string name="activity_barcode_copied">Kopeeriti lõikelauale</string>
+    <string name="activity_barcode_no_app">Selle toimingu jaoks ei leitud ühtegi rakendust</string>
+    <string name="activity_barcode_choose_search_engine_dialog_negative_button">Tühista</string>
+
+    <!--Barcode image activity-->
+    <string name="activity_barcode_image_increase_brightness">Suurenda heledust</string>
+    <string name="activity_barcode_image_decrease_brightness">Vähenda heledust</string>
+
+    <!--OTP barcode activity-->
+    <string name="activity_barcode_otp_title">OTP</string>
+    <string name="activity_barcode_otp_unable_to_generate_otp">Parooli ei saa luua</string>
+    <string name="activity_barcode_otp_counter">Loendur: %s</string>
+    <string name="activity_barcode_otp_timer">%s:%s vasakule</string>
+    <string name="activity_barcode_otp_refresh_otp">Värskenda</string>
+
+    <!--Save barcode as text activity-->
+    <string name="activity_save_barcode_as_text_title">Salvesta</string>
+    <string name="activity_save_barcode_as_text_save_as_hint">Salvesta kui</string>
+    <string-array name="activity_save_barcode_as_text_formats">
+        <item>CSV</item>
+        <item>JSON</item>
+    </string-array>
+    <string name="activity_save_barcode_as_text_file_name_save">Salvesta</string>
+    <string name="activity_save_barcode_as_text_file_name_saved">Salvestatud allalaadimiste alla</string>
+
+    <!--Save barcode as image activity-->
+    <string name="activity_save_barcode_as_image_title">Salvesta</string>
+    <string name="activity_save_barcode_as_image_save_as_hint">Salvesta kui</string>
+    <string-array name="activity_save_barcode_as_image_formats">
+        <item>PNG</item>
+        <item>SVG</item>
+    </string-array>
+    <string name="activity_save_barcode_as_image_file_name_save">Salvesta</string>
+    <string name="activity_save_barcode_as_image_file_name_saved">Salvestatud galeriisse</string>
+    
+    <!--Barcode schemas-->
+    <string name="barcode_schema_bookmark">Järjehoidja</string>
+    <string name="barcode_schema_cryptocurrency">Bitcoin</string>
+    <string name="barcode_schema_email">Meil</string>
+    <string name="barcode_schema_geo">Asukoht</string>
+    <string name="barcode_schema_google_maps">Aadress</string>
+    <string name="barcode_schema_google_play">Rakendus</string>
+    <string name="barcode_schema_mms">MMS</string>
+    <string name="barcode_schema_me_card">Kontakt (MeCard)</string>
+    <string name="barcode_schema_phone">Telefon</string>
+    <string name="barcode_schema_otp">OTP</string>
+    <string name="barcode_schema_sms">SMS</string>
+    <string name="barcode_schema_url">URL</string>
+    <string name="barcode_schema_v_event">Sündmus</string>
+    <string name="barcode_schema_v_card">Kontakt (VCard)</string>
+    <string name="barcode_schema_wifi">Wi-Fi</string>
+    <string name="barcode_schema_youtube">Youtube URL</string>
+
+    <string name="barcode_schema_other">Tekst</string>
+
+    <!--Barcode formats-->
+    <string name="barcode_format_qr_code">QR kood</string>
+
+
+    <!--AdMob Ids -->
+    <!--  Banner ad ids-->
+    <!--Test-->
+    <!-- <string name="admob_banner_ad_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!-- Production -->
+    <string name="admob_banner_ad_id" translatable="false">ca-app-pub-7202469439331118/3927950140</string>
+
+    <!--    Interstitial ads-->
+    <!--Test-->
+    <!--<string name="magnifier_fragment_capture_btn_ad" translatable="false">ca-app-pub-3940256099942544/1033173712</string>-->
+    <!-- Production -->
+    <!-- <string name="magnifier_fragment_capture_btn_ad" translatable="false">ca-app-pub-7202469439331118/8082021418</string> -->
+
+</resources>
