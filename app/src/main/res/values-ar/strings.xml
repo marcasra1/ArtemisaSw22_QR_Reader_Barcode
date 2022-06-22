@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">QR الماسح الضوئي والباركود</string>
+    <string name="app_name">قارئ QR والباركود</string>
 
     <!--Shortcuts-->
     <string name="shortcut_scan_from_camera">مسح</string>

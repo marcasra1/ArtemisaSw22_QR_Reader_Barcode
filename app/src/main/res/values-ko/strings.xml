@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">QR 스캐너 및 바코드</string>
+    <string name="app_name">QR 리더 및 바코드</string>
 
     <!--Shortcuts-->
     <string name="shortcut_scan_from_camera">주사</string>

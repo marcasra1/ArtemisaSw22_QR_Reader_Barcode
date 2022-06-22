@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">QR-skanneri ja viivakoodi</string>
+    <string name="app_name">QR-lukija ja Viivakoodi</string>
 
     <!--Shortcuts-->
     <string name="shortcut_scan_from_camera">Skannata</string>

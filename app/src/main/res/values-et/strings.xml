@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">QR-skanner ja vöötkood</string>
+    <string name="app_name">QR-lugeja ja Vöötkood</string>
 
     <!--Shortcuts-->
     <string name="shortcut_scan_from_camera">Skaneeri</string>

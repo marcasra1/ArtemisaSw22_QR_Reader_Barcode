@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">QR-szkenner és vonalkód</string>
+    <string name="app_name">QR Olvasó és Vonalkód</string>
 
     <!--Shortcuts-->
     <string name="shortcut_scan_from_camera">Letapogatás</string>

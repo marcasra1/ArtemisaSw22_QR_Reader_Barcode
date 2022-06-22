@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">QR &amp; Strekkode Skanner</string>
+    <string name="app_name">QR-leser og Strekkode</string>
 
     <!--Shortcuts-->
     <string name="shortcut_scan_from_camera">Skann</string>

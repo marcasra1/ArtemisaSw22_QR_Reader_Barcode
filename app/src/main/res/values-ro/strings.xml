@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">QR &amp; Cod de Bare Scanner</string>
+    <string name="app_name">Cititor QR și Cod de Bare</string>
 
     <!--Shortcuts-->
     <string name="shortcut_scan_from_camera">Scanează</string>

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">क्यूआर स्कैनर और बारकोड</string>
+    <string name="app_name">क्यूआर रीडर और बारकोड</string>
 
     <!--Shortcuts-->
     <string name="shortcut_scan_from_camera">स्कैन</string>

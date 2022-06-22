@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">QR &amp; バーコードスキャナー</string>
+    <string name="app_name">QRリーダーとバーコード</string>
 
     <!--Shortcuts-->
     <string name="shortcut_scan_from_camera">スキャン</string>

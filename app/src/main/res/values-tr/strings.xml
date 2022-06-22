@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Karekod ve Barkod Okuyucu</string>
+    <string name="app_name">QR Okuyucu ve Barkod</string>
 
     <!--Shortcuts-->
     <string name="shortcut_scan_from_camera">Tara</string>
