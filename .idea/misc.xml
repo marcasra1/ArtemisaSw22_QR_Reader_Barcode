@@ -5,6 +5,7 @@
       <map>
         <entry key="app/src/main/res/drawable/ic_flash.xml" value="0.1625" />
         <entry key="app/src/main/res/drawable/ic_flash_disabled.xml" value="0.1625" />
+        <entry key="app/src/main/res/drawable/ic_flash_enabled.xml" value="0.1625" />
         <entry key="app/src/main/res/layout/activity_choose_theme.xml" value="0.20885416666666667" />
         <entry key="app/src/main/res/layout/fragment_scan_barcode_from_camera.xml" value="0.25" />
       </map>

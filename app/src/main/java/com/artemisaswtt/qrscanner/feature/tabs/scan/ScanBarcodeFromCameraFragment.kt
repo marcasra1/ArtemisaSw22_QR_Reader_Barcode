@@ -3,6 +3,7 @@ package com.artemisaswtt.qrscanner.feature.tabs.scan
 import android.Manifest
 import android.app.Activity
 import android.content.Intent
+import android.graphics.Color
 import android.os.Build
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -12,6 +13,7 @@ import android.view.Window
 import android.widget.SeekBar
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
 import androidx.fragment.app.Fragment
 import com.budiyev.android.codescanner.*
@@ -314,6 +316,8 @@ class ScanBarcodeFromCameraFragment : Fragment(), ConfirmBarcodeDialogFragment.L
 
     private fun toggleFlash() {
         image_view_flash.isActivated = image_view_flash.isActivated.not()
+        if (image_view_flash.isActivated) text_view_flash.setTextColor(Color.CYAN)
+        else text_view_flash.setTextColor(Color.WHITE)
         codeScanner.isFlashEnabled = codeScanner.isFlashEnabled.not()
     }
 
