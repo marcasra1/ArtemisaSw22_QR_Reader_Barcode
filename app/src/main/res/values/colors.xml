@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="color_primary">#53cf53</color>
-    <color name="color_primary_dark">#1c701c</color>
+    <color name="color_primary">#0c6596</color>
+    <color name="color_primary_dark">#364658</color>
     <color name="color_accent">@color/blue</color>
     <color name="color_background">@color/white</color>
     <color name="text_color_secondary">@color/black</color>
-    <color name="navigation_bar_color">#1c701c</color>
+    <color name="navigation_bar_color">#0c6596</color>
 
     <!--<color name="color_primary">@color/white</color>
     <color name="color_primary_dark">@color/black</color>
